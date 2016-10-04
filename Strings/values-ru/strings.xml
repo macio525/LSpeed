@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">Рут права не требуются</string>
+    <string name="root_explanation">L Speed требует рут права доступа к системным файлам, если рут права не будут предоставлены, то некоторые файлы могут быть не изменены</string>
+    <string name="how_root">Как можно получить рут права на моём устройстве?</string>
+    <string name="how_root_explanation">Ниже вы можете найти сайты, которые подскажут как получить рут права для вашего устройства</string>
+    <string name="search_for_hint">Поиск</string>
+    <string name="google_help">Как получить рут права (наименование вашего устройства)</string>
+    <string name="xda_help">Руководство для получения рут прав на вашем устройстве</string>
+    <string name="androidforums_help">Отдельный форум по вашему устройству</string>
+    <string name="root_safe">Безопасно ли получение рут прав на моём устройстве?</string>
+    <string name="root_safe_explanation">Получение рут прав для вашего устройства может представлять определенный риск, но обычно зто безопасная процедура</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">Добро пожаловать в L Speed</string>
+    <string name="setup_guide">Эта программа установки поможет вам настроить L Speed</string>
+    <string name="start">Начать</string>
+    <string name="next">Продолжить</string>
+    <string name="finish">Закончить</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">L Speed Советы</string>
+    <string name="long_tap">Удержание или долгим нажатием опции откроет всю информацию или описание настроек</string>
+    <string name="try_it_here">Вы можете попробовать здесь</string>
+    <string name="example_tweak">Примеры Твиков</string>
+    <string name="another_example">Другой Пример</string>
+    <string name="more_example">Подробный Пример</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">Конфигурация L Speed</string>
+    <string name="long_tap_sec">Вы все еще можете использовать долгое нажатие чтобы увидеть описание параметров. Эти варианты могут быть изменены позже</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Разрешения</string>
+    <string name="storage_permission">L Speed требует разрешения на доступ к памяти для сохранения резервных копий и реализации функций очистки.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">Наслаждайтесь с L Speed</string>
+    <string name="setup_complete">Установка завершена, вы можете настроить свои предпочтения позже</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="reboot_confirm">Перезагрузить устройство?</string>
+    <string name="reset_confirm">Сбросить настройки по умолчанию?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="double_back_pressed">Нажмите повторно, чтобы выйти.</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="script_execute_indeterminate">Выполнение сценариев</string>
+    <string name="script_execute">Выполнение скрипта: \n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Данные о последней зачистке</string>
+    <string name="fstrim_now">Запустить восстанавление скорости записи флеш-памяти</string>
+    <string name="fstrim_load_dialog">Зачистка…</string>
+    <string name="fstrim_options">FStrim настройки</string>
+    <string name="fstrim_on_boot">Запускать fstrim при включении девайса</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">Запускать очистку при загрузке</string>
+    <string name="junk_cleaner">Удалить мусорные файлы</string>
+    <string name="system_clean_dialog">Поиск ненужных файлов…</string>
+    <string name="app_cache_cleaner">Удалить кэш приложений</string>
+    <string name="app_cache_dialog">Поиск кэша приложений…</string>
+    <string name="wipe_cache">Удалить кэш разделов</string>
+    <string name="wipe_dalvik">Удалить далвик кэш</string>
+    <string name="files_founded_dialog">Найдено %1$s MB файлов, удалить?</string>
+    <string name="files_founded">Файлы найдены</string>
+    <string name="files_not_founded">Файлы не найдены</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">Энергосбережение на многоядерных устройствах</string>
+    <string name="cpu_optimizer">Оптимизация CPU</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">Информация об устройстве</string>
+    <string name="device">Устройство: %1$s \n</string>
+    <string name="device_model">Модель устройства: %1$s \n</string>
+    <string name="manufacturer">Производитель: %1$s \n</string>
+    <string name="brand">Брэнд: %1$s \n</string>
+    <string name="hardware">Аппаратные средства: %1$s \n</string>
+    <string name="id">ID: %1$s</string>
+    <string name="battery_information">Информация о батарее</string>
+    <string name="cpu_information">Информация о CPU</string>
+    <string name="kernel_information">Информация о ядре</string>
+    <string name="health">Состояние батареи: %1$s \n</string>
+    <string name="level">Уровень заряда: %1$s%% \n</string>
+    <string name="technology">Производственная технология: %1$s \n</string>
+    <string name="no_battery">Батарея не обнаружена</string>
+    <string name="temp">Температура батареи:</string>
+    <string name="volt">Напряжение: %1$s mV</string>
+    <string name="charge_status">Статус зарядки батареи: %1$s \n</string>
+    <string name="state">Подключение к зарядному устройству: %1$s \n</string>
+    <string name="health_dead">Сдохла ваша батарея</string>
+    <string name="health_good">Хорошо</string>
+    <string name="health_over_voltage">Перенапряжение</string>
+    <string name="health_over_heat">Перегрев</string>
+    <string name="health_failure">Неисправность</string>
+    <string name="charge_unplugged">Отключенно от источника напряжения</string>
+    <string name="charge_charger">Подключенно к зарядному устройству</string>
+    <string name="charge_usb">Подключенно к USB</string>
+    <string name="status_charging">Заряжается</string>
+    <string name="status_discharging">Разряжается</string>
+    <string name="status_full">Полностью заряжена</string>
+    <string name="status_not_charging">Не заряжается</string>
+    <string name="battery_usage">Использование батареи</string>
+    <string name="current_entropy">Текущая Энтропия:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">Ускорить I/O данных</string>
+    <string name="io_extended_queue">Расширить очередь I/O</string>
+    <string name="sd_tweak">Применить твик к карте памяти</string>
+    <string name="partition_remount">Перемонтировать раздел</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">Информация о памяти</string>
+    <string name="current_minfree">Текущий minfree:</string>
+    <string name="current_memory_status">Текущее состояние памяти:</string>
+    <string name="foreground_app">Первостепенные приложения:\t %1$sMB \n</string>
+    <string name="visible_app">Видимые приложения:\t %1$sMB \n</string>
+    <string name="secondary_server">Второстепенный сервер:\t %1$sMB \n</string>
+    <string name="hidden_app">Скрытые приложения:\t %1$sMB \n</string>
+    <string name="content_provider">Контент провайдер:\t %1$sMB \n</string>
+    <string name="empty_app">Пустое приложение:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">Буфер сети</string>
+    <string name="ril_tweaks">Твики Радиоинтерфейса (RIL)</string>
+    <string name="dns">Google DNS</string>
+    <string name="faster_streaming">Ускорить потоковую передачу данных</string>
+    <string name="fast_dormancy">Fast dormancy (Не поддерживается Российскими операторами)</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">Ускорение</string>
+    <string name="battery_calibration">Откалибровать батарею</string>
+    <string name="kill_media_server">Отключить медиа сервер</string>
+    <string name="ram_manager">Менеджер памяти RAM</string>
+    <string name="seeder">Энтропия</string>
+    <string name="kernel_tweaks">Твики ядра</string>
+    <string name="disable_debugging">Отключить отладку</string>
+    <string name="disable_kernel_panic">Отключить панику ядра (kernel panic)</string>
+    <string name="kernel_sleepers_optimization">Оптимизировать сон ядра</string>
+    <string name="fsync">Синхронизировать состояние файла в памяти с его состоянием на диске</string>
+    <string name="KSM">Объединение страниц памяти ядра (KSM)</string>
+    <string name="fast_charge">Включить быструю зарядку</string>
+    <string name="wifi_sleeper">Выключать WiFi в спящем режиме</string>
+    <string name="flag_tuner">Удалить ограничения многозадачности</string>
+    <string name="better_voice_call_quality">Улучшить качество звука при разговоре</string>
+    <string name="improve_battery">Увеличить жизнь батареи</string>
+    <string name="better_scrolling">Улучшить прокрутку</string>
+    <string name="faster_boot">Включить быструю загрузку</string>
+    <string name="improve_image_quality">Улучшить качество изображения</string>
+    <string name="liquid_UI">Уменьшить задержки операционной системы</string>
+    <string name="misc_tweaks">Разнообразные твики</string>
+    <string name="assertive_display">Высококачественный дисплей</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">Виртуальная память</string>
+    <string name="oom_killer">Убийца OOM</string>
+    <string name="cache_reclaiming">Освободить кэш</string>
+    <string name="cache_allocation">Распределить кэш</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">zRAM Оптимизация</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">Загрузка страницы…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">Резервная копия</string>
+    <string name="backup_created">Резервная копия создана</string>
+    <string name="backup_delete">Удаление резервной копии</string>
+    <string name="backup_deleted">Резервная копия удалена</string>
+    <string name="backup_restore">Восстановление из бэкапа</string>
+    <string name="backup_restored">Резервная копия восстановлена</string>
+    <string name="backup_date">Дата последнего резервного копирования: %1$s</string>
+    <string name="backup_none">Резервная копия не существует или не найдена</string>
+    <string name="name_backup">Вставить название резервной копии</string>
+    <string name="backup_list">Список резервных копий</string>
+    <string name="restore_question">Восстановить выбранную резервную копию?</string>
+    <string name="delete_question">Удалить резервную копию?</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">Пожертвование</string>
+    <string name="beta_version">Beta version</string>
+    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="translation">Перевод</string>
+    <string name="translation_text">Помогите мне с переводом этого приложения</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed поддержка</string>
+    <string name="provides_support_text">Обеспечение поддержки 24/7</string>
+    <string name="general">Общие понятия</string>
+    <string name="lspeed_basics">Основные разъяснения</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">Использовать расширенный пользовательский интерфейс</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="color_navigation_bar">Окрасить навбар в общий цвет</string>
+    <string name="force_english">Aнглийский принудительно</string>
+    <string name="show_toast_and_snacks">Режим отображения каждого из элементов</string>
+    <string name="show_fahrenheit">Показывать температуру в Фаренгейтах (°F)</string>
+    <string name="time_boot_delay_settings">Применить при старте с задержкой</string>
+    <string name="show_boot_notification">Показывать уведомления при старте</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">Основные показатели</string>
+    <string name="main_tweak">Основные твики</string>
+    <string name="cleaner">Очистка</string>
+    <string name="cpu_tuner">Тюнер CPU</string>
+    <string name="fstrim">Восстановление скорости записи флеш-памяти</string>
+    <string name="lnet">Оптимизатор сети</string>
+    <string name="io_tweak">Твики I/O</string>
+    <string name="ls_news">Новости от L Speed</string>
+    <string name="backup">Резервное копирование</string>
+    <string name="help">Помощь</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О приложении</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">Перезагрузка</string>
+    <string name="reset_to_default">Сброс на значения по умолчанию</string>
+    <string name="logs_view">Просмотр журнала</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">Очистить логи</string>
+    <string name="save_log">Сохранить журнал на SD карту</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">Проверка ROOT…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">Заставка</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">Профили</string>
+    <string name="custMode">Настроить профиль</string>
+    <string name="cust_mode_hint">Вы можете настроить свой текущий режим работы L Speed здесь, но это не обязательно делать, и результат может быть хуже</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">Быстрые настройки</string>
+    <string name="memManage">Твики для управления памятью</string>
+    <string name="kernMod">Модификация ядра</string>
+    <string name="ioMod">Твики управления I/O для общей памяти</string>
+    <string name="netMod">Твики сети</string>
+    <string name="netOpt">Оптимизация сети</string>
+    <string name="cpuMod">Настройка CPU</string>
+    <string name="uiOpt">Оптимизация пользовательского интерфейса</string>
+    <string name="sysOpt">Системные твики</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">Параметры отладки</string>
+    <string name="cleanerOpt">Опции очистки</string>
+    <string name="cacheClean">Очистка кэша</string>
+    <string name="backRes">Резервное копирование и восстановление</string>
+    <string name="backStat">Состояние резервных копий</string>
+    <string name="otherMod">Всяческие твики</string>
+    <string name="credits">Придумщики L Speed</string>
+    <string name="application">Приложение</string>
+    <string name="interfaceDiv">Настройки интерфейса</string>
+    <string name="otherDiv">Другие настройки</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed требует ROOT права</string>
+    <string name="pop_no_toolbox">Невозможно показать панель настроек</string>
+    <string name="pop_no_arch">Неизвестная архитектура: %1$s</string>
+    <string name="fstrim_activated">FStrim при загрузке включен</string>
+    <string name="fstrim_deactivated">FStrim при загрузке отключен</string>
+    <string name="cleaner_enabled">Очистка при загрузке включена</string>
+    <string name="cleaner_disabled">Очистка при загрузке отключена</string>
+    <string name="app_cache_clear">Кэш приложений очищен</string>
+    <string name="junk_clear">Мусор удалён</string>
+    <string name="cache_clear">Кэш раздела очищен</string>
+    <string name="dalvik_clear">Далвик кэш очищен</string>
+    <string name="mps_activated">Энергосбережение на многоядерных процессорах активировано</string>
+    <string name="mps_deactivated">Энергосбережение на многоядерных процессорах отключено</string>
+    <string name="cpu_opt_activated">Оптимизация CPU активирована</string>
+    <string name="cpu_opt_deactivated">Оптимизация CPU отключена</string>
+    <string name="battery_calibrated">Батарея откалибрована, пожалуйста выполните перезагрузку</string>
+    <string name="battery_calibration_failed">Пожалуйста, полностью зарядите аккумулятор</string>
+    <string name="media_server_killed">Медиа сервер успешно убит :D</string>
+    <string name="disable_debug_activated">Отключение отладки активировано</string>
+    <string name="disable_debug_deactivated">Отключение отладки деактивировано</string>
+    <string name="no_kernel_panic_activated">Отключение паники ядра активировано</string>
+    <string name="no_kernel_panic_deactivated">Отключение паники ядра деактивировано</string>
+    <string name="kernel_sleepers_opt_activated">Оптимизация сна ядра активирована</string>
+    <string name="kernel_sleepers_opt_deactivated">Оптимизация сна ядра деактивирована</string>
+    <string name="fsync_activated">Fsync активирована</string>
+    <string name="fsync_deactivated">Fsync деактивирована</string>
+    <string name="ksm_activated">Объединение страниц памяти ядра (KSM) активировано</string>
+    <string name="ksm_deactivated">Объединение страниц памяти ядра (KSM) деактивировано</string>
+    <string name="fast_charge_activated">Быстрая зарядка активирована</string>
+    <string name="fast_charge_deactivated">Быстрая зарядка деактивирована</string>
+    <string name="wifi_sleeper_activated">Отключение WiFi в спящем режиме активировано</string>
+    <string name="wifi_sleeper_deactivated">Отключение WiFi в спящем режиме деактивировано</string>
+    <string name="flag_tuner_activated">Flag tuner (Удаление ограничений многозадачности и повышение гладкости системы) активирован</string>
+    <string name="flag_tuner_deactivated">Flag tuner (Удаление ограничений многозадачности и повышение гладкости системы) деактивирован</string>
+    <string name="better_call_aud_activated">Улучнение качества звука при разговоре, включено</string>
+    <string name="better_call_aud_deactivated">Улучнение качества звука при разговоре, отключено</string>
+    <string name="battery_improve_enabled">Увеличение жизни батареи включено</string>
+    <string name="battery_improve_disabled">Увеличение жизни батареи отключено</string>
+    <string name="improve_scrolling_activated">Улучшение прокрутки активировано</string>
+    <string name="improve_scrolling_deactivated">Улучшение прокрутки деактивиривано</string>
+    <string name="faster_boot_activated">Быстрая загрузка включена</string>
+    <string name="faster_boot_deactivated">Быстрая загрузка отключена</string>
+    <string name="improve_image_activated">Улучшение качества изображения активировано</string>
+    <string name="improve_image_deactivated">Улучшение качества изображения деактивиривано</string>
+    <string name="liquid_ui_activated">Уменьшение лагов пользовательского интерфейса (Liquid smooth) активировано</string>
+    <string name="liquid_ui_deactivated">Уменьшение лагов пользовательского интерфейса (Liquid smooth) деактивиривано</string>
+    <string name="misc_tweaks_enabled">Всяческие твики включены</string>
+    <string name="misc_tweaks_disabled">Всяческие твики отключены</string>
+    <string name="assertive_display_activated">Контроль яркости и цвета каждого отдельного пикселя активен</string>
+    <string name="assertive_display_deactivated">Контроль яркости и цвета каждого отдельного пикселя не активен</string>
+    <string name="io_boost_activated">Ускорение I/O данных активно</string>
+    <string name="io_boost_deactivated">Ускорение I/O данных не активно</string>
+    <string name="extended_queue_activated">Расширение очереди I/O активировано</string>
+    <string name="extended_queue_deactivated">Расширение очереди I/O деактивиривано</string>
+    <string name="sd_tweak_activated">SD твики активированны</string>
+    <string name="sd_tweak_deactivated">SD твики деактивированны</string>
+    <string name="partition_remounting_activated">Перемонтирование раздела активировано</string>
+    <string name="partition_remounting_deactivated">Перемонтирование раздела деактивиривано</string>
+    <string name="net_buffer_default">Буфер сети имеет значение по умолчанию</string>
+    <string name="net_buffer_small">Небольшой буфер сети активирован</string>
+    <string name="net_buffer_big">Большой буфер сети активирован</string>
+    <string name="ril_tweak_activated">Твики Радиоинтерфейса (RIL) активированы</string>
+    <string name="ril_tweak_deactivated">Твики Радиоинтерфейса (RIL) деактивириваны</string>
+    <string name="google_dns_activated">Google DNS (Ускорение загрузки веб-страниц за счет повышения эффективности кэширования данных) включены</string>
+    <string name="google_dns_deactivated">Google DNS (Ускорение загрузки веб-страниц за счет повышения эффективности кэширования данных) отключены</string>
+    <string name="fast_stream_activated">Ускорение потоковой передачи данных включено</string>
+    <string name="fast_stream_deactivated">Ускорение потоковой передачи данных отключено</string>
+    <string name="fast_dormancy_activated">Увеличение времени работы в режиме ожидания в сетях 3G активно</string>
+    <string name="fast_dormancy_deactivated">Увеличение времени работы в режиме ожидания в сетях 3G не активно</string>
+    <string name="ram_manager_default">Диспетчер памяти RAM имеет значение по умолчанию</string>
+    <string name="ram_manager_multitask">Профиль многозадачности активен</string>
+    <string name="ram_manager_balanced">Сбалансированный профиль активен</string>
+    <string name="ram_manager_gaming">Игровой профиль активен</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">zRAM Оптимизация активирована</string>
+    <string name="zram_optimization_deactivated">zRAM Оптимизация деактивирована</string>
+    <string name="seeder_default">Профиль энтропии имеет значение по умолчанию</string>
+    <string name="seeder_light">Профиль лёгкой энтропии активирован</string>
+    <string name="seeder_enlarger">Профиль увеличенной энтропии активирован</string>
+    <string name="seeder_moderate">Профиль умеренной энтропии активирован</string>
+    <string name="seeder_aggressive">Профиль агрессивной энтропии активирован</string>
+    <string name="oom_killer_default">OOM killer (Компонент ядра Linux, призванный решать проблему недостатка памяти) профиль имеет значение по умолчанию</string>
+    <string name="oom_killer_enabled">OOM killer (Компонент ядра Linux, призванный решать проблему недостатка памяти) включен</string>
+    <string name="oom_killer_disabled">OOM killer (Компонент ядра Linux, призванный решать проблему недостатка памяти) отключен</string>
+    <string name="cache_reclaim_default">Выгрузка кэша данных освободившихся страниц имеет значение по умолчанию</string>
+    <string name="cache_reclaim_minimum">Минимальная выгрузка кэша данных освободившихся страниц активна</string>
+    <string name="cache_reclaim_moderate">Умеренная выгрузка кэша данных освободившихся страниц активна</string>
+    <string name="cache_reclaim_doubled">Увеличенная выгрузка кэша данных освободившихся страниц активна</string>
+    <string name="cache_alloc_default">Распределение кэша памяти установлено значение по умолчанию</string>
+    <string name="cache_alloc_medium">Нормальное распределение кэша памяти активировано</string>
+    <string name="cache_alloc_large">Агрессивное распределение кэша памяти активировано</string>
+    <string name="kernel_tweaks_disabled">Твики ядра отключены</string>
+    <string name="kernel_tweaks_light">Лёгкие твики ядра активированы</string>
+    <string name="kernel_tweaks_heavy">Полные твики ядра активированы</string>
+    <string name="logs_saved">Логи сохранены на SD карте</string>
+    <string name="logs_noexists">Логи не существуют. Скрипты не выполняются.</string>
+    <string name="logs_no_save">Логи не найден, ничего не сохранено</string>
+    <string name="rate_app">Нравится L Speed? Пожалуйста, оцените его!</string>
+    <string name="rate">Оценить!</string>
+    <string name="thanks_for_rate">Спасибо за оценку!</string>
+    <string name="profile_default">Профиль имеет значение по умолчанию</string>
+    <string name="profile_light">Легкий профиль активирован</string>
+    <string name="profile_recommended">Рекомендуемый профиль активирован</string>
+    <string name="profile_heavy">Тяжелый профиль активирован</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">Что такое L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed это приложение, которое сочетает в себе модификациию системных настроек и твики</string>
+    <string name="lSpeed_difference">То, что делает L Speed отличается от других модов?</string>
+    <string name="lSpeed_difference_explanation">L Speed имеет много вариантов, и большинство из них отличаются друг от друга</string>
+    <string name="why_root">Почему он требует ROOT права?</string>
+    <string name="why_root_explanation">Приложение требует ROOT права, потому что оно изменяет некоторые важные файлы в системе, это не представляется возможным без ROOT прав</string>
+    <string name="what_can_do">Что я могу сделать с помощью L Speed?</string>
+    <string name="what_can_do_explanation">Вы можете настроить устройство для повышения производительности и времени автономной работы</string>
+    <string name="gingerbread_usage">Могу ли я использовать его на устройстве под управлением Android 2.3 ?</string>
+    <string name="gingerbread_usage_explanation">Нет, это приложение требует Android 4.0.3+ для нормального функционирования. Тем не менее, вы можете использовать Flashable версию L Speed, так как она работает на почти всех версиях Android</string>
+    <string name="usage_with_mods">Могу ли я использовать его с другими модами?</string>
+    <string name="usage_with_mods_explanation">Нет, есть вероятность того, что другие моды будут конфликтовать с L Speed</string>
+    <string name="init.d_why">Init.d является пустым, почему?</string>
+    <string name="init.d_why_explanation">Приложение больше не использует init.d, оно использует функции Android при авто старте</string>
+    <string name="check_working">Как можно проверить, работает ли оно или нет?</string>
+    <string name="check_working_explanation">Проверьте файлы журнала в /data/data/com.paget96.lspeed/files/LOGS</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">Разработчик данной приблуды</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Ему особая благодарность</string>
+    <string name="peter_hint">Неполный рабочий день посвятил и этот лентяй</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">Выполнение Скриптов</string>
+    <string name="on_boot_time">Применение конфигурации в течении %d секунд</string>
+    <string name="on_boot_finished">Ваши конфигурации были применены</string>
+    <string name="on_boot_cancelled">Исполнение было отменено</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">По умолчанию</string>
+    <string name="array_entries_light">Легкий</string>
+    <string name="array_entries_moderate">Умеренный</string>
+    <string name="array_entries_disabled">Выключено</string>
+    <string name="array_entries_aggressive">Агрессивный</string>
+    <string name="array_entries_heavy">Тяжелый</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Сбалансированный</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">Небольшой</string>
+    <string name="net_buffer_entries_big">Большой</string>
+    <string name="ram_manager_entries_multitasking">Многозадачность</string>
+    <string name="ram_manager_entries_gaming">Игровой</string>
+    <string name="seeder_entries_enlarger">Увеличенная</string>
+    <string name="oom_killer_entries_enabled">Включен</string>
+    <string name="cache_reclaiming_entries_minimum">Минимальный</string>
+    <string name="cache_reclaiming_entries_doubled">Агрессивный</string>
+    <string name="cache_allocation_entries_medium">Среднее</string>
+    <string name="cache_allocation_entries_large">Увеличенное</string>
+    <string name="not_trimmed">Нет данных о зачистке</string>
+    <string name="please_wait">Ждите</string>
+    <string name="ram_manager_options">Параметры диспетчера памяти RAM</string>
+    <string name="ram_manager_status">Статус диспетчера памяти RAM</string>
+    <string name="zram_options">Настройки zRAM</string>
+    <string name="seeder_options">Параметры Энтропии</string>
+    <string name="seeder_status">Статус Энтропии</string>
+    <string name="quick_mode_recommended">Рекомендуется</string>
+    <string name="sec_0">0секунд</string>
+    <string name="sec_5">5секунд</string>
+    <string name="sec_10">10секунд</string>
+    <string name="sec_20">20секунд</string>
+    <string name="sec_30">30секунд</string>
+    <string name="sec_60">60секунд</string>
+</resources>

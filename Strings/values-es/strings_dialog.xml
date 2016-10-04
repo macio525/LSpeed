@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed es una aplicación gratuita y sin ánimo de lucro, nosotros no ganamos nada de ella (a parte de las donaciones, ¡Por supuesto!), eso está bien para nosotros, pero el desarrollo necesita de mucho dinero para continuar, necesitamos internet, electricidad, ¡y comida!\n\nPor ello, hemos agregado anuncios en la aplicación, los cuales no son intrusivos y no te molestarán, ¡Lo prometemos! !Dándoles click nos ayudarás más!\n\nGracias por entendernos</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Elimina los archivos innecesarios y obsoletos creados por el sistema(registros, archivos de caché sin usar, etc…)</string>
+    <string name="app_cache_cleaner_explanation">Elimina archivos caché innecesarios creados por las apps (imágenes temporales, etc..)</string>
+    <string name="wipe_cache_explanation">Elimina toda la caché generada en la partición /cache</string>
+    <string name="wipe_dalvik_explanation">Elimina toda la caché dalvik de todas las aplicaciones,</string>
+    <string name="cleaner_on_boot_explanation">Activa la limpieza automática en cada reinicio</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Ajusta las particiones del dispositivo para reducir retardos de lectura/escritura y mejorar el rendimiento, usar solo cuando lo necesite</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Modifica tu Gobernador actual del CPU con un sistema inteligente de escalado para un óptimo rendimiento y duración de batería</string>
+    <string name="mcps_explanation">Agrupa las tareas de CPU en la menor cantidad de núcleos que sea posible, con un posible ahorro de batería</string>
+    <string name="cpu_optimizer_explanation">Mejora y optimiza el rendimiento del CPU, gastando batería mas rápido</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Aumenta la operación de entrada/salida para mejorar su rendimiento</string>
+    <string name="io_extended_queue_explanation">Extiende la cola de entrada/salida, con un leve gasto de batería pero con velocidad de lectura/escritura mas rápida</string>
+    <string name="sd_tweak_explanation">Incrementa el valor de read_ahead para una velocidad de lectura/escritura mas rápida</string>
+    <string name="partition_remount_explanation">Remonta todas las particiones EXT4 con opciones de montaje para mejorar el rendimiento </string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Mejora el rendimiento de la navegacion en red \nNet buffer menor incrementa razonablemente el tamaño de los buffers de red para cada tipo de conexión (3G, WiFi, LTE, Edge, UMTS)\nNet buffers mayor incrementa más los buffers y puede afectar la duración de tu batería mientras estés haciendo transferencias de red</string>
+    <string name="ril_tweaks_explanation">Mejora la velocidad de tranferencia de datos en red móvil</string>
+    <string name="dns_explanation">Cambia los DNS de la red con uno de los DNS publicos de Google (8.8.8.8 – 8.8.4.4).</string>
+    <string name="faster_streaming_explanation">Mejora el reproductor Stagefright nativo de Android para reproducir archivos por stream mas rápido </string>
+    <string name="fast_dormancy_explanation">Habilita un tipo de cambio rápido en la red para conservar batería, usar solo su tu proveedor de red soporta fast dormancy</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Libera caché tales como inodos, drentries y paginas de caché para liberar la RAM de su dispositivo</string>
+    <string name="battery_calibration_explanation">Elimina el archivo batterystats.bin para recalibrar tu batería, el reinicio es necesario para completar la calibración</string>
+    <string name="kill_media_server_explanation">Forza la detención del proceso de servidor de medios, usarlo para reducir el calentamiento y el bajo rendimiento causado por el servidor de medios</string>
+    <string name="seeder_explanation">Mejora el rendimiento a costa de bateria\nIncrementando el nivel de entropía puede incrementar el rendimiento pero la bateria puede gastarse mas rápido</string>
+    <string name="kernel_tweaks_explanation">cambia los valores sintonizables del kernel por unos valores que mejorarán el rendimiento\n\nLiviano - valores con menor modificación, cercanos a los valores de fabrica\n\nIntensos - Aplica varios cambios a los valores del kernel, incrementando el rendimiento con un pequeño impacto en la duración de bateria </string>
+    <string name="disable_debugging_explanation">Deshabilita la lectura/escritura de las operaciones de depuración\nDesactiva el registro de actividades ANR y registros de logcats innecesarios, mejora el rendimiento.</string>
+    <string name="disable_kernel_panic_explanation">Deshabilita el kernel panic para evitar reinicios aleatorios si el kernel utilizado tiene errores y/o es inestable</string>
+    <string name="kernel_sleepers_optimization_explanation">Mejora los valores de los kernel sleepers usados en el reposo para un mejor rendimiento</string>
+    <string name="fsync_explanation">Fsync mantiene el cambio de datos intacto durante un fallo del sistema o un apagado repentino</string>
+    <string name="KSM_explanation">Habilita KSM, que es una característica de prevención de duplicación y ahorro de memoria que realiza escaneos a través de la memoria y encuentra páginas duplicadas, útil en dispositivos de baja memoria</string>
+    <string name="fast_charge_explanation">Habilita la carga rápida usada en varios kernels modificados, esto no es necesario situ telefono soporta carga rápida por defecto</string>
+    <string name="wifi_sleeper_explanation">Reduce el retardo entre la activación del WiFi y su estado inactivo, ahorra batería si la red WiFi es usada</string>
+    <string name="flag_tuner_explanation">Deshabilita la regla de limitacion de rendimiento en el sistema y adicionalmente mejora la duración de batería.\nCan cause instability</string>
+    <string name="better_voice_call_quality_explanation">Mejora la calidad en las llamadas, causando un gasto de batería mas rápido</string>
+    <string name="improve_battery_explanation">Mejora la duración de batería retocando el sistema</string>
+    <string name="better_scrolling_explanation">Mejora el desplazamiento no fluido y adicionalmente hace el desplazamiento mas fluido</string>
+    <string name="faster_boot_explanation">Reduce el tiempo de inicio al optimizar valores del sistema</string>
+    <string name="improve_image_quality_explanation" formatted="false">Incrementa el bitrate y mejora la calidad de imagen maximizandola</string>
+    <string name="liquid_UI_explanation">Mejora el rendimiento de la interfaz de usuario con un consumo de batería</string>
+    <string name="misc_tweaks_explanation">Apaga el servicio de registro de usuario (Sólo para HTC Sense)\n Desabilita el servicio de localización de Google\n define el tiempo de retraso para que comience a sonar tu telefono cuando recibes una llamada</string>
+    <string name="assertive_display_explanation">Activa el Assertive Display de Qualcomm que mejora y optimiza la calidad de visualizacion</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">Esta opción restringe la activación del msm_hsic_host wakelock</string>
+    <string name="restrict_bluesleep_wakelock_explanation">Esta opción restringe la activación del bluesleep wakelock</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Mejora el rendimiento cuando el sistema se está quedando sin memoria RAM\nPor defecto - Configuración por defecto del dispositivo\n\nActivado - Finaliza aplicaciones en una situación de falta de memoria, esto evila el escaneo costoso de la lista de tareas\n\nDesactivado - El finalizador OOM escaneará a través de toda la lista de tareas y seleccionará la tarea para finalizar basado en heurísticas, normalmente selecciona las tareas que cuando se finalicen liberen una gran cantidad de memoria</string>
+    <string name="cache_reclaiming_explanation">Controla la tendencia del kernel de reclamar la memoria que es usada para cache del directorio y objetos de inodo\n\nPor defecto - Parámetros por defecto del dispositivo\n\nMínimo - Menos reclamo. Esta opción mejorará ligeramente la duracion de batería pero se reducirá el rendimiento\n\nModerado - Mantiene el valor un poco menor que el valor por defecto, mejorando la duración de batería y con menor impacto en el rendimiento \n\nDoble - Provee un aumento en el rendimiento del dispositivo pero con un gran impacto en la duración de batería</string>
+    <string name="cache_allocation_explanation" formatted="false">Controla la cantidad de Memoria RAM puede ser usa para la asignación de caché\n\nMediano - Usa el 100% de tu RAM física para las asignaciones de caché\n\nLargo - usa el 100% de la RAM física y 50% de swap si existe\n\nModificando la asignación de cache puede causar congelamientos aleatorios y disminución del rendimiento</string>
+    <string name="heap_optimization_explanation">Optimiza y ajusta el tamaño de la pila de la máquina virtual (Dalvik/ART) con valores recomendados, basados en la RAM y la densidad de la pantalla.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimiza y mejora zRAM basado en valores recomendados y tamaño de RAM</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Mejora el rendimiento cuando hay memoria baja\nCalcula la configuración del LMK(Valores de limpieza de memoria) en base a la RAM de tu dispositivo y el perfil elegido\n\n Por defecto - Configuración por defecto del dispositivo\n\nMultitarea - mantniene la mayor cantidad de aplicaciones en la RAM como sea posible\n\nBalanceado - Un balance entre el perfil multitarea y jugador\n\nJugador - Mantiene lo menos posible aplicaciones y mantiene tus juegos sin lag</string>
+    <string name="low_ram_flag_explanation">Esta opción optimiza la asignación de memoria en la pila Dalvik/ART, además habilita varias opciones de baja memoria en el sistema, lo cual deshabilita efectos visuales como las animaciones y la coloración de la barra de estado.\nTambién reduce el uso de batería de ciertas aplicaciones.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Este es un diálogo de ejemplo, puedes hacer esto en otro Ejemplo de ajuste</string>
+    <string name="another_example_explanation">Prácticamente todas las opciones en L Speed tienen explicación, presiona por untiempo prolongado en ella para mostrar la información</string>
+    <string name="more_example_explanation">Continua viendo, estos ejemplos son solamente usados para mostrar como funcionan las cosas en la app</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Activa mas opciones de configuración, no recomendado para principiantes sin ninguna expeciencia</string>
+    <string name="dark_theme_explanation">Cambia el tema a un estilo oscuro</string>
+    <string name="nav_bar_color_explanation">Pinta la barra de navegación, si no es detectada nada será coloreado</string>
+    <string name="force_english_explanation">Usar Inglés en lugar de cualquier lenguaje de sistema utilizado</string>
+    <string name="show_toast_explanation">Muestra un snackbar/toast (posicionado en la parte de abajo) cuando un ajuste es activado</string>
+    <string name="show_fahrenheit_explanation">Usar Fahrenheit en lugar de Celsius al mostrar la temperatura de batería en el Panel de Inicio</string>
+    <string name="time_boot_delay_explanation">Define el tiempo de retraso de ejecución al inicio en segundos</string>
+    <string name="show_boot_notification_explanation">Muestra una notificación cuando la aplicación se está ejecutando después del inicio del sistema</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Selecciona los perfiles predefinidos de L speed, estos determinan como L Speed trabajará y cambiará el sistema</string>
+
+</resources>

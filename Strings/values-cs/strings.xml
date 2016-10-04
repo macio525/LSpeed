@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">Root oprávnění je vyžadováno</string>
+    <string name="root_explanation">L Speed vyžaduje root opravánění kvůli modifikaci souborů, které nelze upravovat bez root oprávnění.</string>
+    <string name="how_root">Jak rootnout zařízení?</string>
+    <string name="how_root_explanation">Stránky, které ti pomůžou s rootem, najdeš níže.</string>
+    <string name="search_for_hint">Hledat</string>
+    <string name="google_help">Jak na root (název tvého zařízení)</string>
+    <string name="xda_help">Root pro tvé zařízení</string>
+    <string name="androidforums_help">Fórum pro tvé zařízení</string>
+    <string name="root_safe">Je root bezpečný?</string>
+    <string name="root_safe_explanation">Rootovaní může být mírně nebezpečné, ale obvykle je bez problému.</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">Welcome to L Speed</string>
+    <string name="setup_guide">This setup will guide you to configure L Speed</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">L Speed Tips</string>
+    <string name="long_tap">Holding or long tapping an option will open up an information or description of the tweak</string>
+    <string name="try_it_here">You can try it out here</string>
+    <string name="example_tweak">Example Tweak</string>
+    <string name="another_example">Another Example</string>
+    <string name="more_example">More Example</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">Configure L Speed</string>
+    <string name="long_tap_sec">You can still long-press to see the description of the options. These options can be changed later</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Permissions</string>
+    <string name="storage_permission">L Speed requires the permission to access storage to store backups and implement Cleaner function, it is highly recommended to allow it.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">Enjoy L Speed</string>
+    <string name="setup_complete">The setup is complete, you can change your preferences later</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">Otevřít navigační panel</string>
+    <string name="navigation_drawer_close">Zavřít navigační panel</string>
+    <string name="reboot_confirm">Restartovat zařízení?</string>
+    <string name="reset_confirm">Nastavit konfigurace na původní hodnoty?</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="double_back_pressed">Klikněte znovu pro ukončení.</string>
+    <string name="unknown">Unknown</string>
+    <string name="script_execute_indeterminate">Executing Scripts</string>
+    <string name="script_execute">Executing Script: \n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Last time trimmed</string>
+    <string name="fstrim_now">Fstrim nyní</string>
+    <string name="fstrim_load_dialog">Trimming…</string>
+    <string name="fstrim_options">FStrim Options</string>
+    <string name="fstrim_on_boot">Run fstrim on boot</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">Spustit čištění při startu</string>
+    <string name="junk_cleaner">Odstranit nepotřebné soubory</string>
+    <string name="system_clean_dialog">Searching for junk files…</string>
+    <string name="app_cache_cleaner">Vymazat cache paměť</string>
+    <string name="app_cache_dialog">Searching for app cache…</string>
+    <string name="wipe_cache">Vymazat cache oddíl</string>
+    <string name="wipe_dalvik">Vymazat dalvik cache</string>
+    <string name="files_founded_dialog">Founded %1$s MB of Files, do you want to delete?</string>
+    <string name="files_founded">Files founded</string>
+    <string name="files_not_founded">Files not founded</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">Vícejádrová úspora energie</string>
+    <string name="cpu_optimizer">CPU optimalizace</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">Device info</string>
+    <string name="device">Device: %1$s \n</string>
+    <string name="device_model">Device model: %1$s \n</string>
+    <string name="manufacturer">Manufacturer: %1$s \n</string>
+    <string name="brand">Brand: %1$s \n</string>
+    <string name="hardware">Hardware: %1$s \n</string>
+    <string name="id">ID: %1$s</string>
+    <string name="battery_information">Informace o baterii</string>
+    <string name="cpu_information">CPU informace</string>
+    <string name="kernel_information">Kernel informace</string>
+    <string name="health">Zdraví: %1$s \n</string>
+    <string name="level">Úroveň: %1$s%% \n</string>
+    <string name="technology">Technologie: %1$s \n</string>
+    <string name="no_battery">No battery detected</string>
+    <string name="temp">Teplota:</string>
+    <string name="volt">Napětí: %1$s mV</string>
+    <string name="charge_status">Stav nabíjení: %1$s \n</string>
+    <string name="state">Stav: %1$s \n</string>
+    <string name="health_dead">Dead</string>
+    <string name="health_good">Good</string>
+    <string name="health_over_voltage">Over voltage</string>
+    <string name="health_over_heat">Overheating</string>
+    <string name="health_failure">Malfunctioning</string>
+    <string name="charge_unplugged">Odpojeno</string>
+    <string name="charge_charger">Připojeno k nabíječce</string>
+    <string name="charge_usb">Připojeno k USB</string>
+    <string name="status_charging">Nabíjení</string>
+    <string name="status_discharging">Vybíjení</string>
+    <string name="status_full">Plně nabito</string>
+    <string name="status_not_charging">Not Charging</string>
+    <string name="battery_usage">Battery usage</string>
+    <string name="current_entropy">Aktuální Entropy:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">IO zrychlení</string>
+    <string name="io_extended_queue">IO prodloužení fronty</string>
+    <string name="sd_tweak">SD optimalizace</string>
+    <string name="partition_remount">Přepojení oddílu</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">Informace o paměti</string>
+    <string name="current_minfree">Aktuální minimální hodnoty:</string>
+    <string name="current_memory_status">Aktuální stav paměti:</string>
+    <string name="foreground_app">Aplikace v popředí:\t %1$sMB \n</string>
+    <string name="visible_app">Viditelné aplikace:\t %1$sMB \n</string>
+    <string name="secondary_server">Druhý server:\t %1$sMB \n</string>
+    <string name="hidden_app">Skryté aplikace:\t %1$sMB \n</string>
+    <string name="content_provider">Poskytovatel obsahu:\t %1$sMB \n</string>
+    <string name="empty_app">Prázdené apliakce:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">Síťové rozhraní</string>
+    <string name="ril_tweaks">RIL vychytávky</string>
+    <string name="dns">Google DNS</string>
+    <string name="faster_streaming">Rychlejší streamování</string>
+    <string name="fast_dormancy">Fast dormancy</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">Zrychlit nyní</string>
+    <string name="battery_calibration">Kalibrace baterie</string>
+    <string name="kill_media_server">Ukončit media server</string>
+    <string name="ram_manager">RAM manažer</string>
+    <string name="seeder">Seeder</string>
+    <string name="kernel_tweaks">Kernel vychytávky</string>
+    <string name="disable_debugging">Zakázat ladění</string>
+    <string name="disable_kernel_panic">Zakázat kernel panic</string>
+    <string name="kernel_sleepers_optimization">Kernel sleepers optimalizace</string>
+    <string name="fsync">Fsync</string>
+    <string name="KSM">Kernel slučování stránek</string>
+    <string name="fast_charge">Rychlé nabíjení</string>
+    <string name="wifi_sleeper">WiFi spánek</string>
+    <string name="flag_tuner">Flag tuner</string>
+    <string name="better_voice_call_quality">Lepší audio při volání</string>
+    <string name="improve_battery">Vylepšení baterie</string>
+    <string name="better_scrolling">Vylepšení posouvání</string>
+    <string name="faster_boot">Rychlejší start (boot)</string>
+    <string name="improve_image_quality">Vylepšení kvality obrázků</string>
+    <string name="liquid_UI">Liquid smooth UI</string>
+    <string name="misc_tweaks">Další vychytávky</string>
+    <string name="assertive_display">Asertivní displej</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">Virtual Memory</string>
+    <string name="oom_killer">OOM ukončení</string>
+    <string name="cache_reclaiming">Cache rekultivace</string>
+    <string name="cache_allocation">Cache alokace</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">zRAM Optimization</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">Loading page…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">Zálohovat</string>
+    <string name="backup_created">Záloha vytvořena</string>
+    <string name="backup_delete">Odstranit zálohu</string>
+    <string name="backup_deleted">Záloha odstraněna</string>
+    <string name="backup_restore">Obnovit</string>
+    <string name="backup_restored">Zálova obnovena</string>
+    <string name="backup_date">Poslední záloha dne: %1$s</string>
+    <string name="backup_none">Záloha neexsituje nebo nebyla nalezena.</string>
+    <string name="name_backup">Insert backup\'s name</string>
+    <string name="backup_list">Backup List</string>
+    <string name="restore_question">Restore selected backup?</string>
+    <string name="delete_question">Delete this backup?</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">Přispět</string>
+    <string name="beta_version">Beta version</string>
+    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="translation">Překlad</string>
+    <string name="translation_text">Pomozte mi s překlady tuto aplikaci</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed support</string>
+    <string name="provides_support_text">Provides support 24/7</string>
+    <string name="general">Obecné</string>
+    <string name="lspeed_basics">L Speed základy</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">Use Advanced UI</string>
+    <string name="dark_theme">Dark téma</string>
+    <string name="color_navigation_bar">Barevný navigační lišta</string>
+    <string name="force_english">Force English</string>
+    <string name="show_toast_and_snacks">Zobrazit toggle toast</string>
+    <string name="show_fahrenheit">Show Fahrenheit (°F)</string>
+    <string name="time_boot_delay_settings">Apply on boot delay</string>
+    <string name="show_boot_notification">Show boot notification</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">Nástěnka</string>
+    <string name="main_tweak">Hlavní vychytávky</string>
+    <string name="cleaner">Čistič</string>
+    <string name="cpu_tuner">CPU ladění</string>
+    <string name="fstrim">FStrim</string>
+    <string name="lnet">LNET optimalizace</string>
+    <string name="io_tweak">IO vychytávky</string>
+    <string name="ls_news">L Speed news</string>
+    <string name="backup">Záloha</string>
+    <string name="help">Pomoc</string>
+    <string name="settings">Nastavení</string>
+    <string name="about">O aplikaci</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">Restart</string>
+    <string name="reset_to_default">Obnovit výchozí</string>
+    <string name="logs_view">Protokoly zobrazit</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">Clear log</string>
+    <string name="save_log">Uložení protokolu na SDCard</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">Kontroluji root…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">Úvodní obrazovka</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">Profiles</string>
+    <string name="custMode">Customize Profile</string>
+    <string name="cust_mode_hint">You can customize your current profile here, it is not mandatory to do and the result might be worse</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">Rychlé nástroje</string>
+    <string name="memManage">Správa paměti</string>
+    <string name="kernMod">Kernel modofikace</string>
+    <string name="ioMod">Úložný prostor IO vychytávky</string>
+    <string name="netMod">LNET vychytávky</string>
+    <string name="netOpt">LNET optimalizace</string>
+    <string name="cpuMod">CPU ladění</string>
+    <string name="uiOpt">UI optimalizace</string>
+    <string name="sysOpt">Systemové vychytávky</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">Možnosti ladění</string>
+    <string name="cleanerOpt">Možnosti čištění</string>
+    <string name="cacheClean">Cache čistění</string>
+    <string name="backRes">Zálohovat &amp; Obnovit</string>
+    <string name="backStat">Stav zálohy</string>
+    <string name="otherMod">Ostatní vychytávky</string>
+    <string name="credits">L Speed tvůrci</string>
+    <string name="application">Aplikace</string>
+    <string name="interfaceDiv">Interface</string>
+    <string name="otherDiv">Other</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed vyžaduje root</string>
+    <string name="pop_no_toolbox">Nelze extrahovat panel nástrojů</string>
+    <string name="pop_no_arch">Neznámá architektura: %1$s</string>
+    <string name="fstrim_activated">FStrim on boot is enabled</string>
+    <string name="fstrim_deactivated">FStrim on boot is disabled</string>
+    <string name="cleaner_enabled">Čistění při startu je povoleno</string>
+    <string name="cleaner_disabled">Čistění při startu je zakázano</string>
+    <string name="app_cache_clear">Cache aplikací smazána</string>
+    <string name="junk_clear">Nepotřebné smazáno</string>
+    <string name="cache_clear">Cache oddíl smazán</string>
+    <string name="dalvik_clear">Dalvik cache smazána,</string>
+    <string name="mps_activated">Vícejádrová úspora energie je zapnuta</string>
+    <string name="mps_deactivated">Vícejádrová úspora energie je vypnuta</string>
+    <string name="cpu_opt_activated">Optimalizace CPU aktivováno</string>
+    <string name="cpu_opt_deactivated">Optimalizace CPU vypnuto</string>
+    <string name="battery_calibrated">Kalibrace baterie provedena, restartuj prosím</string>
+    <string name="battery_calibration_failed">Please fully charge your battery</string>
+    <string name="media_server_killed">Server médií úspěšně ukončen</string>
+    <string name="disable_debug_activated">Vypnout ladění aktivováno</string>
+    <string name="disable_debug_deactivated">Vypnout ladění deaktivováno</string>
+    <string name="no_kernel_panic_activated">Vypnout kernel panic aktivováno</string>
+    <string name="no_kernel_panic_deactivated">Vypnout kernel panic neaktivováno</string>
+    <string name="kernel_sleepers_opt_activated">Kernel sleepers optimalizace zapnuta</string>
+    <string name="kernel_sleepers_opt_deactivated">Kernel sleepers optimalizace vypnuta</string>
+    <string name="fsync_activated">Fsync activated</string>
+    <string name="fsync_deactivated">Fsync deactivated</string>
+    <string name="ksm_activated">Kernel slučování stránek aktivováno</string>
+    <string name="ksm_deactivated">Kernel slučování stránek neaktivováno</string>
+    <string name="fast_charge_activated">Rychlé nabíjení povoleno</string>
+    <string name="fast_charge_deactivated">Rychlé nabíjení zákázáno</string>
+    <string name="wifi_sleeper_activated">WiFi spánek povolen</string>
+    <string name="wifi_sleeper_deactivated">WiFi spánek zakázán</string>
+    <string name="flag_tuner_activated">Flag tuner aktivováno</string>
+    <string name="flag_tuner_deactivated">Flag tuner neaktivováno</string>
+    <string name="better_call_aud_activated">Vylepšený zvuk při volání povolen</string>
+    <string name="better_call_aud_deactivated">Vylepšený zvuk při volání zakázáno</string>
+    <string name="battery_improve_enabled">Vylepšení baterie aktivováno</string>
+    <string name="battery_improve_disabled">Vylepšení baterie neaktivováno</string>
+    <string name="improve_scrolling_activated">Vylepšení posouvání aktivováno</string>
+    <string name="improve_scrolling_deactivated">Vylepšení posouvání neaktivováno</string>
+    <string name="faster_boot_activated">Rychlý start povolen</string>
+    <string name="faster_boot_deactivated">Rychlý start zakázán</string>
+    <string name="improve_image_activated">Vylepšení kvality obrázků aktivováno</string>
+    <string name="improve_image_deactivated">Vylepšení kvality obrázků neaktivováno</string>
+    <string name="liquid_ui_activated">Liquid UI aktivováno</string>
+    <string name="liquid_ui_deactivated">Liquid UI neaktivováno</string>
+    <string name="misc_tweaks_enabled">Další vychytávky povoleny</string>
+    <string name="misc_tweaks_disabled">Další vychytávky zakázány</string>
+    <string name="assertive_display_activated">Asertivní displej aktivován</string>
+    <string name="assertive_display_deactivated">Asertivní displej neaktivován</string>
+    <string name="io_boost_activated">IO zrychlení aktivováno</string>
+    <string name="io_boost_deactivated">IO zrychlení neaktivováno</string>
+    <string name="extended_queue_activated">IO prodloužená fronta aktivována</string>
+    <string name="extended_queue_deactivated">IO prodloužená fronta neaktivována</string>
+    <string name="sd_tweak_activated">SD tweaks activated</string>
+    <string name="sd_tweak_deactivated">SD tweaks deactivated</string>
+    <string name="partition_remounting_activated">Přepojení oddílu aktivováno</string>
+    <string name="partition_remounting_deactivated">Přepojení oddílu neaktivováno</string>
+    <string name="net_buffer_default">Siťové rozhraní vychozí</string>
+    <string name="net_buffer_small">Malé siťové rozhraní</string>
+    <string name="net_buffer_big">Velké siťové rozhraní</string>
+    <string name="ril_tweak_activated">RIL vychytávky aktivovány</string>
+    <string name="ril_tweak_deactivated">RIL vychytávky neaktivovány</string>
+    <string name="google_dns_activated">Google DNS povoleno</string>
+    <string name="google_dns_deactivated">Google DNS zakázáno</string>
+    <string name="fast_stream_activated">Rychlé streamování povoleno</string>
+    <string name="fast_stream_deactivated">Rychlé streamování zakázáno</string>
+    <string name="fast_dormancy_activated">Fast dormancy aktivováno</string>
+    <string name="fast_dormancy_deactivated">Fast dormancy neaktivováno</string>
+    <string name="ram_manager_default">Správce RAM výchozí</string>
+    <string name="ram_manager_multitask">Multitasking profil aktivován</string>
+    <string name="ram_manager_balanced">Vyrovnaný profil aktivován</string>
+    <string name="ram_manager_gaming">Herní profil aktivován</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">zRAM Optimization activated</string>
+    <string name="zram_optimization_deactivated">zRAM Optimization deactivated</string>
+    <string name="seeder_default">Seeder profil výchozí</string>
+    <string name="seeder_light">Lehký seeder profil aktivován</string>
+    <string name="seeder_enlarger">Zvětšený seeder profil aktivován</string>
+    <string name="seeder_moderate">Vyvážený seeder profil aktivován</string>
+    <string name="seeder_aggressive">Agresivní seeder profil aktivován</string>
+    <string name="oom_killer_default">OOM ukončení výchozí</string>
+    <string name="oom_killer_enabled">OOM ukončení povoleno</string>
+    <string name="oom_killer_disabled">OOM ukončení zakázáno</string>
+    <string name="cache_reclaim_default">Cache rekultivace výchozí</string>
+    <string name="cache_reclaim_minimum">Minimální cache rekultivace aktivována</string>
+    <string name="cache_reclaim_moderate">Vyvážená cache rekultivace aktivována</string>
+    <string name="cache_reclaim_doubled">Dvojitá cache rekultivace aktivována</string>
+    <string name="cache_alloc_default">Výchozí cache alokace aktivována</string>
+    <string name="cache_alloc_medium">Střední cache alokace aktivována</string>
+    <string name="cache_alloc_large">Velká cache alokace aktivována</string>
+    <string name="kernel_tweaks_disabled">Kernel vychytávky zakázány</string>
+    <string name="kernel_tweaks_light">Lehké kernel vychytávky aktivovány</string>
+    <string name="kernel_tweaks_heavy">Těžké kernel vychytávky aktivovány</string>
+    <string name="logs_saved">Protokoly jsou uloženy na sdcard</string>
+    <string name="logs_noexists">Logs no exists. No scripts are executed</string>
+    <string name="logs_no_save">No logs found, nothing is saved</string>
+    <string name="rate_app">Love L Speed? Please rate it!</string>
+    <string name="rate">Rate!</string>
+    <string name="thanks_for_rate">Thanks for rating!</string>
+    <string name="profile_default">Profile is set to default</string>
+    <string name="profile_light">Light profile activated</string>
+    <string name="profile_recommended">Recommended profile activated</string>
+    <string name="profile_heavy">Heavy profile activated</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">Co je L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed je aplikace, která kombinuje systémové modifikace a vychytávky</string>
+    <string name="lSpeed_difference">Co dělá L Speed jiným od ostatních módů?</string>
+    <string name="lSpeed_difference_explanation">L Speed má hodně možností a většina z nich se liší od ostatních</string>
+    <string name="why_root">Proč vyžaduje L Speed root oprávnění?</string>
+    <string name="why_root_explanation">Aplikace vyžaduje root oprávnění, kvůli úpravě systémových souborů.</string>
+    <string name="what_can_do">Co mám dělat s L Speed?</string>
+    <string name="what_can_do_explanation">Můžeš vylepšit výkon a výdrž baterie svého zadřízení</string>
+    <string name="gingerbread_usage">Můžu to použít na Androidu 2.3?</string>
+    <string name="gingerbread_usage_explanation">Ne, ale můžeš použít flashovací verzi L Speed, která funguje skoro na všech Android verzích</string>
+    <string name="usage_with_mods">Můžu to použít s dalšími módy?</string>
+    <string name="usage_with_mods_explanation">Ne, protože to může ovlivnit L Speed</string>
+    <string name="init.d_why">Init.d je prázdné, proč?</string>
+    <string name="init.d_why_explanation">Aplikace to už nepoužívá, místo toho používá Androidí auto start funkci</string>
+    <string name="check_working">Jak můžu zkontrolovat zda to funguje?</string>
+    <string name="check_working_explanation">Mrkni do /data/data/com.paget96.lspeed/files/LOGS</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">vývojář, zakladatel, správce</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Vyhrazený vývojář</string>
+    <string name="peter_hint">Vyhrazený vývojář na půl úvazku</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">Executing Scripts</string>
+    <string name="on_boot_time">Applying configurations in %d seconds</string>
+    <string name="on_boot_finished">Your configurations have been applied</string>
+    <string name="on_boot_cancelled">The execution have been cancelled</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">Výchozí</string>
+    <string name="array_entries_light">Lehké</string>
+    <string name="array_entries_moderate">Vyvážené</string>
+    <string name="array_entries_disabled">Zakázáno</string>
+    <string name="array_entries_aggressive">Agresivní</string>
+    <string name="array_entries_heavy">Těžké</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Balanced</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">Malé</string>
+    <string name="net_buffer_entries_big">Velké</string>
+    <string name="ram_manager_entries_multitasking">Multitasking</string>
+    <string name="ram_manager_entries_gaming">Herní</string>
+    <string name="seeder_entries_enlarger">Zvětšené</string>
+    <string name="oom_killer_entries_enabled">Povoleno</string>
+    <string name="cache_reclaiming_entries_minimum">Minimální</string>
+    <string name="cache_reclaiming_entries_doubled">Dvojité</string>
+    <string name="cache_allocation_entries_medium">Střední</string>
+    <string name="cache_allocation_entries_large">Velké</string>
+    <string name="not_trimmed">No trimming logs</string>
+    <string name="please_wait">Please wait</string>
+    <string name="ram_manager_options">RAM Manager Options</string>
+    <string name="ram_manager_status">RAM Manager Status</string>
+    <string name="zram_options">zRAM Options</string>
+    <string name="seeder_options">Seeder Options</string>
+    <string name="seeder_status">Seeder Status</string>
+    <string name="quick_mode_recommended">Recommended</string>
+    <string name="sec_0">0sec</string>
+    <string name="sec_5">5sec</string>
+    <string name="sec_10">10sec</string>
+    <string name="sec_20">20sec</string>
+    <string name="sec_30">30sec</string>
+    <string name="sec_60">60sec</string>
+</resources>

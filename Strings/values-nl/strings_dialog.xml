@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Verwijderd de overbodige bestanden gegenereed door het besturingssysteem (logs, ongebruikte cache bestanden, etc.).</string>
+    <string name="app_cache_cleaner_explanation">Verwijderd overbodige cache bestanden aangemaakt door apps (cache afbeeldingen, etc.).</string>
+    <string name="wipe_cache_explanation">Verwijderd alle cache bestanden op de /cache partitie.</string>
+    <string name="wipe_dalvik_explanation">Verwijder de dalvik-cache bestanden van alle apps, opnieuw opstarten van de telefoon is nodig om de opdracht uit te voeren en foutmeldingen te voorkomen.</string>
+    <string name="cleaner_on_boot_explanation">Inschakelen van het automatisch verwijderen van bestanden tijdens elke keer opnieuw opstarten.</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Leegt de cache ruimte voor diverse pagina\'s en apps om zodoende RAM geheugen vrij te maken.</string>
+    <string name="fstrim_on_boot_explanation">Activeert het trim programma zodat deze automatisch opstart bij iedere keer dat de telefoon wordt opgestart.</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Voegt CPU taken samen tot zo min mogelijk aanwezige processoren, wat besparing van de batterij tot gevolg kan hebben.</string>
+    <string name="cpu_optimizer_explanation">Verbetert en optimaliseert de CPU instellingen, kan eventueel meer verbruik van de batterij tot gevolg hebben.</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Geef een boost aan input - output opdrachten om de prestaties te verbeteren.</string>
+    <string name="io_extended_queue_explanation">Vergroot de input - output rijen, kan eventueel meer verbruik van de batterij tot gevolg hebben maar ook snellere lees en schrijf snelheden.</string>
+    <string name="sd_tweak_explanation">Vergroot het vooraf inlezen van gegevens, voor het sneller verwerken van data (lezen en schrijven).</string>
+    <string name="partition_remount_explanation">Koppelt alle EXT4 partities met prestatie verbeterende koppelings mogelijkheden.</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Verbeterd de netwerk prestaties tijdens het surfen\nKleine net buffers zal het netwerk verbeteren met een kleine toevoeging aan de buffers grootte voor de volgende verbindingstypen (3G, WiFi, LTE, Edge, UMTS)\nGrote net buffers zal het netwerk verbeteren met grote buffers, maar dit kan gevolgen hebben voor de batterij verbruik wanneer je gebruikt maakt van overdrachten.</string>
+    <string name="ril_tweaks_explanation">Verbeterd de mobiele data overdrachtssnelheid.</string>
+    <string name="dns_explanation">Veranderd het netwerk DNS met die van Google publieke DNS (8.8.8.8 – 8.8.4.4).</string>
+    <string name="faster_streaming_explanation">Hiermee verbeter je de Android standaard muziekspeler om online streaming media bestanden sneller af te spelen.</string>
+    <string name="fast_dormancy_explanation">Schakel dit in om sneller te switchen tussen de typen netwerken om batterij te besparen, gebruik dit alleen als je mobiele provider dit ondersteund.</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Leegt de cache ruimte voor diverse pagina\'s en apps om zodoende RAM geheugen vrij te maken.</string>
+    <string name="battery_calibration_explanation">Verwijdert het bestand batterystats.bin om de batterij opnieuw te calibreren, opnieuw opstarten van de telefoon is noodzakelijk om het proces te voltooien.</string>
+    <string name="kill_media_server_explanation">Stopt op krachtige wijze het Media Server proces, gebruik deze methode om oververhitting en prestatie verlies te verkomen veroorzaakt door de Media Server.</string>
+    <string name="seeder_explanation">Verbeterd de prestaties ten koste van de batterij\nHet verhogen van het Seeder niveau zal de prestaties doen toenemen, maar de batterij zal wel sneller leegraken.</string>
+    <string name="kernel_tweaks_explanation">Veranderd de kernel gerelateerde standaardwaarden met een prestatie verhogende waarden\n\nEenvoudig - Minder getweakde waarden, dichtbij de standaard waarden\n\nUitgebreid - Voer grote veranderen door in de standaard kernel waarden, verbetert de prestaties met een kleine impact op de batterijduur.</string>
+    <string name="disable_debugging_explanation">Uitschakelen van de lees/schrijf debugging operaties\nUitschakelen van logging processen zoals ANR activiteiten logging en onnodige logcat uitvoer bestanden, verbeterd de prestaties.</string>
+    <string name="disable_kernel_panic_explanation">Uitschakelen van kernel panic om te voorkomen dat de telefoon herstart als de gebruikte kernel onstabiel of in een test fase zit.</string>
+    <string name="kernel_sleepers_optimization_explanation">Verbeterd de kernel sleepers parameters die gebruikt worden voor de modus "diepe slaap" voor betere prestaties.</string>
+    <string name="fsync_explanation">Fsync safely keeps changed data intact during a case of system crash or sudden shutdown</string>
+    <string name="KSM_explanation">Inschakelen van KSM, wat een geheugen besparende de-duplicatie kenmerk is, die ervoor zorgt door het scannen van het geheugen dat het vinden van dubbele bestanden en paginas inzichtelijk wordt gemaakt, handig op telefoons met weinig geheugen aan boord.</string>
+    <string name="fast_charge_explanation">Inschakelen van het snel opladen van de telefoon dat gebruikt wordt in de meeste aangepaste kernel bestanden, dit is niet nodig als jouw telefoon dit reeds standaard ondersteund.</string>
+    <string name="wifi_sleeper_explanation">Verminderd de vertraging van de WiFi verbinding als deze niet actief is of slaapt, bespaard hierdoor batterij als het WiFi netwerk wordt gebruikt.</string>
+    <string name="flag_tuner_explanation">Uitschakelen van limieten die de prestaties regelen en hierdoor de batterijduur verlengen.\nCan cause instability</string>
+    <string name="better_voice_call_quality_explanation">Verbeter de kwaliteit in telefoongesprekken, maar gaat wel ten koste van de batterij.</string>
+    <string name="improve_battery_explanation">Verbetert de batterijduur door de systeempartitie te tweaken.</string>
+    <string name="better_scrolling_explanation">Verbetert het scrollen door het soepeler te maken.</string>
+    <string name="faster_boot_explanation">Verminder de tijd dat je telefoon opstart door het optimaliseren van het systeem.</string>
+    <string name="improve_image_quality_explanation" formatted="false">Verbetert de kwaliteit van de afbeeldingen door dit te maximaliseren.</string>
+    <string name="liquid_UI_explanation">Verbetert de gebruikersinterface ten koste van de batterijduur.</string>
+    <string name="misc_tweaks_explanation">Schakelt bepaalde functies uit van het Logging Service systeem (HTC Sense enkel)\nDeactiveert de Google Network Location\nStelt de vertragingstijd in wanneer de telefoon over gaat wanneer je een gesprek ontvangt.</string>
+    <string name="assertive_display_explanation">Activeert de Qualcomm Assertief beeldscherm instellingen die het beeldscherm verbeterd en de beeldscherm kwaliteit.</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Verbeterd de prestaties wanneer het systeem geen geheugen meer over heeft\nStandaard - Standaard telefoon configuratie\n\nGeactiveerd - Stopt apps in een situatie als deze geen geheugen meer over heeft, dit kan effect hebben op de actieve apps lijst\n\nUitgeschakeld - De OOM killer zal gaan scannen door de gehele takenlijst en zal een taak uitschakelen op basis van berekeningen. Normaal gesproken is dit een taak die veel geheugen vraagt en die bij stoppen ervan de meeste vrije ruimte opleverd.</string>
+    <string name="cache_reclaiming_explanation">Controleerd de neiging van de kernel om geheugen terug te herwinnen welke gebruikt wordt voor het cacheren van bestanden, structuren en objecten\n\nStandaard - Standaard telefoon parameters\n\nMinimaal - Weinig herwinnen. Dit zal de batterijduur verlengen maar dit gaat ten koste van de prestaties\n\nGematigd - Houdt de waarden in basis wat lager dan de standaard, verbeterd de batterijduur met een fractie zonder dat dit ten koste gaat van de prestaties\n\nVerdubbeld - Geeft de telefoon een prestatie boost, maar dit heeft grote impact op de batterijduur.</string>
+    <string name="cache_allocation_explanation" formatted="false">Controleert hoeveel RAM geheugen gebruikt kan worden voor cache toewijzing\n\nMiddelmatig - Gebruikt 100% van het fysieke RAM geheugen voor cache toewijzing\n\nUitgebreid - Gebruikt 100% van het fysieke RAM geheugen en 50% swap geheugen als dit bestaat\n\nHet wijzigen van de cache toewijzing kan prestatieverlies en bevriezen van processen tot gevolg hebben.</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimize and fine tune zRAM based on recommended values and RAM size</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Verbeterd de prestaties wanneer het geheugengebruik hoog is\n en berekend de LMK (LowMemoryKiller) instellingen gebasseerd op jouw telefoon type RAM geheugen en kiest een profiel\n\nstandaard - Standaard telefoon configuratie\n\nMultitasking - Houdt zoveel mogelijk apps als mogelijk is in het RAM geheugen\n\nGebalanceerd - Een balans vinden tussen profiel multitasking en game modus profiel\n\nGame modus - houdt zo weinig mogelijk apps als mogelijk in het RAM geheugen en houdt je spellen vrij van vertragingen.</string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">This is an example dialog, you can also do this to the other Example Tweak</string>
+    <string name="another_example_explanation">Nearly all options on L Speed has explanation, long pressing them will reveal the explanation</string>
+    <string name="more_example_explanation">Continue on, these examples are only used to show how things work in the app</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Enables more customizations options, not for beginners without any experience</string>
+    <string name="dark_theme_explanation">Switches theme to a darker look</string>
+    <string name="nav_bar_color_explanation">Colorize navigation bar, if no navigation bar is detected then nothing will be colored</string>
+    <string name="force_english_explanation">Use English instead of any system language currently used</string>
+    <string name="show_toast_explanation">Shows a toast/snackbar (positioned on the bottom) when a tweak is enabled</string>
+    <string name="show_fahrenheit_explanation">Use Fahrenheit instead of Celsius, shown in Battery Temperature of Dashboard</string>
+    <string name="time_boot_delay_explanation">Period to wait before executing scripts on boot</string>
+    <string name="show_boot_notification_explanation">Shows a notification when the app is starting up after booting</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Select predefined L Speed profiles, these determines how L Speed will perform and change the system</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Poistaa järjestelmän luomia tarpeettomia ja vanhoja tiedostoja (lokit, käyttämättömät väliaikaistiedostot, jne…)</string>
+    <string name="app_cache_cleaner_explanation">Poistaa ohjelmien luomia tarpeettomia väliaikaistiedostoja (väliaikaiskuvat, etc…)</string>
+    <string name="wipe_cache_explanation">Poistaa kaikki /cache osioon luodut väliaikaistiedostot</string>
+    <string name="wipe_dalvik_explanation">Tyhjentää kaikkien ohjelmien dalvik-välimuistin. Ohjelmien pakotetun sulkemisen estämiseksi uudelleenkäynnistys on tarpeellista</string>
+    <string name="cleaner_on_boot_explanation">Roskatiedostojen automaattinen poisto jokaisessa uudelleenkäynnistyksessä</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Trimmaa laitteen osiot vähentääkseen luku-/kirjoitusviivettä parantaakseen suorituskykyä. Käytä vain kun tarpeellista</string>
+    <string name="fstrim_on_boot_explanation">Tiedostojärjestelmän automaattinen trimmaus uudelleenkäynnistyksessä</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Ryhmittää CPU prosessit mahdollisimman vähään määrään ytimiä, mahdollisesti parantaa akun kestoa</string>
+    <string name="cpu_optimizer_explanation">Parantaa ja optimoi CPU:n suorityskykyä, voi heikentää akun kestoa</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Nopeuttaa syöttö - tuloste operaatiota,  parantaa niiden suorituskykyä</string>
+    <string name="io_extended_queue_explanation">Pidentää syöttö - tuloste jonoa. Nopeuttaa luku-/kirjoitusnopeutta, mutta heikentää akun kestoa</string>
+    <string name="sd_tweak_explanation">Lisää "read_aheadia", nopeuttaa luku-/kirjoitusnopeutta</string>
+    <string name="partition_remount_explanation">"Remounttaa" kaikki EXT4 osiot ja lisää suorityskykyä lisääviä vaihtoehtoja</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Parantaa verkkoselauksen suorituskykyä\n"Small net" puskurit nostavat verkonpuskuri kokoa kohtuullisesti jokaiselle yhteystyypille (3G, WiFi, LTE, Edge, UMTS)\n"Big net" puskurit nostavat puskureita enemmän ja voi vaikuttaa akunkestoon kun verkkosiirtoa käytetään</string>
+    <string name="ril_tweaks_explanation">Parantaa mobiilidatan siirtonopeutta</string>
+    <string name="dns_explanation">Vaihtaa verkon DNS–osoitteen Googlen julkisiin DNS:iin (8.8.8.8 – 8.8.4.4)</string>
+    <string name="faster_streaming_explanation">Virittää Androidin natiivia Stagefright-soitinta, toistaa nopeammin verkossa olevia mediatiedostoja</string>
+    <string name="fast_dormancy_explanation">Nopeampi verkkotyypin vaihtaminen, käytä vain jos operaattorisi/verkkosi tukee "fast dormancya" (säästää akkua)</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Poistaa väliaikaistiedostoja vapauttaakseen lisää RAM:a (inodes, dentries, pagecaches)</string>
+    <string name="battery_calibration_explanation">Poistaa batterystats.bin tiedoston kalibroidakseen laitteen akun. Uudelleenkäynnistys on tarpeellista akun kalibroinnin yhteydessä</string>
+    <string name="kill_media_server_explanation">Pakottaa Mediapalvelin prosessin lopetuksen, Vähentää mediapalvelinprosessin tuottamaa lämpöä ja  suorituskyvyn tippumista</string>
+    <string name="seeder_explanation">Parantaa suorituskykyä akun keston kustannuksella\nSeeder tason lisääminen nostaa suorituskykyä, mutta heikentää akun kestoa</string>
+    <string name="kernel_tweaks_explanation">	Muuttaa kerneliin liittyviä arvoja suorituskykyisemmiksi\n\nKevyt - Vähemmän muutetut arvot, lähempänä alkuperäisiä\n\nRaskas - Suuremmat muutokset kernelin arvoihin, nostaa suorituskykyä, pienillä vaikutuksilla akunkestoon</string>
+    <string name="disable_debugging_explanation">Poistaa luku-/kirjoitusvirheenkorjaus operaatioita\nPoistaa lokituksen kuten ANR aktiviteetti lokituksen ja tarpeettomat logcat tuloste lokit, parantaa suorituskykyä</string>
+    <string name="disable_kernel_panic_explanation">Poistaa käytöstä kernelinpaniikin. Tällä vältetään ärsyttävät uudelleenkäynnistykset, jos käytettävä kerneli on buginen ja/tai epävakaa</string>
+    <string name="kernel_sleepers_optimization_explanation">Parantaa kernelin uniparametrejä, joita käytetään laitteen syväunessa suorituskyvyn parantamiseen</string>
+    <string name="fsync_explanation">"Fsync" pitää turvallisesti muutetun datan vahingoittumattomana laitteen kaatuessa tai äkkillisesti sammuessa</string>
+    <string name="KSM_explanation">Ottaa käyttöön "KSM:n"(Kernel samepage merging), joka on muistinsäästö ominaisuus. Skannaa laitteen muistia ja löytää kaksoissivuja, kätevä laitteille joissa on pieni muisti</string>
+    <string name="fast_charge_explanation">Ottaa käyttöön pikalatauksen useimmissa vaihtoehtoisissa kerneleissä, tätä ei tarvita mikäli puhelin tukee pikalatausta</string>
+    <string name="wifi_sleeper_explanation">Vähentää viivettä WiFin aktiivisen ja uni-/inaktiivisentilojen välillä, säästää akkua jos WiFiä käytetään</string>
+    <string name="flag_tuner_explanation">Poistaa käytöstä suorityskykyä rajoittavan "flag in systemin" ja vaihtoehtoisesti parantaa akunkestoa\nVoi aiheuttaa epävakautta</string>
+    <string name="better_voice_call_quality_explanation">Parantaa puheluiden laatua, voi heikentää akun kestoa</string>
+    <string name="improve_battery_explanation">Parantaa akun kestoa virittämällä järjestelmää</string>
+    <string name="better_scrolling_explanation">Parantaa nykivää vieritystä ja tekee vierytyksestä sulavampaa</string>
+    <string name="faster_boot_explanation">Vähentää uudelleenkäynnistysaikaa optimoimalla järjestelmän parametrejä</string>
+    <string name="improve_image_quality_explanation" formatted="false">Nostaa keskimääräistä bittinopeutta ja parantaa kuvanlaatua maksimoimalla sen laatua</string>
+    <string name="liquid_UI_explanation">Parantaa käyttöliittymän suorituskykyä, heikentää akun kestoa</string>
+    <string name="misc_tweaks_explanation">Poistaa käytöstä käyttäjän käyttäytymisloki palvelun (Vain HTC Sense)\nDisables the Google Network Location\nSets the delay of time your phone starts to ring when you receive a call</string>
+    <string name="assertive_display_explanation">Ottaa käyttöön Qualcommin "Assertive displayn", mikä parantaa näytön laatua</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Parantaa suorituskykyä kun järjestelmän muisti on täyttymässä\nOletus - Laitteen oletus konfiguraatio\n\nKäytössä - Tappaa ohjelmia muistin täyttessä, tällä vältetään kallista tehtävälistaus skannausta\n\nPoistettu käytöstä - "OOM killeer" skannaa koko tehtävälistan ja valitsee tehtävän perustuen heurestiikkaan, normaalisti se valitsee omia teitään kulkevan muistia vievän tehtävän, joka vapauttaa suuren määrän muistia kun se tapetaan</string>
+    <string name="cache_reclaiming_explanation">Ohjaa kernelin suuntausta vaatiakseen takaisin muistia jota käytetään hakemiston ja "inode" kohteiden luomista välimuistiin\n\nOletus - Laitteen oletus parametrit\n\nMinimi - Vähemmän takaisin vaatimusta - Tämä parantaa hiukan laitteen akunkestoa, mutta heikentää hieman suorituskykyä\n\nKohtalainen - Pitää arvot hieman pienempinä kuin normaalisti, parantaa akunkestoa pienemmällä kustannuksella suorituskykyyn\n\nTuplattu - Antaa laitteelle suorituskyky boostin, mutta lyhentää akunkesto paljon</string>
+    <string name="cache_allocation_explanation" formatted="false">Säätää kuinka paljon RAM:ia voidaan käyttää väliaikaismuistiin\n\nKeskiverto - Käyttää 100% laitteesi fyysisestä muistista väliaikaismuistiin\n\nIso - Käyttää 100% laitteesi fyysisesta muistista ja 50% heittovaihdosta, jos sitä on\n\nVäliaikaismuistin modifiointi voi aiheuttaa satunnaista jäätymista ja suorituskyvyn tippumista</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimoi ja hienosäätää "zRammia" perustuen suositeltuihin arvoihin ja RAMin määrään</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Parantaa suorituskykyä kun muisti on vähissä ja laskee LKM:ää (LowMemoryKiller) asetuksia perustuen laitteesi RAM:n ja valittuun profiiliin\n\nOletus - Laitteen oletus konfiguraatio\n\nMoniajo - Pitää mahdollisimman monia ohjelmia muistissa\n\nTasapainoitettu -  Tasapaino moniajo- ja peliprofiilin välillä\n\nPelaaminen - Pitää mahdollisimman vähän ohjelmia muistissa ja pitää pelit viiveettöminä</string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Tämä on esimerkki dialogi, voit tehdä tämän myös muiden esimerkkiviritysten kanssa</string>
+    <string name="another_example_explanation">Lähes kaikilla vaihtoehdoilla L Speed:ssä on selitys, painallus pitkään tuo selityksen esille</string>
+    <string name="more_example_explanation">Jatka, näillä esimerkeillä näytetään vain kuinka asiat toimivat ohjelmassa</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Mahdollistaa enemmän kustomointi vaihtoehtoja, ei aloittelijoille ilman mitään kokemusta</string>
+    <string name="dark_theme_explanation">Vaihtaa teeman tummempaan</string>
+    <string name="nav_bar_color_explanation">Värittää navigointipalkin, jos navigointipalkkia ei havaita mitään ei väritetä</string>
+    <string name="force_english_explanation">Käytä englantia järjestelmäkielen sijasta</string>
+    <string name="show_toast_explanation">Näyttää toastin/snackbarin (sijoitettuna alhaalla) kun viritys on käytössä</string>
+    <string name="show_fahrenheit_explanation">Käytä Fahrenheittiä Celciuksen sijaan, Näyttää akun lämötilan kojelaudalla</string>
+    <string name="time_boot_delay_explanation">Aika, joka odotetaan ennen kuin tehtävät suoritetaan käynnistyksessä</string>
+    <string name="show_boot_notification_explanation">Näyttää ilmoituksen kun ohjelma käynnistyy uudelleenkäynnistyksen jälkeen</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Valitse esiohjelmoitu L Speed profiili, tämä määrittelee kuinka L Speed toimii ja muuttaa järjestelmää</string>
+
+</resources>

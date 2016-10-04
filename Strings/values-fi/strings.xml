@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">Vaaditaan rootti</string>
+    <string name="root_explanation">Muuttaakseen järjestelmätiedostoja L Speed tarvitsee rootatun laitteen</string>
+    <string name="how_root">Kuinka voin rootata laitteeni</string>
+    <string name="how_root_explanation">Löydät nettisivun alapuolelta, joka opastaa sinua roottauksessa</string>
+    <string name="search_for_hint">Etsi</string>
+    <string name="google_help">How to root (laiteen nimi)</string>
+    <string name="xda_help">Rooting guide for your device</string>
+    <string name="androidforums_help">Specific forum for your device</string>
+    <string name="root_safe">Onko roottaaminen turvallista?</string>
+    <string name="root_safe_explanation">Laitteen roottaaminen aiheuttaa joitain turvallisuusriskejä, mutta yleensä ottaen se on turvallista</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">Tervetuloa L Speed:iin</string>
+    <string name="setup_guide">Tämä osio opastaa kuinka voit konfiguroida L Speediä</string>
+    <string name="start">Aloita</string>
+    <string name="next">Seuraava</string>
+    <string name="finish">Lopetus</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">L Speed vinkit</string>
+    <string name="long_tap">Saadaksesi lisätietoa virityksestä paina sen kohtaa pitkään</string>
+    <string name="try_it_here">Voit kokeilla sitä tässä</string>
+    <string name="example_tweak">Esimerkki Viritys</string>
+    <string name="another_example">Toinen Esimerkki</string>
+    <string name="more_example">Lisää Esimerkkejä</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">Konfiguroi L Speed</string>
+    <string name="long_tap_sec">Voit edelleen painaa pitkään nähdäksesi lisätietoa valinnoista. Näitä valintoja voi muuttaa myöhemmin</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Luvat</string>
+    <string name="storage_permission">Varmuuskopiointia ja laitteen puhdistuksia varten L Speed tarvitsee luvan tallennusmediaan, on suositeltavaa että hyväksyt sen.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">Nauti L Speed:stä</string>
+    <string name="setup_complete">Tämä osio on valmis, voit muuttaa asetuksia myöhemmin</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">Navigointi valikko avattu</string>
+    <string name="navigation_drawer_close">Navigointi valikko suljettu</string>
+    <string name="reboot_confirm">Käynnistä laite uudelleen?</string>
+    <string name="reset_confirm">Palauta asetuksen alkuperäisiin?</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Keskeytä</string>
+    <string name="please_wait">Odota hetki</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="script_execute_indeterminate">Suorittaa tehtäviä</string>
+    <string name="script_execute">Suorittaa tehtäviä: \n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Edellinen kerta trimmauksesta</string>
+    <string name="not_trimmed">Ei trimmauslokeja</string>
+    <string name="fstrim_now">Suorita Fstrimm nyt</string>
+    <string name="fstrim_load_dialog">Trimmaa…</string>
+    <string name="fstrim_on_boot">Suorita fstrim käynnistyksessä</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">Suorita puhtaampi käynnistys</string>
+    <string name="junk_cleaner">Poista roskatiedostot</string>
+    <string name="system_clean_dialog">Etsii roskatiedostoja…</string>
+    <string name="app_cache_cleaner">Poista ohjelmien väliaikaistiedostot</string>
+    <string name="app_cache_dialog">Etsii ohjelmien väliaikaistiedostoja…</string>
+    <string name="wipe_cache">Tyhjennä välimuisti</string>
+    <string name="wipe_dalvik">Tyhjennä dalvik välimuisti</string>
+    <string name="files_founded_dialog">Löytyi %1$s Mt tiedostoja, haluatko poistaa?</string>
+    <string name="files_founded">Tiedostot löydetty</string>
+    <string name="files_not_founded">Tiedostoja ei löydetty</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">Moniydin virransäästö</string>
+    <string name="cpu_optimizer">CPU optimointi</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">Laite info</string>
+    <string name="device">Laite: %1$s \n</string>
+    <string name="device_model">Laitteen malli: %1$s \n</string>
+    <string name="manufacturer">Valmistaja: %1$s \n</string>
+    <string name="brand">Merkki: %1$s \n</string>
+    <string name="hardware">Laitteisto: %1$s \n</string>
+    <string name="id">ID: %1$s</string>
+    <string name="battery_information">Akku informaatio</string>
+    <string name="cpu_information">Prosessori informaatio</string>
+    <string name="kernel_information">Kerneli informaatio</string>
+    <string name="health">Kunto: %1$s \n</string>
+    <string name="level">Taso: %1$s%% \n</string>
+    <string name="technology">Tekniikka: %1$s \n</string>
+    <string name="no_battery">Akkua ei havaittu tai akkua ei asennettu</string>
+    <string name="temp">Lämpötila:</string>
+    <string name="volt">Jännite: %1$s mV</string>
+    <string name="charge_status">Lataustila: %1$s \n</string>
+    <string name="state">Tila: %1$s \n</string>
+    <string name="health_dead">Kuollut</string>
+    <string name="health_good">Hyvä</string>
+    <string name="health_over_voltage">Ylijännite</string>
+    <string name="health_over_heat">Ylikuumeneminen</string>
+    <string name="health_failure">Toimintahäiriö</string>
+    <string name="charge_unplugged">Irroitettu</string>
+    <string name="charge_charger">Liitetty laturiin</string>
+    <string name="charge_usb">Liitetty USB:hen</string>
+    <string name="status_charging">Lataa</string>
+    <string name="status_discharging">Purkaa</string>
+    <string name="status_full">Täysin ladattu</string>
+    <string name="status_not_charging">Ei lataa</string>
+    <string name="battery_usage">Akun käyttö</string>
+    <string name="current_entropy">Tämänhetkinen entropia:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">IO Nopeutus</string>
+    <string name="io_extended_queue">IO Laajennettu jono</string>
+    <string name="sd_tweak">SD viritys</string>
+    <string name="partition_remount">Osion uudelleen asemointi</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">Muistin tiedot</string>
+    <string name="current_minfree">Tämänhetkinen minvapaa:</string>
+    <string name="current_memory_status">Tämänhetkinen muistin tila:</string>
+    <string name="foreground_app">Ohjelmat etualalla:\t %1$sMB \n</string>
+    <string name="visible_app">Näkyvät ohjelmat:\t %1$sMB \n</string>
+    <string name="secondary_server">Toissijainen palvelin:\t %1$sMB \n</string>
+    <string name="hidden_app">Piilotetut ohjelmat:\t %1$sMB \n</string>
+    <string name="content_provider">Sisällöntuottaja:\t %1$sMB \n</string>
+    <string name="empty_app">Tyhjät ohjelmat:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">NET Bufferit</string>
+    <string name="ril_tweaks">RIL viritykset</string>
+    <string name="dns">Google DNS</string>
+    <string name="faster_streaming">Nopeutettu striimaus</string>
+    <string name="fast_dormancy">Fast dormancy</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">Nopeuta nyt</string>
+    <string name="battery_calibration">Akun kalibrointi</string>
+    <string name="kill_media_server">Tapa mediapalvelin</string>
+    <string name="ram_manager">RAM Manager</string>
+    <string name="seeder">Seeder</string>
+    <string name="kernel_tweaks">Kernelin viritykset</string>
+    <string name="disable_debugging">Poista virheenkorjaus käytöstä</string>
+    <string name="disable_kernel_panic">Poista kernel-paniikki käytöstä</string>
+    <string name="kernel_sleepers_optimization">Kernel-uni optimoinnit</string>
+    <string name="fsync">Fsync</string>
+    <string name="KSM">Kernel Samepage Merging</string>
+    <string name="fast_charge">Pikalataus</string>
+    <string name="wifi_sleeper">WiFi:n unitoiminnot</string>
+    <string name="flag_tuner">"Flag tuner"</string>
+    <string name="better_voice_call_quality">Parempi äänenlaatu puheluissa</string>
+    <string name="improve_battery">Akun parannukset</string>
+    <string name="better_scrolling">Paranna vieritystä</string>
+    <string name="faster_boot">Nopeampi uudelleenkäynnistys</string>
+    <string name="improve_image_quality">Paranna kuvanlaatua</string>
+    <string name="liquid_UI">Sulava käyttöliittymä</string>
+    <string name="misc_tweaks">Sekalaiset viritykset</string>
+    <string name="assertive_display">Assertive display</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">Virtuaalimuisti</string>
+    <string name="oom_killer">OOM Killer</string>
+    <string name="cache_reclaiming">Välimuistin Haltuunotto</string>
+    <string name="cache_allocation">Välimuistin Jako</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">zRAM Optimointi</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">Lataa sivua…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">Varmuuskopio</string>
+    <string name="backup_created">Varmuuskopio luotu</string>
+    <string name="backup_delete">Poista varmuuskopio</string>
+    <string name="backup_deleted">Varmuuskopio poistettu</string>
+    <string name="backup_restore">Palauta</string>
+    <string name="backup_restored">Varmuuskopio palautettu</string>
+    <string name="backup_date">Viimeinen varmuuskopio luotu: %1$s</string>
+    <string name="backup_none">Varmuuskopiota ei löydy tai sitä ei ole luotu</string>
+    <string name="name_backup">Syötä varmuuskopion nimi</string>
+    <string name="backup_list">Varmuuskopiolista</string>
+    <string name="restore_question">Palauta valittu vaermuuskopio?</string>
+    <string name="delete_question">Poista tämä varmuuskopio?</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">Lahjoitus</string>
+    <string name="beta_version">Beta version</string>
+    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="translation">Kääntäminen</string>
+    <string name="translation_text">Auta meitä kääntämään L Speed</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed tuki</string>
+    <string name="provides_support_text">Antaa tukea 24/7</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">Käytä kehittynyttä käyttöliittymää</string>
+    <string name="dark_theme">Tumma teema</string>
+    <string name="color_navigation_bar">Värillinen navigointipalkki</string>
+    <string name="force_english">Pakota Englanti</string>
+    <string name="show_toast_and_snacks">Show toggle toast</string>
+    <string name="show_fahrenheit">Käytä fahrenheittia (°F)</string>
+    <string name="time_boot_delay_settings">Suorittamisen viive käynnistyksessä</string>
+    <string name="show_boot_notification">Näytä ilmoitus käynnistyksessä</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">Kojelauta</string>
+    <string name="main_tweak">Pääviritykset</string>
+    <string name="cleaner">Puhdistaja</string>
+    <string name="cpu_tuner">CPU viritin</string>
+    <string name="fstrim">FStrim</string>
+    <string name="lnet">LNET Optimoija</string>
+    <string name="io_tweak">IO Viritykset</string>
+    <string name="ls_news">L Speed uutiset</string>
+    <string name="backup">Varmuuskopio</string>
+    <string name="settings">Asetukset</string>
+    <string name="help">Apua</string>
+    <string name="about">Tietoa</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">Uudelleenkäynnistys</string>
+    <string name="reset_to_default">Palauta alkuperäisiin</string>
+    <string name="logs_view">Näytä loki</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">Poista loki</string>
+    <string name="save_log">Tallenna loki muistikortille</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">Tarkistaa roottia…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">Aloitusruutu</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">Profiilit</string>
+    <string name="custMode">Kustomoi profiilit</string>
+    <string name="cust_mode_hint">Voit kustomoida nykyisen profiilin tässä. Se ei ole pakollista ja tulokset voivat olla huonompia</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">Pikatyökalut</string>
+    <string name="memManage">Muistinhallinnan Viritykset</string>
+    <string name="kernMod">Kernelin Muokkaus</string>
+    <string name="ioMod">Muistin IO Viritykset</string>
+    <string name="netMod">LNET Viritykset</string>
+    <string name="netOpt">LNET Optimointi</string>
+    <string name="cpuMod">CPU Tuunaus</string>
+    <string name="uiOpt">Käyttöliittymän Optimointi</string>
+    <string name="sysOpt">Järjestelmän Optimointi</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">Virheenkorjauksen Valinnat</string>
+    <string name="cleanerOpt">Puhdistajan Valinnatalinnat</string>
+    <string name="cacheClean">Välimuistin Puhdistaja</string>
+    <string name="backRes">Varmuuskopio &amp; Palautus</string>
+    <string name="backStat">Varmuuskopion Tila</string>
+    <string name="otherMod">Muut Viritykset</string>
+    <string name="credits">L Speed Kehittäjät</string>
+    <string name="application">Sovellukset</string>
+    <string name="interfaceDiv">Käyttöliittymä</string>
+    <string name="otherDiv">Muut</string>
+    <string name="general">Yleisluontoiset</string>
+    <string name="lspeed_basics">L Speed Perusasiat</string>
+    <string name="ram_manager_status">RAM Hoitajan Tila</string>
+    <string name="ram_manager_options">RAM Hoitajan Valinnat</string>
+    <string name="zram_options">zRAM Valinnat</string>
+    <string name="seeder_status">Seeder Tila</string>
+    <string name="seeder_options">Seeder Valinnat</string>
+    <string name="fstrim_options">FStrim Valinnat</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed vaatii rootin</string>
+    <string name="pop_no_toolbox">Ei voi purkaa työkaluja</string>
+    <string name="pop_no_arch">Tuntematon arkkitehtuuri: %1$s</string>
+    <string name="fstrim_activated">FStrim käynnistyksessä otettu käyttöön </string>
+    <string name="fstrim_deactivated">FStrim käynnistyksessä poistettu käytöstä</string>
+    <string name="cleaner_enabled">Puhdistaja käynnistyksessä otettu käyttöön</string>
+    <string name="cleaner_disabled">Puhdistaja käynnistyksessä poistettu käytöstä</string>
+    <string name="app_cache_clear">Ohjelmien välimuisti puhdistettu</string>
+    <string name="junk_clear">Roskatiedostot poistetty</string>
+    <string name="cache_clear">Välimuistiosio tyhjennetty</string>
+    <string name="dalvik_clear">Dalvik-välimuisti tyhjennetty</string>
+    <string name="mps_activated">Moniydin virransäästö otettu käyttöön</string>
+    <string name="mps_deactivated">Moniydin virransäästö poistettu käytöstä</string>
+    <string name="cpu_opt_activated">CPU Optimoija otettu käyttöön</string>
+    <string name="cpu_opt_deactivated">CPU Optimoija poistettu käytöstä</string>
+    <string name="battery_calibrated">Akku kalibroitu, käynnistä laite uudelleen</string>
+    <string name="battery_calibration_failed">Lataa ensin akku täyteen</string>
+    <string name="media_server_killed">Mediapalvelin onnistuneesti tapettu</string>
+    <string name="disable_debug_activated">Virheenkorjaus pois käytöstä</string>
+    <string name="disable_debug_deactivated">Virheenkorjauksen poisto poistettu käytöstä</string>
+    <string name="no_kernel_panic_activated">Kernelipaniikin poisto otettu käyttöön</string>
+    <string name="no_kernel_panic_deactivated">Kernel-paniikin poisto poistettu käytöstä</string>
+    <string name="kernel_sleepers_opt_activated">kernel-unitoimen optimoinnit otettu käyttöön</string>
+    <string name="kernel_sleepers_opt_deactivated">Kernel-unitoimen optimoinnit poistettu käytöstä</string>
+    <string name="fsync_activated">Fsync otettu käyttöön</string>
+    <string name="fsync_deactivated">Fsync poistettu käytöstä</string>
+    <string name="ksm_activated">Kernel Samepage Merging otettu käyttöön</string>
+    <string name="ksm_deactivated">Kernel Samepage Merging poistettu käytöstä</string>
+    <string name="fast_charge_activated">Pikalataus otettu käyttöön</string>
+    <string name="fast_charge_deactivated">Pikalataus poistettu käytöstä</string>
+    <string name="wifi_sleeper_activated">WiFi:n unitoimet otettu käyttöön</string>
+    <string name="wifi_sleeper_deactivated">WiFi:n unitoimet poistettu käytöstä</string>
+    <string name="flag_tuner_activated">"Flag tuner" otettu käyttöön</string>
+    <string name="flag_tuner_deactivated">"Flag tuner" poistettu käytöstä</string>
+    <string name="better_call_aud_activated">Parannettu puhelunääni otettu käyttöön</string>
+    <string name="better_call_aud_deactivated">Parannettu puhelunääni poistettu käytöstä</string>
+    <string name="battery_improve_enabled">Akun parannukset otettu käyttöön</string>
+    <string name="battery_improve_disabled">Akun parannukset poistettu käytöstä</string>
+    <string name="improve_scrolling_activated">Parannettu vieritys otettu käyttöön</string>
+    <string name="improve_scrolling_deactivated">Parannettu vieritys poistettu käytöstä</string>
+    <string name="faster_boot_activated">Nopeampi uudelleenkäynnistys otettu käyttöön</string>
+    <string name="faster_boot_deactivated">Nopeampi uudelleenkäynnistys poistettu käytöstä</string>
+    <string name="improve_image_activated">Parannettu kuvanlaatu otettu käyttöön</string>
+    <string name="improve_image_deactivated">Parannettu kuvanlaatu poistettu käytöstä</string>
+    <string name="liquid_ui_activated">Sulava käyttöliittymä otettu käyttöön</string>
+    <string name="liquid_ui_deactivated">Sulava käyttöliittymä poistettu käytöstä</string>
+    <string name="misc_tweaks_enabled">Sekalaiset viritykset otettu käyttöön</string>
+    <string name="misc_tweaks_disabled">Sekalaiset viritykset poistettu käytöstä</string>
+    <string name="assertive_display_activated">Mukautuva näyttö otettu käyttöön</string>
+    <string name="assertive_display_deactivated">Mukautuva näyttö poistettu käytöstä</string>
+    <string name="io_boost_activated">"IO boost" otettu käyttöön</string>
+    <string name="io_boost_deactivated">"IO boost" poistettu käytöstä</string>
+    <string name="extended_queue_activated">IO:n laajennettu jono otettu käyttöön</string>
+    <string name="extended_queue_deactivated">IO:n laajennettu jono poistettu käytöstä</string>
+    <string name="sd_tweak_activated">SD viritykset otettu käyttöön</string>
+    <string name="sd_tweak_deactivated">SD viritykset poistettu käytöstä</string>
+    <string name="partition_remounting_activated">Osioinnin remounttaus otettu käyttöön</string>
+    <string name="partition_remounting_deactivated">Osioinnin remounttaus poistettu käytöstä</string>
+    <string name="net_buffer_default">"Net buffers" on asetettu oletukseen</string>
+    <string name="net_buffer_small">"Small net buffers" otettu käyttöön</string>
+    <string name="net_buffer_big">"Big net buffers" otettu käyttöön</string>
+    <string name="ril_tweak_activated">RIL viritykset otettu käyttöön</string>
+    <string name="ril_tweak_deactivated">RIL viritykset poistettu käytöstä</string>
+    <string name="google_dns_activated">Google DNS otettu käyttöön</string>
+    <string name="google_dns_deactivated">Google DNS poistettu käytöstä</string>
+    <string name="fast_stream_activated">Nopeampi striimaus otettu käyttöön</string>
+    <string name="fast_stream_deactivated">Nopeampi striimaus poistettu käytöstä</string>
+    <string name="fast_dormancy_activated">"Fast dormancy" otettu käyttöön</string>
+    <string name="fast_dormancy_deactivated">"Fast dormancy" poistettu käytöstä</string>
+    <string name="ram_manager_default">RAM hoitaja on asetettu oletukseen</string>
+    <string name="ram_manager_multitask">Moniajo-profiili otettu käyttöön</string>
+    <string name="ram_manager_balanced">Tasapainoitettu-profiili otettu käyttöön</string>
+    <string name="ram_manager_gaming">Peli-profiili otettu käyttöön</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">zRAM Optimointi otettu käyttöön</string>
+    <string name="zram_optimization_deactivated">zRAM Optimointi poistettu käytöstä</string>
+    <string name="seeder_default">"Seeder" -profiili on asetettu oletukseen</string>
+    <string name="seeder_light">"Light seeder" -profiili on asetettu oletukseen</string>
+    <string name="seeder_enlarger">"Enlarger seeder" -profiili on asetettu oletukseen</string>
+    <string name="seeder_moderate">"Moderate seeder" -profiili on asetettu oletukseen</string>
+    <string name="seeder_aggressive">"Aggressive seeder" -profiili on asetettu oletukseen</string>
+    <string name="oom_killer_default">"OOM killer" -profiili on asetettu oletukseen</string>
+    <string name="oom_killer_enabled">"OOM killer" otettu käyttöön</string>
+    <string name="oom_killer_disabled">"OOM killer" poistettu käytöstä</string>
+    <string name="cache_reclaim_default">Välimuistin haltuunotto asetettu oletukseen</string>
+    <string name="cache_reclaim_minimum">Minimi välimuistin haltuunotto otettu käyttöön</string>
+    <string name="cache_reclaim_moderate">Kohtalaisen välimuistin haltuunotto otettu käyttöön</string>
+    <string name="cache_reclaim_doubled">Tupla välimuistin haltuunotto otettu käyttöön</string>
+    <string name="cache_alloc_default">Välimuistinjako asetettu oletukseen</string>
+    <string name="cache_alloc_medium">Keskikokoinen välimuistinjako otettu käyttöön</string>
+    <string name="cache_alloc_large">Ison välimuistinjako otettu käyttöön</string>
+    <string name="kernel_tweaks_disabled">Kernelin viritykset poistettu käytöstä</string>
+    <string name="kernel_tweaks_light">Kernelin kevyet viritykset otettu käyttöön</string>
+    <string name="kernel_tweaks_heavy">Kernelin raskaat viritykset otettu käyttöön</string>
+    <string name="logs_saved">Loki onnistuneesti tallennettu muistikortille</string>
+    <string name="logs_noexists">Ei lokeja löydetty, mitään ei ole executed</string>
+    <string name="logs_no_save">Ei lokeja, mitään ei ole tallennettu</string>
+    <string name="double_back_pressed">Paina uudelleen poistuaksesi ohjelmasta</string>
+    <string name="rate_app">Tykkäätkö L Speeistä? Arvostele se!</string>
+    <string name="rate">Arvostele!</string>
+    <string name="thanks_for_rate">Kiitokset arvostelusta!</string>
+    <string name="profile_default">Oletus profiili otettu käyttöön</string>
+    <string name="profile_light">Kevyt profiili otettu käyttöön</string>
+    <string name="profile_recommended">Suositeltu profiili otettu käyttöön</string>
+    <string name="profile_heavy">Raskas profiili otettu käyttöön</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">Mikä on L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed on ohjelma joka yhdistää järjestelmänmuokkaukset ja viritykset</string>
+    <string name="lSpeed_difference">Mikä tekee L Speed:stä erinlaisen kuin muut modit?</string>
+    <string name="lSpeed_difference_explanation">L Speed sisältää paljon valintoja, useimmat niistä ovat ainutlaatuisia toisiin verrattuna</string>
+    <string name="why_root">Miksi L Speed vaatii rootin?</string>
+    <string name="why_root_explanation">Ohjelma vaatii rootin, koska se muokkaa joitain tärkeitä järjestelmätiedostoja joita ei voi muokata ilman roottia</string>
+    <string name="what_can_do">Mitä voin tehdä L Speed:llä?</string>
+    <string name="what_can_do_explanation">Voit viritellä laitettasi parantaaksesi suorituskykyä ja akun kestoa</string>
+    <string name="gingerbread_usage">Voinko käyttää sitä laittella jossa on Android 2.3?</string>
+    <string name="gingerbread_usage_explanation">Et, tämä ohjelma vaatii Android 4.0.3+ toimiakseen. Voit kuitenkin käyttää fläshättyä versiota L Speed:stä, koska se toimii lähes kaikissa Android versioissa</string>
+    <string name="usage_with_mods">Voinko käyttää sitä muiden modien kanssa?</string>
+    <string name="usage_with_mods_explanation">Et, voi olla mahdollisuus että muut modit ovat ristiriidassa L Speed:n kanssa</string>
+    <string name="init.d_why">Init.d on tyhjä, miksi?</string>
+    <string name="init.d_why_explanation">Ohjelma ei käytä init.d:tä. se käyttää Androidin automaattista toimintoa käynnistyessä sen sijaan</string>
+    <string name="check_working">Kuinka voin tarkistaa että toimiiko ohjelma vai ei?</string>
+    <string name="check_working_explanation">Voit tarkistaa mitä tapahtuu taustalla lokikatselijasta (pääset sinne menupainikkeesta) Vaihtoehtoisesti voit tarkistaa lokitiedostit sijainnista /data/data/com.paget96.lspeed/files/LOG</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">Kehittäjä, Perustaja, Ylläpitäjä</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Omistautunut Kehittäjä</string>
+    <string name="peter_hint">Osa-aikainen omistautunut Kehittäjä</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">Suorittaa tehtäviä</string>
+    <string name="on_boot_time">Suorittaa tehtävät %d sekunnissa</string>
+    <string name="on_boot_finished">Konfiguraatiosi on nyt asetettu</string>
+    <string name="on_boot_cancelled">Suoritus on keskeytetty</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">Oletus</string>
+    <string name="array_entries_light">Kevyt</string>
+    <string name="array_entries_moderate">Kohtalainen</string>
+    <string name="array_entries_disabled">Pois käytöstä</string>
+    <string name="array_entries_aggressive">Aggressiivinen</string>
+    <string name="array_entries_heavy">Raskas</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Tasapainoitettu</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">Pieni</string>
+    <string name="net_buffer_entries_big">Iso</string>
+    <string name="ram_manager_entries_multitasking">Multitaskaaja</string>
+    <string name="ram_manager_entries_gaming">Pelaaminen</string>
+    <string name="seeder_entries_enlarger">Suurentaja</string>
+    <string name="oom_killer_entries_enabled">otettu käyttöön</string>
+    <string name="cache_reclaiming_entries_minimum">Vähimmäismäärä</string>
+    <string name="cache_reclaiming_entries_doubled">Kaksinkertainen</string>
+    <string name="cache_allocation_entries_medium">Keskikokoinen</string>
+    <string name="cache_allocation_entries_large">Laaja</string>
+    <string name="quick_mode_recommended">Suositeltu</string>
+    <string name="sec_0">0sek</string>
+    <string name="sec_5">5sek</string>
+    <string name="sec_10">10sek</string>
+    <string name="sec_20">20sek</string>
+    <string name="sec_30">30sek</string>
+    <string name="sec_60">60sek</string>
+</resources>

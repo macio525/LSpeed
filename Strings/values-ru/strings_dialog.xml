@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Удаляет мусор и устаревшие файлы в системе (журналы, неиспользуемые кэши, и т.д …).</string>
+    <string name="app_cache_cleaner_explanation">Удаляет кэш приложения (кэшированные данные, изображения, и т.д …).</string>
+    <string name="wipe_cache_explanation">Удалит всё что размещено в разделе /cache.</string>
+    <string name="wipe_dalvik_explanation">Удалит Dalvik-кэш всех приложений, необходима перезагрузка после применения данной опции, или в противном случае вы получите принудительное закрытие приложений с ошибками.</string>
+    <string name="cleaner_on_boot_explanation">Включение очистки при загрузке будет так же удалять мусор и устаревшие файлы в системе (журналы, неиспользуемые кэши, и т.д …)</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Триминг разделов и удаления секторов которые не используются.Триминг разделов позволит сократить время обнаружения данных и уменьшить задержку на устройстве.</string>
+    <string name="fstrim_on_boot_explanation">Включает зачистку системных файлов автоматически при каждой перезагрузке.</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Опция будет пытаться сгруппировать задачи так, чтобы использовалось как можно меньшее количество ядер процессора.</string>
+    <string name="cpu_optimizer_explanation">Повышает производительность, при незначительном увеличении расхода батареи.</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Повышает производительность, не влияя на срок службы батареи.</string>
+    <string name="io_extended_queue_explanation">Повышает производительность, но немного снижает срок службы батареи.</string>
+    <string name="sd_tweak_explanation">Увеличивает значение упреждающего чтения для улучшения скорости чтения/записи.</string>
+    <string name="partition_remount_explanation">Эта фишка повторно перемонтирует разделы EXT4 с небольшими изменениями, которые будут полезны в целях прироста производительности.</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation"> Улучшает интернет сёрфинг. Если вы выбираете небольшой буфер, это увеличит размер буфера сети достаточно для каждого типа подключения сети (3G, WiFi, LTE, Edge, UMTS). Если вы выбираете большой буфер, улучшения будут гораздо ощутимее, но они могут влиять на продолжительность жизни батареи при использовании сети.</string>
+    <string name="ril_tweaks_explanation">Эта последняя фишка повышает скорость мобильной передачи данных.</string>
+    <string name="dns_explanation">Изменит ваш DNS сетевого подключения с net.dns на Google DNS (8.8.8.8 – 8.8.4.4).</string>
+    <string name="faster_streaming_explanation">Позволяет получать потоковые медиа данные быстрее.</string>
+    <string name="fast_dormancy_explanation">Повышает срок службы аккумулятора путем более быстрого переключения между типами сети. Применяйте этот вариант, если только ваш провайдер поддерживает данную фигню.</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Будет сбрасывать кэши (Inodes, dentries и кэш страниц), чтобы освободить оперативную память.</string>
+    <string name="battery_calibration_explanation">Удалит batterystats.bin, который помещается в разделе /data и сбросит статистику батареи.</string>
+    <string name="kill_media_server_explanation">Опция полезна для устройств, которые имеют проблемы с медиа-сервером, его убийство уменьшит расход заряда батареи, и улучшит глубокий сон.</string>
+    <string name="seeder_explanation">Повышает производительность, расход заряда батареи зависит от выбранного уровня энтропии. Если вы увеличиваете уровень энтропии, на вашем устройстве будет меньше лагов, но батарея будет разряжатся быстрее.</string>
+    <string name="kernel_tweaks_explanation">Изменяет переменные ядра связанные с новыми значениями, которые будут предлагать вам лучшее время автономной работы и более высокую производительность. Disabled - Параметры по умолчанию. Light - Этот параметр с минимальными значениями, так что более рекомендуем. Heavy - Судя по названию, эта опция будет применять максимально тяжелые изменения в ядре, это улучшает производительность, но возможно будет иметь незначительное влияние на расход батареи.</string>
+    <string name="disable_debugging_explanation">Повышает производительность и срок службы батареи. Опция отключает чтение/запись операций при отладке.</string>
+    <string name="disable_kernel_panic_explanation">Паника ядра происходит, когда ядро обнаруживает ошибку которая не может быть исправлена. Операционная система обрабатывает эту ситуацию частыми сбросами некоторой информацией отладки или перезагрузкой системы. Этот параметр отключает его, чтобы избежать раздражающих перезагрузок, если используемое ядро глючит или является не стабильным.</string>
+    <string name="kernel_sleepers_optimization_explanation">Повышает производительность, срок службы аккумулятора и отзывчивость пользовательского интерфейса.</string>
+    <string name="fsync_explanation">Fsync безопасно сохраняет измененные данные нетронутыми в случае сбоя системы или внезапного отключения.</string>
+    <string name="KSM_explanation">Повышает производительность, освобождает оперативную память, но с немного большим расходом батареи. KSM это функция дедупликации для экономии памяти, которая выполняет сканирование памяти и находит дубликаты страниц. Если обнаружен дубликат то страницы объединяются в одну, эта функция ядра очень полезна для устройств с низким объемом оперативной памяти.</string>
+    <string name="fast_charge_explanation">Многие современные телефоны Android поддерживают технологию быстрой зарядки, которая может зарядить ваш телефон гораздо быстрее. Этот вариант включает данную функции (если ваше ядро поддерживает данную технологию).</string>
+    <string name="wifi_sleeper_explanation">Некоторое предварительно выделеное время, чтобы перевести WiFi в режим сна после того, как экран выключен. Для большинства Android телефонов похоже эта величина составляет 15 минут. Так что, даже когда экран выключен, Wi-Fi не входит в режима сна немедленно. Телефон тратит порядка 15-и минут после того как экран выключен, чтобы убить WiFi сессию. Эта опция уменьшает время по умолчанию с 15-и минут до 30-и секунд, путем редактирования базы данных настроек устройства.</string>
+    <string name="flag_tuner_explanation">Повышает производительность и срок службы батареи.Опция отключает некоторые ограничения многозадачности на OEM, а также улучшает управление памятью.\nМожет привести к нестабильности</string>
+    <string name="better_voice_call_quality_explanation">Улучшает качество передачи речи, с небольшим увеличением расхода батареи.</string>
+    <string name="improve_battery_explanation">Позволяет улучшить жизнь батареи, добавив много свойств, для экономии энергии.</string>
+    <string name="better_scrolling_explanation">Улучшает производительность UI (пользовательский интерфейс).</string>
+    <string name="faster_boot_explanation">Уменьшает время загрузки.</string>
+    <string name="improve_image_quality_explanation" formatted="false">Повышает скорость потока и разрешение для лучшего качества записи. Также, это увеличивает качество фото до 100%.</string>
+    <string name="liquid_UI_explanation">Улучшает производительность пользовательского интерфейса, с немного большим расходом батареи.</string>
+    <string name="misc_tweaks_explanation">Отключает пользовательскую службу ведения журнала (специфично для HTC). Отключает службу сетевого расположения Google. Также уменьшает задержку по времени, когда ваш телефон начинает звонить, когда вы получаете звонок.</string>
+    <string name="assertive_display_explanation">Улучшает жизнь аккумулятора. Assertive дисплей — это новая технология Qualcomm, которая делает дисплей с адаптивной средой. Чтобы изменить условия просмотра, сложные цифровые обработки регулируют каждый пиксель индивидуально в режиме реального времени для высокого качества изображения. Эта опция включает данную функцию, добавляя необходимые калибровки конфигурационного файла.</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Повышает производительность Default - Конфигурация по умолчанию. Enabled - ООМ killer просто убивает задание которое не использует ресурсы памяти. Это позволяет избежать энергоёмкого TaskList сканирования. Disabled - ООМ killer будет сканировать весь список задач и выберет задачу, основываясь на эвристике, чтобы убить.</string>
+    <string name="cache_reclaiming_explanation">Контролирует тенденции ядра, чтобы освободить память которая используется для кэширования каталогов и индексированных объектов. Default - Параметры по умолчанию. Minimum - Меньше исправлений. Это позволит немного увеличить срок службы батареи, но некоторые потери производительности будут очевидны. Moderate - Значения немного меньше, чем по умолчанию, так что увеличится срок службы батареи с минимальным воздействием на производительность. Doubled - Максимальные параметры, но жрёт аккумулятор. </string>
+    <string name="cache_allocation_explanation" formatted="false">Повышает производительность. Управляет, сколько оперативной памяти может быть использовано для кэш-памяти. Default -. Конфигурация по умолчанию. Medium - 100% вашей физической памяти под кэш. Large - 100% физической памяти и 50% подкачки, если устройство имеет файл подкачки. Будьте осторожны с этой опцией, может вызвать лаги или сосотояние замораживания устройства …</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Оптимизировать и настроить zRAM на основе рекомендованных значений и размера оперативной памяти</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Улучшает производительность и жизнь батареи. Опция вычисляет параметры Low Memory Killer на вашем устройстве исходя из расчёта оперативной памяти и выбранного профиля. Чтобы было понятно, чем различаются профили которые определяют расчетные значения minfree: Default - Конфигурации по умолчанию. Multitasking - Больше приложений в оперативной памяти. Balanced - Золотая середина между многозадачностью и игровым профилем. Gaming - Этот профиль будет держать меньше приложений в оперативной памяти но увеличит производительность для игр.</string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Это пример диалога, вы так же можете применить его и для другого Примера Настройки</string>
+    <string name="another_example_explanation">Почти все опции в L Speed имеют объяснения, длительное нажатие на них покажет объяснения</string>
+    <string name="more_example_explanation">Продолжайте далее, эти примеры используются только для того чтобы показать, как твики работают в приложении</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Включает несколько пользовательских настроек параметров, не для начинающих, без какого-либо опыта</string>
+    <string name="dark_theme_explanation">Переключить тему на темный вид</string>
+    <string name="nav_bar_color_explanation">Раскрасить панель навигации, если навигационной панели не обнаружено, то ничего не произойдёт</string>
+    <string name="force_english_explanation">Использовать Английский принудительно</string>
+    <string name="show_toast_explanation">Показывать примечания/оповещения (расположенные внизу) когда настройки включены</string>
+    <string name="show_fahrenheit_explanation">Температура по Фаренгейту вместо Цельсия, показывает температуру батареи в дашборде</string>
+    <string name="time_boot_delay_explanation">Период ожидания перед выполнением скриптов при старте</string>
+    <string name="show_boot_notification_explanation">Отображает уведомление, когда приложение запускается после старта</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Выберите предустановленные профили в L Speed, они определяют как L Speed преобразует и изменит систему</string>
+
+</resources>

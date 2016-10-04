@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Αφαιρεί τα περιττά και παρωχημένα αρχεία που δημιουργούνται από το σύστημα ( αρχεία καταγραφής,αχρησιμοποίητα προσωρινά αποθηκευμένα αρχεία,κλπ …)</string>
+    <string name="app_cache_cleaner_explanation">Αφαιρεί περιττά προσωρινά αποθηκευμένα αρχεία που δημιουργούνται από τις εφαρμογές ( προσωρινά αποθηκευμένες εικόνες, κλπ …)</string>
+    <string name="wipe_cache_explanation">Διαγράφει όλα τα προσωρινά αποθηκευμένα αρχεία που δημιουργούνται στο/διαμέρισμα cache</string>
+    <string name="wipe_dalvik_explanation">Διαγράφει την dalvik-cache όλων των εφαρμογών, η επανεκκίνηση είναι απαραίτητη αφού έχει γίνει η λειτουργία για να αποτρέψει το δύναμικό κλείσιμο</string>
+    <string name="cleaner_on_boot_explanation">Ενεργοποιεί αυτόματο καθαρισμό σκουπιδιών σε κάθε επανεκκίνηση</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Περικόπτει τα διαμερίσματα της συσκευής για τη μείωση των υστερήσεων ανάγνωσης/εγγραφής και τη βελτίωση των επιδόσεων , να το χρησιμοποιείτε μόνο όταν χρειάζεται</string>
+    <string name="fstrim_on_boot_explanation">Enables file system trimming automatically on every reboot</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Ομαδοποιεί το έργο των CPU σε λιγότερους δυνατόν πυρήνες, ενδεχομένως εξοικονομεί διάρκεια ζωής της μπαταρίας</string>
+    <string name="cpu_optimizer_explanation">Βελτιώνει και βελτιστοποιεί την απόδοση της CPU, μπορεί να αδειάσει την μπαταρία πιο γρήγορα</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Ενισχύει την λειτουργία εισόδου - εξόδου για να βελτιώνει τις επιδόσεις τους</string>
+    <string name="io_extended_queue_explanation">Επεκτείνει την ουρά εισόδου - εξόδου, μικρή απώλεια της μπαταρίας, αλλά πιο γρήγορη ταχύτητα ανάγνωσης/εγγραφής</string>
+    <string name="sd_tweak_explanation">Αυξάνει  read_ahead για πιο γρήγορη ταχύτητα ανάγνωσης/εγγραφής</string>
+    <string name="partition_remount_explanation">Επανασυνδέει όλα τα διαμερίσματα EXT4 με επιλογές σύνδεσης βελτίωση-απόδοσης</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Βελτιώνει την απόδοση περιήγησης δικτύου\nSmall ενδιάμεση μνήμη δικτύου θα αυξήσειτο μέγεθος της ενδιάμεσης μνήμης του δικτύου εύλογα για κάθε τύπο σύνδεσης (3G, WiFi, LTE, Edge, UMTS)\nBig ενδιάμεση μνήμη θα αυξήσει την ενδιάμεση μνήμη περισσότερο και μπορεί να επηρεάσει τη ζωή της μπαταρίας σας, ενώ χρησιμοποιείτε μεταφορά δικτύου</string>
+    <string name="ril_tweaks_explanation">Βελτιώνει την ταχύτητα μεταφοράς δεδομένων κινητής τηλεφωνίας</string>
+    <string name="dns_explanation">Αλλάζει το DNS του με ένα απο Google Public DNS (8.8.8.8 – 8.8.4.4)</string>
+    <string name="faster_streaming_explanation">Συντονίζει την μητρική εφαρμογή αναπαραγωγής Android  Stagefright για να κάνετε streaming σε απευθείας σύνδεση αρχείων πολυμέσων γρηγορότερα</string>
+    <string name="fast_dormancy_explanation">Δίνει τη δυνατότητα εναλλαγής σε ταχύτερο τύπος δικτύου για την εξοικονόμηση μπαταρίας, χρησιμοποιήστε μόνο αν ο μεταφορέας/πάροχος του δικτύου σας υποστηρίζει fast dormancy</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Μειώνει εικονικές μνήμες όπως inodes, dentries and pagecaches για να απελευθερώσει τη RAM της συσκευής\ων σας</string>
+    <string name="battery_calibration_explanation">Αφαιρεί batterystats.bin για να επαναβαθμονόμηθεί η μπαταρία σας , επανεκκίνηση είναι αναγκαία για να ολοκληρωθεί η βαθμονόμηση</string>
+    <string name="kill_media_server_explanation">Σταματά βίαια την διαδικασία Media Server , χρησιμοποιήστε αυτό για να μειωθεί η θέρμοκρασία και η μείωση απόδοσης που προκαλούνται από το Media Server</string>
+    <string name="seeder_explanation">Βελτιώνει την απόδοση με κόστος της διάρκειας ζωής της μπαταρίας\nΑυξάνοντας το επίπεδο Seeder θα αυξήσει την απόδοση, αλλά η ζωή της μπαταρίας θα μειωθεί γρηγορότερα</string>
+    <string name="kernel_tweaks_explanation">Αλλάζει τις σχετικές με τον πυρήνα μεταβλητές με τιμές για μια μεγαλύτερη απόδοση\n\nΕλαφρά - Λιγότερο πειραγμένο αξίες, πιο κοντά στις βασικές\n\nΒαριά - Εφαρμόζει τεράστιες αλλαγές στις μεταβλητές του πυρήνα, αυξάνει τις επιδόσεις με μικρές επιπτώσεις στη διάρκεια ζωής της μπαταρίας</string>
+    <string name="disable_debugging_explanation">Απενεργοποιεί λειτουργίες ανάγνωσης/εγγραφής αποσφαλματωσης\nΑπενεργοποιεί την καταγραφή όπως μια καταγραφή δραστηριότητας και αχρείαστα αρχεία καταγραφής εξόδου logcat, βελτιώνει την απόδοση.</string>
+    <string name="disable_kernel_panic_explanation">Απενεργοποιεί τον πανικό του πυρήνα για να αποφύγετε τις ενοχλητικές επανεκκινήσεις αν ο χρησιμοποιειούμενος πυρήνας έχει λάθη και/ή είναιασταθή</string>
+    <string name="kernel_sleepers_optimization_explanation">Βελτιώνει τις παράμετρους ύπνου του πυρήνα που χρησιμοποιούνται σε βαθύ ύπνο για καλύτερη απόδοση</string>
+    <string name="fsync_explanation">Fsync safely keeps changed data intact during a case of system crash or sudden shutdown</string>
+    <string name="KSM_explanation">Ενεργοποιεί KSM, το οποίο είναι ένα χαρακτηριστικό de-duplication εξοικονόμησης μνήμης  που εκτελεί σαρώσεις μέσω της μνήμης και βρίσκει διπλές σελίδες, χρήσιμο για συσκευές χαμηλής μνήμης</string>
+    <string name="fast_charge_explanation">Ενεργοποιεί την hacky γρήγορη φόρτιση που χρησιμοποιείται στους περισσότεους προσαρμοσμένους πυρήμες,αυτό δεν είναι απαραίτητο,αν το τηλέφωνό σας υποστηρίζει γρήγορη φόρτιση από προεπιλογή</string>
+    <string name="wifi_sleeper_explanation">Μειώνει την καθυστέρηση κατάστασης μεταξύ WiFi ενεργού και του ύπνου/ανενεργού, εξοικονομεί μπαταρία αν χρησιμοποιείται δίκτυο WiFi</string>
+    <string name="flag_tuner_explanation">Απενεργοποιεί την  performance-limiting σημαία στο σύστημα και, επιπλέον βελτιώνει της διάρκειας ζωής της μπαταρία.\nCan cause instability</string>
+    <string name="better_voice_call_quality_explanation">Βελτιώνει την ποιότητα κατά την διάρκεια κλήσης, μπορεί να αδειάσει η μπαταρία πιο γρήγορα</string>
+    <string name="improve_battery_explanation">Βελτιωμένη διάρκεια ζωής της μπαταρίας από μικροαλλαγές στο σύστημα</string>
+    <string name="better_scrolling_explanation">Βελτιώνει την ακανόνιστη κύλιση και επιπλέον κάνει την κύλιση ομαλότερη</string>
+    <string name="faster_boot_explanation">Μειώνει το χρόνο εκκίνησης με τη βελτιστοποίηση των τιμών μικροαλλαγών στο σύστημα</string>
+    <string name="improve_image_quality_explanation" formatted="false">Αυξάνει το μέσο όρο bitrate και να Βελτιώνει την ποιότητα της εικόνας με τη μεγιστοποίηση της ποιότητας της</string>
+    <string name="liquid_UI_explanation">Βελτιώνει την απόδοση διεπιφάνειας χρήστη σε βάρος της διάρκειας ζωής της μπαταρίας</string>
+    <string name="misc_tweaks_explanation">Απενεργοποιεί την Υπηρεσία Καταγραφής Συμπεριφοράσ Χρηστών (HTC Sense μόνο)\nΑπενεργοποιεί the Google Network Location\nΡυθμίζει την καθυστέρηση χρόνου που το τηλεφώνου σας αρχίζει να χτυπά όταν λαμβάνετε μια κλήση</string>
+    <string name="assertive_display_explanation">Ενεργοποιεί Qualcomm Assertive Display που προσαρμοστικά ενισχύει και βελτιώνει την ποιότητα της οθόνης</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Βελτιώνει την απόδοση όταν εξαντλείται η μνήμη του συστήματος\nΠροεπιλογή - προεπιλεγμένη ρύθμιση της συσκευής\n\nΕνεργό - Τερματίζει εφαρμογές στην εκτός μνήμης κατάσταση, αυτό αποφεύγει την δαπανηρη σάρωση λίσταςεργασιών\n\nΑνενεργό - The OOM killer θα σαρώσει όλη την λίσταεργασιών και θα επιλέξει μια εργασία με βάση heuristics για να τερματίσει, επιλέγει συνήθως μια έντονα μνημοβόρα εργασία που απελευθερώνει μια μεγάλη ποσότητα μνήμης, όταν τερματιστεί</string>
+    <string name="cache_reclaiming_explanation">Ελέγχει την τάση του πυρήνα για να διεκδικήσει εκ νέου τη μνήμη η οποία χρησιμοποιείται για την προσωρινή αποθήκευση των καταλόγων και των αντικειμένων inode\n\nΠροεπιλογή - προεπιλεγμένη παράμετρος της συσκευής\n\nΕλάχιστη - Λιγότερο διεκδίκηση εκ νέου. Αυτό θα βελτιώσει κάπως τη ζωή της μπαταρίας σας, αλλά κάποια απώλεια απόδοσης πρέπει να αναμένεται\n\nΜέτρια - Κρατά την τιμή λίγο κάτω από προεπιλεγμένη, βελτιωμένη διάρκεια ζωής της μπαταρίας με μικρότερο αντίκτυπο στις επιδόσεις\n\nΔιπλάσια - Δίνει στην συσκευή αύξηση της απόδοσης, αλλά με τεράστιο αντίκτυπο στην διάρκεια ζωής της μπαταρίας</string>
+    <string name="cache_allocation_explanation" formatted="false">Ελέγχει πόση μνήμη RAM μπορεί να χρησιμοποιηθεί για την κατανομή της προσωρινής μνήμης\n\nΜεσαία - Χρησιμοποιεί το 100% της φυσικής μνήμης RAM σας για την κατανομή της προσωρινής μνήμης\n\nΜεγάλη - Χρησιμοποιεί το 100% της φυσικής μνήμης RAM και 50% της swap, εάν υπάρχει\n\nΤροποποιώντας την κατανομή της κρυφής μνήμης μπορεί να προκληθούν τυχαία παγώματα και πτώση απόδοσης</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimize and fine tune zRAM based on recommended values and RAM size</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Βελτιώνει την απόδοση κατά την χαμηλή μνήμη\nΡυθμίζει LMK ( LowMemoryKiller )  βασίζομενο στη μνήμη RAM της συσκευής\ων σας και το επιλεγμένο προφίλ\n\nΠροεπιλογή - προεπιλεγμένη ρύθμιση της συσκευής\n\nMultitasking - Διατηρεί οσο δυνατόν περισσοτερες εφαρμογές στην RAM\n\nBalanced - Μια ισορροπία μεταξύ των multitasking και gaming προφιλ\n\nGaming - Διατηρεί οσο δυνατόν λιγότερες εφαρμογές και κάνει το παιχνίδι σας χωρίς καθυστερήσεις</string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">This is an example dialog, you can also do this to the other Example Tweak</string>
+    <string name="another_example_explanation">Nearly all options on L Speed has explanation, long pressing them will reveal the explanation</string>
+    <string name="more_example_explanation">Continue on, these examples are only used to show how things work in the app</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Enables more customizations options, not for beginners without any experience</string>
+    <string name="dark_theme_explanation">Switches theme to a darker look</string>
+    <string name="nav_bar_color_explanation">Colorize navigation bar, if no navigation bar is detected then nothing will be colored</string>
+    <string name="force_english_explanation">Use English instead of any system language currently used</string>
+    <string name="show_toast_explanation">Shows a toast/snackbar (positioned on the bottom) when a tweak is enabled</string>
+    <string name="show_fahrenheit_explanation">Use Fahrenheit instead of Celsius, shown in Battery Temperature of Dashboard</string>
+    <string name="time_boot_delay_explanation">Period to wait before executing scripts on boot</string>
+    <string name="show_boot_notification_explanation">Shows a notification when the app is starting up after booting</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Select predefined L Speed profiles, these determines how L Speed will perform and change the system</string>
+
+</resources>

@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">Root diperlukan</string>
+    <string name="root_explanation">L Speed memerlukan root karena akan memodifikasi berkas sistem yang tidak dapat dilakukan perangkat yang tidak ter-root</string>
+    <string name="how_root">Bagaimana cara me-root perangkat saya?</string>
+    <string name="how_root_explanation">Anda dapat mencari website yang dapat menuntun anda untuk mendapatkan root dibawah ini</string>
+    <string name="search_for_hint">Carilah</string>
+    <string name="google_help">Cara root (nama perangkat anda)</string>
+    <string name="xda_help">Cara root untuk perangkat anda</string>
+    <string name="androidforums_help">Forum untuk perangkat anda</string>
+    <string name="root_safe">Apakah aman untuk men-root perangkat saya?</string>
+    <string name="root_safe_explanation">Meskipun ada resiko keamanan, tetapi root aman untuk dilakukan</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">Selamat Datang di L Speed</string>
+    <string name="setup_guide">Pengaturan ini akan menuntun anda untuk mengatur L Speed</string>
+    <string name="start">Mulai</string>
+    <string name="next">Lanjut</string>
+    <string name="finish">Selesai</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">Tips L Speed</string>
+    <string name="long_tap">Menahan atau menekan dengan lama sebuah pilihan akan membuka sebuah informasi atau deskripsi dari tweak</string>
+    <string name="try_it_here">Anda dapat mencobanya disini</string>
+    <string name="example_tweak">Contoh Tweak</string>
+    <string name="another_example">Contoh Yang Lainnya</string>
+    <string name="more_example">Contoh Lagi</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">Pengaturan L Speed</string>
+    <string name="long_tap_sec">Anda masih dapat menekan dengan lama untuk melihat deskripsi dari sebuah pilihan. Pilihan ini dapat dirubah nanti.</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Permissions</string>
+    <string name="storage_permission">L Speed requires the permission to access storage to store backups and implement Cleaner function, it is highly recommended to allow it.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">Silahkan Menikmati L Speed</string>
+    <string name="setup_complete">Pengaturan selesai, anda dapat mengganti pengaturannya nanti</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">Navigasi drawer dibuka</string>
+    <string name="navigation_drawer_close">Navigasi drawer ditutup</string>
+    <string name="reboot_confirm">Reboot perangkat?</string>
+    <string name="reset_confirm">Hapus pengaturan ke awal?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Batal</string>
+    <string name="please_wait">Silahkan tunggu</string>
+    <string name="unknown">Tidak diketahui</string>
+    <string name="script_execute_indeterminate">Mengeksekusi Script</string>
+    <string name="script_execute">Mengeksekusi Script: \n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Terakhir kali di trim</string>
+    <string name="not_trimmed">Tidak ada log trim</string>
+    <string name="fstrim_now">Fstrim Sekarang</string>
+    <string name="fstrim_load_dialog">Trimming…</string>
+    <string name="fstrim_on_boot">Jalankan fstrim setiap boot</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">Jalankan pembersih setiap boot</string>
+    <string name="junk_cleaner">Bersihkan berkas sampah</string>
+    <string name="system_clean_dialog">Membersihkan sistem</string>
+    <string name="app_cache_cleaner">Bersihkan cache aplikasi</string>
+    <string name="app_cache_dialog">Membersihkan cache aplikasi…</string>
+    <string name="wipe_cache">Hapus cache partisi</string>
+    <string name="wipe_dalvik">Hapus dalvik cache</string>
+    <string name="files_founded">Files founded</string>
+    <string name="files_founded_dialog">Founded %1$s MB of Files, do you want to delete?</string>
+    <string name="files_not_founded">Files not founded</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">Multicore power save</string>
+    <string name="cpu_optimizer">Optimisasi CPU</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">Info perangkat</string>
+    <string name="device">Perangkat: %1$s \n</string>
+    <string name="device_model">Model perangkat: %1$s \n</string>
+    <string name="manufacturer">Manufaktur: %1$s \n</string>
+    <string name="brand">Merek: %1$s \n</string>
+    <string name="hardware">Perangkat keras: %1$s \n</string>
+    <string name="id">ID: %1$s</string>
+    <string name="battery_information">Informasi baterai</string>
+    <string name="cpu_information">Informasi CPU</string>
+    <string name="kernel_information">Informasi kernel</string>
+    <string name="health">Kesehatan: %1$s \n</string>
+    <string name="level">Level: %1$s%% \n</string>
+    <string name="technology">Teknologi: %1$s \n</string>
+    <string name="no_battery">Tidak ada baterai terdeteksi atau baterai tidak terpasang</string>
+    <string name="temp">Temperatur:</string>
+    <string name="volt">Tegangan: %1$s mV</string>
+    <string name="charge_status">Status pengisian: %1$s \n</string>
+    <string name="state">Status: %1$s \n</string>
+    <string name="health_dead">Mati</string>
+    <string name="health_good">Bagus</string>
+    <string name="health_over_voltage">Kelebihan tegangan</string>
+    <string name="health_over_heat">Terlalu Panas</string>
+    <string name="health_failure">Malfungsi</string>
+    <string name="charge_unplugged">Dicopot</string>
+    <string name="charge_charger">Terhubung ke charger</string>
+    <string name="charge_usb">Terhubung ke USB</string>
+    <string name="status_charging">Mengisi</string>
+    <string name="status_discharging">Melepas pengisian</string>
+    <string name="status_full">Terisi penuh</string>
+    <string name="status_not_charging">Tidak terisi</string>
+    <string name="battery_usage">Penggunaan baterai</string>
+    <string name="current_entropy">Entropi saat ini:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">IO Boost</string>
+    <string name="io_extended_queue">IO Extended Queue</string>
+    <string name="sd_tweak">SD tweak</string>
+    <string name="partition_remount">Partition remount</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">Informasi memori</string>
+    <string name="current_minfree">Minfree saat ini:</string>
+    <string name="current_memory_status">Status memori saat ini:</string>
+    <string name="foreground_app">Aplikasi didepan:\t %1$sMB \n</string>
+    <string name="visible_app">Aplikasi terlihat:\t %1$sMB \n</string>
+    <string name="secondary_server">Server kedua:\t %1$sMB \n</string>
+    <string name="hidden_app">Aplikasi tersembunyi:\t %1$sMB \n</string>
+    <string name="content_provider">Konten provider:\t %1$sMB \n</string>
+    <string name="empty_app">Aplikasi kosong:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">NET Buffers</string>
+    <string name="ril_tweaks">RIL tweaks</string>
+    <string name="dns">Google DNS</string>
+    <string name="faster_streaming">Faster streaming</string>
+    <string name="fast_dormancy">Fast dormancy</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">Boost Sekarang</string>
+    <string name="battery_calibration">Kalibrasi baterai</string>
+    <string name="kill_media_server">Tutup server media</string>
+    <string name="ram_manager">Manajer RAM</string>
+    <string name="seeder">Seeder</string>
+    <string name="kernel_tweaks">Kernel Tweaks</string>
+    <string name="disable_debugging">Matikan debug</string>
+    <string name="disable_kernel_panic">Matikan kernel panik</string>
+    <string name="kernel_sleepers_optimization">Optimisasi kernel sleeper</string>
+    <string name="fsync">Fsync</string>
+    <string name="KSM">Kernel Samepage Merging</string>
+    <string name="fast_charge">Pengisian cepat</string>
+    <string name="wifi_sleeper">WiFi sleeper</string>
+    <string name="flag_tuner">Flag tuner</string>
+    <string name="better_voice_call_quality">Audio lebih baik saat telefon</string>
+    <string name="improve_battery">Improvisasi baterai</string>
+    <string name="better_scrolling">Improvisai pengguliran</string>
+    <string name="faster_boot">Boot lebih cepat</string>
+    <string name="improve_image_quality">Improvisasi kualitas gambar</string>
+    <string name="liquid_UI">Liquid smooth UI</string>
+    <string name="misc_tweaks">Tweaks lain-lain</string>
+    <string name="assertive_display">Assertive display</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">Memori virtual</string>
+    <string name="oom_killer">OOM Killer</string>
+    <string name="cache_reclaiming">Pembaruan Cache</string>
+    <string name="cache_allocation">Alokasi Cache</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">Optimisasi zRAM</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">Memuat halaman…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">Cadangkan</string>
+    <string name="backup_created">Cadangan dibuat</string>
+    <string name="backup_delete">Hapus Cadangan</string>
+    <string name="backup_deleted">Cadangan dihapus</string>
+    <string name="backup_restore">Kembalikan</string>
+    <string name="backup_restored">Cadangan dikembalikan</string>
+    <string name="backup_date">Tanggal cadangan terakhir: %1$s</string>
+    <string name="backup_none">Cadangan tidak muncul atau cadangan tidak ada</string>
+    <string name="name_backup">Masukkan nama cadangan</string>
+    <string name="backup_list">Daftar cadangan</string>
+    <string name="restore_question">Kembalikan cadangan terpilih?</string>
+    <string name="delete_question">Hapus cadangan ini?</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">Donasi</string>
+    <string name="beta_version">Beta version</string>
+    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="translation">Terjemahan</string>
+    <string name="translation_text">Bantu kami menterjemahkan L Speed</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed support</string>
+    <string name="provides_support_text">Provides support 24/7</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">Gunakan Advanced UI</string>
+    <string name="dark_theme">Tema gelap</string>
+    <string name="color_navigation_bar">Warnai bar navigasi</string>
+    <string name="force_english">Paksakan Bahasa Inggris</string>
+    <string name="show_toast_and_snacks">Tampilkan toggle toast</string>
+    <string name="show_fahrenheit">Gunakan Fahrenheit (°F)</string>
+    <string name="time_boot_delay_settings">Jeda penerapan saat boot</string>
+    <string name="show_boot_notification">Tampilkan notifikasi saat boot</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">Dashboard</string>
+    <string name="main_tweak">Tweak Utama</string>
+    <string name="cleaner">Pembersih</string>
+    <string name="cpu_tuner">Penyetelan CPU</string>
+    <string name="fstrim">FStrim</string>
+    <string name="lnet">Optimisasi LNET</string>
+    <string name="io_tweak">IO Tweaks</string>
+    <string name="ls_news">Berita L Speed</string>
+    <string name="backup">Cadangkan</string>
+    <string name="settings">Pengaturan</string>
+    <string name="help">Bantuan</string>
+    <string name="about">Tentang</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">Reboot</string>
+    <string name="reset_to_default">Kembalikan ke awal</string>
+    <string name="logs_view">Lihat log</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">Hapus log</string>
+    <string name="save_log">Simpan log ke sdcard</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">Memeriksa root…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">Layar Awal</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">Profil</string>
+    <string name="custMode">Sesuaikan Profil</string>
+    <string name="cust_mode_hint">Anda dapat menyesuaikan profil anda saat ini disini, hal ini tidak wajib dilakukan dan hasilnya mungkin buruk</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">Konfigurasi Cepat</string>
+    <string name="memManage">Tweaks Manajemen Memori</string>
+    <string name="kernMod">Modifikasi Kernel</string>
+    <string name="ioMod">Tweak IO Penyimpanan</string>
+    <string name="netMod">Tweak LNET</string>
+    <string name="netOpt">Omtimisasi LNET</string>
+    <string name="cpuMod">Penyetelan CPU</string>
+    <string name="uiOpt">Optimisasi UI</string>
+    <string name="sysOpt">Tweak Sistem</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">Pilihan Mendebug</string>
+    <string name="cleanerOpt">Pilihan Pembersih</string>
+    <string name="cacheClean">Pembersih Cache</string>
+    <string name="backRes">Cadangkan &amp; Kembalikan</string>
+    <string name="backStat">Status Cadangan</string>
+    <string name="otherMod">Tweak Lainnya</string>
+    <string name="credits">Pembuat L Speed</string>
+    <string name="application">Aplikasi</string>
+    <string name="interfaceDiv">Antarmuka</string>
+    <string name="otherDiv">Lainnya</string>
+    <string name="general">Umum</string>
+    <string name="lspeed_basics">Dasar L Speed</string>
+    <string name="ram_manager_status">Status Manajemen RAM</string>
+    <string name="ram_manager_options">Pilihan Manajemen RAM</string>
+    <string name="zram_options">Pilihan zRAM</string>
+    <string name="seeder_status">Status Seeder</string>
+    <string name="seeder_options">Pilihan Seeder</string>
+    <string name="fstrim_options">Pilihan FStrim</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed memerlukan root</string>
+    <string name="pop_no_toolbox">Tidak bisa mengekstrak toolbox</string>
+    <string name="pop_no_arch">Arsitektur tidak diketahui: %1$s</string>
+    <string name="fstrim_activated">FStrim saat boot dinyalakan</string>
+    <string name="fstrim_deactivated">FStrim saat boot dimatikan</string>
+    <string name="cleaner_enabled">Pembersih saat boot dinyalakan</string>
+    <string name="cleaner_disabled">Pembersih saat boot dimatikan</string>
+    <string name="app_cache_clear">Cache aplikasi dibersihkan</string>
+    <string name="junk_clear">Berkas sampah dihapus</string>
+    <string name="cache_clear">Cache partisi dihapus</string>
+    <string name="dalvik_clear">Dalvik cache dihapus</string>
+    <string name="mps_activated">Multicore power save diaktifkan</string>
+    <string name="mps_deactivated">Multicore power save dimatikan</string>
+    <string name="cpu_opt_activated">CPU Optimizer diaktifkan</string>
+    <string name="cpu_opt_deactivated">CPU Optimizer dimatikan</string>
+    <string name="battery_calibrated">Battery dikalibrasi, silahkan di reboot</string>
+    <string name="battery_calibration_failed">Tolong isi penuh baterai anda</string>
+    <string name="media_server_killed">Server media berhasil dimatikan</string>
+    <string name="disable_debug_activated">Matikan debug diaktifkan</string>
+    <string name="disable_debug_deactivated">Matikan debug dimatikan</string>
+    <string name="no_kernel_panic_activated">Matikan kernel panik diaktifkan</string>
+    <string name="no_kernel_panic_deactivated">Matikan kernel panik dimatikan</string>
+    <string name="kernel_sleepers_opt_activated">Optimisasi kernel sleeper diaktifkan</string>
+    <string name="kernel_sleepers_opt_deactivated">Optimisasi kernel sleeper dimatikan</string>
+    <string name="fsync_activated">Fsync diaktifkan</string>
+    <string name="fsync_deactivated">Fsync dimatikan</string>
+    <string name="ksm_activated">Kernel Samepage Merging diaktifkan</string>
+    <string name="ksm_deactivated">Kernel Samepage Merging dimatikan</string>
+    <string name="fast_charge_activated">Pengisian cepat diaktifkan</string>
+    <string name="fast_charge_deactivated">Pengisian cepat dimatikan</string>
+    <string name="wifi_sleeper_activated">WiFi sleeper dinyalakan</string>
+    <string name="wifi_sleeper_deactivated">WiFi sleeper dimatikan</string>
+    <string name="flag_tuner_activated">Flag tuner diaktifkan</string>
+    <string name="flag_tuner_deactivated">Flag tuner dimatikan</string>
+    <string name="better_call_aud_activated">Audio lebih baik saat telefon dinyalakan</string>
+    <string name="better_call_aud_deactivated">Audio lebih baik saat telefon dimatikan</string>
+    <string name="battery_improve_enabled">Improvisasi baterai dinyalakan</string>
+    <string name="battery_improve_disabled">Improvisasi baterai dimatikan</string>
+    <string name="improve_scrolling_activated">Improvisasi pengguliran diaktifkan</string>
+    <string name="improve_scrolling_deactivated">Improvisasi pengguliran dimatikan</string>
+    <string name="faster_boot_activated">Boot lebih cepat dinyalakan</string>
+    <string name="faster_boot_deactivated">Boot lebih cepat dimatikan</string>
+    <string name="improve_image_activated">Improvisasi kualitas gambar diaktifkan</string>
+    <string name="improve_image_deactivated">Improvisasi kualitas gambar dimatikan</string>
+    <string name="liquid_ui_activated">Liquid UI diaktifkan</string>
+    <string name="liquid_ui_deactivated">Liquid UI dimatikan</string>
+    <string name="misc_tweaks_enabled">Tweak lain-lain dinyalakan</string>
+    <string name="misc_tweaks_disabled">Tweak lain-lain dimatikan</string>
+    <string name="assertive_display_activated">Assertive display diaktifkan</string>
+    <string name="assertive_display_deactivated">Assertive display dinyalakan</string>
+    <string name="io_boost_activated">IO boost diaktifkan</string>
+    <string name="io_boost_deactivated">IO boost dimatikan</string>
+    <string name="sd_tweak_activated">SD tweaks activated</string>
+    <string name="sd_tweak_deactivated">SD tweaks deactivated</string>
+    <string name="extended_queue_activated">IO extended queue diaktifkan</string>
+    <string name="extended_queue_deactivated">IO extended queue dimatikan</string>
+    <string name="partition_remounting_activated">Partition remounting diaktifkan</string>
+    <string name="partition_remounting_deactivated">Partition remounting dimatikan</string>
+    <string name="net_buffer_default">Net buffers diatur ke awal</string>
+    <string name="net_buffer_small">Net buffers Kecil diaktifkan</string>
+    <string name="net_buffer_big">Net buffers Besar diaktifkan</string>
+    <string name="ril_tweak_activated">RIL tweaks diaktifkan</string>
+    <string name="ril_tweak_deactivated">RIL tweaks dimatikan</string>
+    <string name="google_dns_activated">DNS Google dinyalakan</string>
+    <string name="google_dns_deactivated">DNS Google dimatikan</string>
+    <string name="fast_stream_activated">Faster streaming dinyalakan</string>
+    <string name="fast_stream_deactivated">Faster streaming dimatikan</string>
+    <string name="fast_dormancy_activated">Fast dormancy diaktifkan</string>
+    <string name="fast_dormancy_deactivated">Fast dormancy dimatikan</string>
+    <string name="ram_manager_default">Manajer RAM di atur ke awal</string>
+    <string name="ram_manager_multitask">Profil Multitasking diaktifkan</string>
+    <string name="ram_manager_balanced">Profil Seimbang diaktifkan</string>
+    <string name="ram_manager_gaming">Profil Gaming diaktifkan</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">Optimisasi zRAM diaktifkan</string>
+    <string name="zram_optimization_deactivated">Optimisai zRAM dimatikan</string>
+    <string name="seeder_default">Profil seeder diatur ke awal</string>
+    <string name="seeder_light">Profil seeder Ringan diaktifkan</string>
+    <string name="seeder_enlarger">Profil seeder Enlarger diaktifkan</string>
+    <string name="seeder_moderate">Profil seeder Sedang diaktifkan</string>
+    <string name="seeder_aggressive">Profil seeder Agresif diaktifkan</string>
+    <string name="oom_killer_default">Profil OOM killer diatur ke awal</string>
+    <string name="oom_killer_enabled">OOM killer dinyalakan</string>
+    <string name="oom_killer_disabled">OOM killer dimatikan</string>
+    <string name="cache_reclaim_default">Pembaruan cache diatur ke awal</string>
+    <string name="cache_reclaim_minimum">Pembaruan cache Minimum diaktifkan</string>
+    <string name="cache_reclaim_moderate">Pembaruan cache Moderate diaktifkan</string>
+    <string name="cache_reclaim_doubled">Pembaruan cache Doubled diaktifkan</string>
+    <string name="cache_alloc_default">Alokasi cache diatur ke awal</string>
+    <string name="cache_alloc_medium">Alokasi cache Medium diaktifkan</string>
+    <string name="cache_alloc_large">Alokasi cache Besar diaktifkan</string>
+    <string name="kernel_tweaks_disabled">Tweak kernel dimatikan</string>
+    <string name="kernel_tweaks_light">Tweak kernel Ringan dinyalakan</string>
+    <string name="kernel_tweaks_heavy">Tweak kernel Berat diaktifkan</string>
+    <string name="logs_saved">Log berhasil disimpan di sdcard</string>
+    <string name="logs_noexists">Tidak ada log yang ditemukan, tidak ada yang dieksekusi</string>
+    <string name="logs_no_save">Tidak ada log yang ditemukan, tidak ada yang disimpan</string>
+    <string name="double_back_pressed">Tekan sekali lagi untuk keluar</string>
+    <string name="rate_app">Suka L Speed? Tolong beri nilai!</string>
+    <string name="rate">Beri nilai!</string>
+    <string name="thanks_for_rate">Terimakasih telah memberi nilai!</string>
+    <string name="profile_default">Profil diatur ke awal</string>
+    <string name="profile_light">Profil Ringan diaktifkan</string>
+    <string name="profile_recommended">Profil Rekomendasi diaktifkan</string>
+    <string name="profile_heavy">Profil Berat diaktifkan</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">Apa itu L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed adalah aplikasi yang menggabungkan modifikasi sistem dan tweak</string>
+    <string name="lSpeed_difference">Apa yang membuat L Speed berbeda dari mod yang lain?</string>
+    <string name="lSpeed_difference_explanation">L Speed memiliki banyak pilihan, yang mana sangat unik satu dengan yang lainnya</string>
+    <string name="why_root">Kenapa membutuhkan root?</string>
+    <string name="why_root_explanation">Aplikasi ini membutuhkan root karena harus memodifikasi berkas penting pada sistem, hal ini tidak mungkin dilakukan tanpa root</string>
+    <string name="what_can_do">Apa yang dapat saya lakukan dengan L Speed?</string>
+    <string name="what_can_do_explanation">Anda dapat memodifikasi perangkat anda untuk meningkatkan performa dan daya tahan baterai</string>
+    <string name="gingerbread_usage">Dapatkah saya menggunakan aplikasi ini pada perangkat yang menjalankan Android 2.3?</string>
+    <string name="gingerbread_usage_explanation">Tidak, Aplikasi ini membutuhkan Android 4.0.3+ agar dapat bekerja. Tetapi, anda dapat menggunakan versi yang dapat di flash dari L Speed yang mana dapat digunakan hampir semua versi Android</string>
+    <string name="usage_with_mods">Dapatkah saya menggunakan aplikasi ini dengan mod yang lain?</string>
+    <string name="usage_with_mods_explanation">Tidak, ada kemungkinan mod yang lain akan konflik dengan L Speed</string>
+    <string name="init.d_why">Init.d kosong, kenapa?</string>
+    <string name="init.d_why_explanation">Aplikasi ini tidak menggunakan init.d lagi, aplikasi ini menggunakan fungsi Android auto-run saat boot</string>
+    <string name="check_working">Bagaimana saya dapat memeriksa aplikasi ini bekerja atau tidak?</string>
+    <string name="check_working_explanation">Anda dapat memeriksa semua yang terjadi si latar belakang menggunakan penampil log (dapat diakses pada tombol menu), cara alternatifnya dengan memeriksa berkas log di /data/data/com.paget96.lspeed/files/LOG</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">Developer, founder, maintainer</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Dedicated developer</string>
+    <string name="peter_hint">Part-time dedicated developer</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">Mengeksekusi Script</string>
+    <string name="on_boot_time">Mengaplikasikan pengaturan dalam %d detik</string>
+    <string name="on_boot_finished">Pengaturan anda telah diaplikasikan</string>
+    <string name="on_boot_cancelled">Pengeksekusian telah dibatalkan</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">Awal</string>
+    <string name="array_entries_light">Ringan</string>
+    <string name="array_entries_moderate">Sedang</string>
+    <string name="array_entries_disabled">Dimatikan</string>
+    <string name="array_entries_aggressive">Agresif</string>
+    <string name="array_entries_heavy">Berat</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Balanced</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">Kecil</string>
+    <string name="net_buffer_entries_big">Besar</string>
+    <string name="ram_manager_entries_multitasking">Multitasking</string>
+    <string name="ram_manager_entries_gaming">Gaming</string>
+    <string name="seeder_entries_enlarger">Enlarger</string>
+    <string name="oom_killer_entries_enabled">Dinyalakan</string>
+    <string name="cache_reclaiming_entries_minimum">Minimum</string>
+    <string name="cache_reclaiming_entries_doubled">Doubled</string>
+    <string name="cache_allocation_entries_medium">Medium</string>
+    <string name="cache_allocation_entries_large">Large</string>
+    <string name="quick_mode_recommended">Rekomendasi</string>
+    <string name="sec_0">0detik</string>
+    <string name="sec_5">5detik</string>
+    <string name="sec_10">10detik</string>
+    <string name="sec_20">20detik</string>
+    <string name="sec_30">30detik</string>
+    <string name="sec_60">60detik</string>
+</resources>

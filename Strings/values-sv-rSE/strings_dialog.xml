@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Tar bort onödiga och föråldrade filer som genereras av systemet (loggar, oanvända cache filer, etc…).</string>
+    <string name="app_cache_cleaner_explanation">Tar bort onödig cache som genereras av appar (cachade bilder, etc…).</string>
+    <string name="wipe_cache_explanation">Tar bort all cache som genereras på /cache partition.</string>
+    <string name="wipe_dalvik_explanation">Tar bort dalvik-cache av alla appar, omstart är nödvändig efter operationen har gjorts för att förhindra tvingad avstängning (Force Close).</string>
+    <string name="cleaner_on_boot_explanation">Aktiverar skräprensare automatiskt under varje uppstart.</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Trimmar enhetens partitioner för att minska läs/skriv lag och förbättrar prestanda, använd bara när det är nödvändigt.</string>
+    <string name="fstrim_on_boot_explanation">Aktiverar filsystemstrimning automatiskt under varje uppstart.</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Grupperar CPU-aktiviteter till minsta möjliga antal kärnor och sparar förmodligen batteri.</string>
+    <string name="cpu_optimizer_explanation">Förbättrar och optimerar CPU-prestandan, kan tömma batteriet snabbare.</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Ökar input - output operationer för att förbättra deras prestanda.</string>
+    <string name="io_extended_queue_explanation">Förlänger input - output kön, batteriet laddas ur fortare men du får högre läs/skriv-hastighet.</string>
+    <string name="sd_tweak_explanation">Ökar read_ahead för snabbare läs/skriv-hastigheter.</string>
+    <string name="partition_remount_explanation">Ommonterar alla ext4 partitioner med inställningar för ökad prestanda.</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Förbättrar nätverkets prestanda vid användande av webläsare. Små Net-buffrar kommer att förbättre nätverkets buffertstorlek lagomt för varje typ av anslutning (3G, WiFi, LTE, Edge, UMTS)]nStora Net-buffrar gör buffrarna större och kan då påverka batterilivet när du skickar och tar emot data via nätverk.</string>
+    <string name="ril_tweaks_explanation">Förbättrar hastigheten vid användning av mobildata.</string>
+    <string name="dns_explanation">Ändrar nätverkets DNS till Googles Public DNS (8.8.8.8 – 8.8.4.4).</string>
+    <string name="faster_streaming_explanation">Justerar Androids standarspelare att strömma online mediafiler snabbare.</string>
+    <string name="fast_dormancy_explanation">Möjliggör snabbare växling av nätverkstyp för att spara batteri, använd endast om din operatör stödjer snabb dvala (Fast Dormancy).</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Dumpar caches så som inodes, dentries och pagecaches för att frigöra enhetens RAM.</string>
+    <string name="battery_calibration_explanation">Tar bort batterystats.bin för att omkalibrera batteriet, en omstart är nödvändig för att slutföra kalibreringen.</string>
+    <string name="kill_media_server_explanation">Stänger ned Media Server-processen, använda detta för att minska uppvärming av telefonen samt motverka prestandaförlust som orsakas av Media Server.</string>
+    <string name="seeder_explanation">Förbättrar prestandan på bekostnad av batteritid. Ökad Seeder nivå kommer att öka prestandan på bekostnad av batteritid.</string>
+    <string name="kernel_tweaks_explanation">Ändrar kernel relaterade tunables med mer prestandaförbättrande värden\n\nLätt - mindre justerade värden, närmare standard värden\n\nTung - applicera stora förändringar till kernel tunables, ökad prestanda med små effekter på batteritid.</string>
+    <string name="disable_debugging_explanation">Avaktiverar läs/skriv felsökningsoperationer\nSlår av loggning såsom ANR-aktivitetsloggning och onödiga output loggar från logcat. Förbättrar prestanda.</string>
+    <string name="disable_kernel_panic_explanation">Inaktivera kernelpanik för att undvika irriterande omstarter om den använda kernel är buggig och/eller instabil.</string>
+    <string name="kernel_sleepers_optimization_explanation">Förbättrar kernel sleepers parametrar som används i djup sömn för bättre prestanda.</string>
+    <string name="fsync_explanation">Fsync säkerställer ändrad data vid en systemkrash eller plötslig nedstängning.</string>
+    <string name="KSM_explanation">Aktiverar KSM, som är ett minnesparande de-dupliceringsfunktion som utför genomsökningar genom minnet och finner duplicerade sidor, användbar på låga minnesenheter.</string>
+    <string name="fast_charge_explanation">Aktiverar hacky snabbladdning används i de flesta specialbyggda kernelsen, detta behövs inte om telefonen har stöd för snabbladdning som standard.</string>
+    <string name="wifi_sleeper_explanation">Minskar fördröjningen mellan WiFi i aktivt, sömn och inaktivt tillstånd, sparar batteriet om WiFi-nätverk används.</string>
+    <string name="flag_tuner_explanation">Inaktiverar prestanda-begränsande flaggan i systemet och dessutom förbättra batteriets livslängd. Kan potentiellt orsaka instabilitet.</string>
+    <string name="better_voice_call_quality_explanation">Förbättrar kvaliteten på samtalssessioner, kan tömma batteriet snabbare.</string>
+    <string name="improve_battery_explanation">Förbättrar batteriets livslängd genom justeringar i systemet.</string>
+    <string name="better_scrolling_explanation">Förbättrar ryckig rullning och gör dessutom rullningen jämnare.</string>
+    <string name="faster_boot_explanation">Minskar uppstartstiden genom att optimera justera systemvärden.</string>
+    <string name="improve_image_quality_explanation" formatted="false">Ökar genomsnittlig bitrate och förbättrar bildkvaliteten genom att maximera dess kvalitet.</string>
+    <string name="liquid_UI_explanation">Förbättrar användargränssnittets prestanda på bekostnad av batteritid.</string>
+    <string name="misc_tweaks_explanation">Stänger av User Behavior Logging Service (HTC Sense enbart)) och avaktiverar Googles nätverksplatstjänst.\nSätter parametern för att fördröja tiden till din telefon börjar ringa då du får ett samtal.</string>
+    <string name="assertive_display_explanation">Aktiverar Qualcomm Assertive Display som adaptivt förstärker och förbättrar bildkvaliteten.</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Förbättrar prestandan när systemet börjar få slut på minne. Standard - Enhetsstandardkonfiguration. Aktiverad - Dödar appar i slut-på-minnes situationer, detta undviker den dyra tasklist-skanningen - OOM-dödaren kommer att skanna igenom hela tasklisten och väljer en process baserad på heuristik för att döda. Väljer normalt en process som tar mycket minne, frigör mycket minne då den dödas.</string>
+    <string name="cache_reclaiming_explanation">Styr kernelens tendens att återta minne som används för cachning av katalog och inode objekt. Standard - Enheten standardvärden. Minimum - Mindre återkrävning. Detta kommer att förbättra batteritiden något en liten prestandaförlust är att vänta\n\nModerat - Håll värdet lite mindre än standarden, förbättrad batteritid med mindre påverkan på prestanda.\n\Dubblad - Ger enheten en prestandaökning men med enorm inverkan på batteriets livslängd.</string>
+    <string name="cache_allocation_explanation" formatted="false">Styr hur mycket RAM-minne som kan användas för tilldelning av cache-tilldelning\n\nMedium - Använder 100% av ditt fysiska RAM för tilldelning till cache-tilldelningache\n\nLarge - Använder 100% fysiskt RAM-minne och 50% av swap om det finns.\n\Modiferaring av cache-tilldelningen kan skapa hängningar och prestandaförlust.</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimerar och finjusterar zRAM baserat på rekommenderade värden och RAM-storlek.</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Förbättrar prestanda vid lågt minne\nKalkylerar LMK (LowMemoryKiller) (Lågminnesdödare) inställningar baserat på enheten \'s RAM och vald profil\n\nStandard - Enhetens standardkonfiguration\n\nMultitasking - Håll så många appar som möjligt i RAM-minnet.\n\nBalanserad - En balans mellan multitasking och spel.\n\nSpel - Håll så lite program som möjligt i minnet och förbättrar prestandan i spel.</string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Detta är en exempeldialog. Du kan göra samma sak i det andra exemplet.</string>
+    <string name="another_example_explanation">Nästan alla alternativ på L Speed ​​har en förklaring, långtryck på dem så kommer de att visa en förklaring.</string>
+    <string name="more_example_explanation">Fortsätt vidare, dessa exempel endast används för att visa hur saker och ting fungerar i appen.</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Möjliggör fler anpassningsalternativ. Inte för nybörjare utan någon erfarenhet.</string>
+    <string name="dark_theme_explanation">Växlar tema till en med mörkare utseende.</string>
+    <string name="nav_bar_color_explanation">Färga navigeringsfältet, om inget navigeringsfältet upptäcks kommer ingenting att färgas.</string>
+    <string name="force_english_explanation">Använd engelska istället för systemets aktuella språk.</string>
+    <string name="show_toast_explanation">Visar en toast/snackbar (placerad i botten) när en tweak blir aktiverad.</string>
+    <string name="show_fahrenheit_explanation">Använd Fahrenheit istället för Celsius, som visas i batteritemperatur på Instrumentbrädan.</string>
+    <string name="time_boot_delay_explanation">Tid att vänta innan skripten körs vid uppstart.</string>
+    <string name="show_boot_notification_explanation">Visar ett meddelande när appen startas efter uppstart.</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Välj fördefinierade L Speedsprofiler, dessa avgör hur L Speed kommer att justera systemet.</string>
+
+</resources>

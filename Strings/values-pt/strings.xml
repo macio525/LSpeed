@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">Requer acesso ROOT</string>
+    <string name="root_explanation">L Speed requer acesso ROOT pois não pode fazer quaisquer mudanças no dispositivo sem acesso ao sistema</string>
+    <string name="how_root">Como posso obter acesso root no meu dispostivo?</string>
+    <string name="how_root_explanation">Você pode encontrar sites que o orientam a obter o acesso ROOT abaixo</string>
+    <string name="search_for_hint">Procure por</string>
+    <string name="google_help">Como obter acesso ROOT (nome do seu dispositivo)</string>
+    <string name="xda_help">Guia para Rootear seu dispositivo</string>
+    <string name="androidforums_help">Fórum específico para seu dispositivo</string>
+    <string name="root_safe">Rootear meu dispositivo é seguro?</string>
+    <string name="root_safe_explanation">Rootear seu dispositivo pode ter alguns riscos, mas geralmente é seguro fazê-lo</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">Welcome to L Speed</string>
+    <string name="setup_guide">This setup will guide you to configure L Speed</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">L Speed Tips</string>
+    <string name="long_tap">Holding or long tapping an option will open up an information or description of the tweak</string>
+    <string name="try_it_here">You can try it out here</string>
+    <string name="example_tweak">Example Tweak</string>
+    <string name="another_example">Another Example</string>
+    <string name="more_example">More Example</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">Configure L Speed</string>
+    <string name="long_tap_sec">You can still long-press to see the description of the options. These options can be changed later</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Permissions</string>
+    <string name="storage_permission">L Speed requires the permission to access storage to store backups and implement Cleaner function, it is highly recommended to allow it.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">Enjoy L Speed</string>
+    <string name="setup_complete">The setup is complete, you can change your preferences later</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">Abrir a barra de notificação</string>
+    <string name="navigation_drawer_close">Fechar a barra de notificação</string>
+    <string name="reboot_confirm">Reiniciar o dispositivo?</string>
+    <string name="reset_confirm">Retornar para configuração padrão?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="double_back_pressed">Por favor, clique novamente para sair.</string>
+    <string name="unknown">Unknown</string>
+    <string name="script_execute_indeterminate">Executing Scripts</string>
+    <string name="script_execute">Executing Script: \n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Last time trimmed</string>
+    <string name="fstrim_now">Fstrim</string>
+    <string name="fstrim_load_dialog">Trimming…</string>
+    <string name="fstrim_options">FStrim Options</string>
+    <string name="fstrim_on_boot">Run fstrim on boot</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">Executar limpeza na inicialização</string>
+    <string name="junk_cleaner">Limpar arquivos desnecessários</string>
+    <string name="system_clean_dialog">Searching for junk files…</string>
+    <string name="app_cache_cleaner">Limpar o cache dos APPs</string>
+    <string name="app_cache_dialog">Searching for app cache…</string>
+    <string name="wipe_cache">Limpar o cache</string>
+    <string name="wipe_dalvik">Limpar o dalvik cache</string>
+    <string name="files_founded_dialog">Founded %1$s MB of Files, do you want to delete?</string>
+    <string name="files_founded">Files founded</string>
+    <string name="files_not_founded">Files not founded</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">Economia de Energia em Múltiplos Núcleos</string>
+    <string name="cpu_optimizer">Otimizar CPU</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">Device info</string>
+    <string name="device">Device: %1$s \n</string>
+    <string name="device_model">Device model: %1$s \n</string>
+    <string name="manufacturer">Manufacturer: %1$s \n</string>
+    <string name="brand">Brand: %1$s \n</string>
+    <string name="hardware">Hardware: %1$s \n</string>
+    <string name="id">ID: %1$s</string>
+    <string name="battery_information">Informação da Bateria</string>
+    <string name="cpu_information">Informação da CPU</string>
+    <string name="kernel_information">Informação do Kernel</string>
+    <string name="health">Saúde: %1$s \n</string>
+    <string name="level">Nível: %1$s%% \n</string>
+    <string name="technology">Tecnologia: %1$s \n</string>
+    <string name="no_battery">Bateria não detectada</string>
+    <string name="temp">Temperatura:</string>
+    <string name="volt">Tensão: %1$s mV</string>
+    <string name="charge_status">Estado de carregamento: %1$s \n</string>
+    <string name="state">Estado: %1$s \n</string>
+    <string name="health_dead">Dead</string>
+    <string name="health_good">Good</string>
+    <string name="health_over_voltage">Over voltage</string>
+    <string name="health_over_heat">Overheating</string>
+    <string name="health_failure">Malfunctioning</string>
+    <string name="charge_unplugged">Não conectado</string>
+    <string name="charge_charger">Conectado ao Carregador</string>
+    <string name="charge_usb">Conectado a USB</string>
+    <string name="status_charging">Carregando</string>
+    <string name="status_discharging">Descarregando</string>
+    <string name="status_full">Carregado</string>
+    <string name="status_not_charging">Not Charging</string>
+    <string name="battery_usage">Battery usage</string>
+    <string name="current_entropy">Entropia atual:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">IO Boost</string>
+    <string name="io_extended_queue">IO Extended Queue</string>
+    <string name="sd_tweak">SD tweak</string>
+    <string name="partition_remount">Remontar partição</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">Informação da Memória</string>
+    <string name="current_minfree">minfree atual:</string>
+    <string name="current_memory_status">Estado atual da memória:</string>
+    <string name="foreground_app">Aplicativo em primeiro plano:\t %1$sMB \n</string>
+    <string name="visible_app">Aplicações visíveis:\t %1$sMB \n</string>
+    <string name="secondary_server">Servidor Secundário:\t %1$sMB \n</string>
+    <string name="hidden_app">Aplicativos ocultos:\t %1$sMB \n</string>
+    <string name="content_provider">Provedor de Conteúdo:\t %1$sMB \n</string>
+    <string name="empty_app">Aplicações vazias:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">NET Buffers</string>
+    <string name="ril_tweaks">RIL tweaks</string>
+    <string name="dns">Google DNS</string>
+    <string name="faster_streaming">Streaming mais rápido</string>
+    <string name="fast_dormancy">Dormancy mais rápido</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">Boost</string>
+    <string name="battery_calibration">Calibração de Bateria</string>
+    <string name="kill_media_server">Encerrar servidor de midia</string>
+    <string name="ram_manager">Gerenciador de Memória RAM</string>
+    <string name="seeder">Seeder</string>
+    <string name="kernel_tweaks">Kernel Tweaks</string>
+    <string name="disable_debugging">Desabilitar depuração</string>
+    <string name="disable_kernel_panic">Desabilitar kernel panic</string>
+    <string name="kernel_sleepers_optimization">Otimização do Kernel sleepers</string>
+    <string name="fsync">Fsync</string>
+    <string name="KSM">Kernel Samepage Merging</string>
+    <string name="fast_charge">Carregamento Rápido</string>
+    <string name="wifi_sleeper">WiFi sleeper</string>
+    <string name="flag_tuner">Flag tuner</string>
+    <string name="better_voice_call_quality">Melhorar áudio nas ligações</string>
+    <string name="improve_battery">Melhoria da bateria</string>
+    <string name="better_scrolling">Melhoria de Scroll/Rolagem</string>
+    <string name="faster_boot">Inicialização Rápida</string>
+    <string name="improve_image_quality">Melhoria qualidade de imagem</string>
+    <string name="liquid_UI">Melhor resposta do sistema</string>
+    <string name="misc_tweaks">Tweaks variados</string>
+    <string name="assertive_display">Melhor qualidade de renderização gráfica</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">Virtual Memory</string>
+    <string name="oom_killer">OOM Killer</string>
+    <string name="cache_reclaiming">Recuperar Cache</string>
+    <string name="cache_allocation">Alocação de Cache</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">zRAM Optimization</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">Carregando página…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">Backup</string>
+    <string name="backup_created">Backup criado</string>
+    <string name="backup_delete">Remover Backup</string>
+    <string name="backup_deleted">Backup removido</string>
+    <string name="backup_restore">Restaurar</string>
+    <string name="backup_restored">Backup restaurado</string>
+    <string name="backup_date">Última data do backup: %1$s</string>
+    <string name="backup_none">Backup não existe ou não foi encontrado</string>
+    <string name="name_backup">Insert backup\'s name</string>
+    <string name="backup_list">Backup List</string>
+    <string name="restore_question">Restore selected backup?</string>
+    <string name="delete_question">Delete this backup?</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">Doar</string>
+    <string name="beta_version">Beta version</string>
+    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="translation">Tradução</string>
+    <string name="translation_text">Ajuda-me a traduzir esta aplicação</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed support</string>
+    <string name="provides_support_text">Provides support 24/7</string>
+    <string name="general">Geral</string>
+    <string name="lspeed_basics">L Speed Básico</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">Use Advanced UI</string>
+    <string name="dark_theme">Tema escuro</string>
+    <string name="color_navigation_bar">Cor da Barra de Navegação</string>
+    <string name="force_english">Usar linguagem padrão(Inglês)</string>
+    <string name="show_toast_and_snacks">Mostrar notificação de mudança</string>
+    <string name="show_fahrenheit">Show Fahrenheit (°F)</string>
+    <string name="time_boot_delay_settings">Apply on boot delay</string>
+    <string name="show_boot_notification">Show boot notification</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">Informações do kernel</string>
+    <string name="main_tweak">Principais tweaks</string>
+    <string name="cleaner">Tweaks de limpeza</string>
+    <string name="cpu_tuner">Gerenciador da CPU</string>
+    <string name="fstrim">FStrim</string>
+    <string name="lnet">Otimizador LNET</string>
+    <string name="io_tweak">Tweaks de IO</string>
+    <string name="ls_news">Notícias do L Speed</string>
+    <string name="backup">Backup</string>
+    <string name="help">Ajuda</string>
+    <string name="settings">Configurações</string>
+    <string name="about">Sobre</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">Reiniciar</string>
+    <string name="reset_to_default">Redefinir Padrão</string>
+    <string name="logs_view">Log do tweak</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">Clear log</string>
+    <string name="save_log">Salvar log no dispositivo</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">Verificando acesso ROOT…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">Tela de abertura</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">Profiles</string>
+    <string name="custMode">Customize Profile</string>
+    <string name="cust_mode_hint">You can customize your current profile here, it is not mandatory to do and the result might be worse</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">Ferramentas rápidas</string>
+    <string name="memManage">Tweaks para gerenciamento de memória</string>
+    <string name="kernMod">Modificações no kernel</string>
+    <string name="ioMod">Tweaks de armazemento IO</string>
+    <string name="netMod">LNET Tweaks</string>
+    <string name="netOpt">Otimizações LNET</string>
+    <string name="cpuMod">Tweaks da CPU</string>
+    <string name="uiOpt">Otimizações no sistema</string>
+    <string name="sysOpt">Tweaks de sistema</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">Opções de depuração</string>
+    <string name="cleanerOpt">Opções de limpeza</string>
+    <string name="cacheClean">Limpador de cache</string>
+    <string name="backRes">Backup &amp; Restaurar</string>
+    <string name="backStat">Status do Backup</string>
+    <string name="otherMod">Outros Tweaks</string>
+    <string name="credits">Equipe L Speed</string>
+    <string name="application">Aplicação</string>
+    <string name="interfaceDiv">Interface</string>
+    <string name="otherDiv">Other</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed requer root</string>
+    <string name="pop_no_toolbox">Não é possível extrair a ToolBox</string>
+    <string name="pop_no_arch">Arquitetura desconhecida: %1$s</string>
+    <string name="fstrim_activated">FStrim on boot is enabled</string>
+    <string name="fstrim_deactivated">FStrim on boot is disabled</string>
+    <string name="cleaner_enabled">O limpador na inicialização está habilitado</string>
+    <string name="cleaner_disabled">O limpador na inicialização está desabilitado</string>
+    <string name="app_cache_clear">Limpar cache das aplicações</string>
+    <string name="junk_clear">Lixo removido</string>
+    <string name="cache_clear">Partição de cache limpa</string>
+    <string name="dalvik_clear">Dalvik cache limpa, por favor</string>
+    <string name="mps_activated">Economia de bateria MultiCore está ativada</string>
+    <string name="mps_deactivated">Economia de bateria MultiCore está desativada</string>
+    <string name="cpu_opt_activated">Otimizador de CPU está ativado</string>
+    <string name="cpu_opt_deactivated">Otimizador de CPU está desativado</string>
+    <string name="battery_calibrated">A bateria foi calibrada, por favor reinicie</string>
+    <string name="battery_calibration_failed">Please fully charge your battery</string>
+    <string name="media_server_killed">Servidor de mídia encerrado com sucesso</string>
+    <string name="disable_debug_activated">A depuração foi desabilitada</string>
+    <string name="disable_debug_deactivated">A configuração de depuração doi restabelecida de acordo com o dispositivo no menu de desenvolvedores</string>
+    <string name="no_kernel_panic_activated">O kernel panic foi desabilitado</string>
+    <string name="no_kernel_panic_deactivated">O kernel panic foi ativado</string>
+    <string name="kernel_sleepers_opt_activated">Otimização Kernel sleepers ativada</string>
+    <string name="kernel_sleepers_opt_deactivated">Otimização Kernel sleepers desativada</string>
+    <string name="fsync_activated">Fsync activated</string>
+    <string name="fsync_deactivated">Fsync deactivated</string>
+    <string name="ksm_activated">Kernel Samepage Merging ativado</string>
+    <string name="ksm_deactivated">Kernel Samepage Merging desativado</string>
+    <string name="fast_charge_activated">Carregamento rápido ativado</string>
+    <string name="fast_charge_deactivated">Carregamento rápido desativado</string>
+    <string name="wifi_sleeper_activated">WiFi Sleepers ativado</string>
+    <string name="wifi_sleeper_deactivated">WiFi Sleepers desativado</string>
+    <string name="flag_tuner_activated">Flag tuner ativado</string>
+    <string name="flag_tuner_deactivated">Flag tuner desativado</string>
+    <string name="better_call_aud_activated">Melhorar áudio nas ligações ativado</string>
+    <string name="better_call_aud_deactivated">Melhorar áudio nas ligações desativado</string>
+    <string name="battery_improve_enabled">Melhoria da Bateria ativado</string>
+    <string name="battery_improve_disabled">Melhoria da Bateria desativado</string>
+    <string name="improve_scrolling_activated">Melhoria de scroll ativada</string>
+    <string name="improve_scrolling_deactivated">Melhoria de Rolagem/scroll desativada</string>
+    <string name="faster_boot_activated">Inicialização rápida ativada</string>
+    <string name="faster_boot_deactivated">Inicialização rápida desativada</string>
+    <string name="improve_image_activated">Melhoria da qualidade de imagem ativada</string>
+    <string name="improve_image_deactivated">Melhoria da qualidade de imagem destivada</string>
+    <string name="liquid_ui_activated">Melhora na resposta do sistema ativada</string>
+    <string name="liquid_ui_deactivated">Melhora na resposta do sistema desativada</string>
+    <string name="misc_tweaks_enabled">Tweaks variados ativado</string>
+    <string name="misc_tweaks_disabled">Tweaks variados desativado</string>
+    <string name="assertive_display_activated">Melhoria na qualidade de renderização do vídeo ativado</string>
+    <string name="assertive_display_deactivated">Melhoria na qualidade de renderização do vídeo desativado</string>
+    <string name="io_boost_activated">Boost IO ativado</string>
+    <string name="io_boost_deactivated">Boost IO desativado</string>
+    <string name="extended_queue_activated">IO Queue Extendida ativada</string>
+    <string name="extended_queue_deactivated">IO Queue Extendida desativada</string>
+    <string name="sd_tweak_activated">SD tweaks activated</string>
+    <string name="sd_tweak_deactivated">SD tweaks deactivated</string>
+    <string name="partition_remounting_activated">Remontar Partição ativado</string>
+    <string name="partition_remounting_deactivated">Remontar Partição desativado</string>
+    <string name="net_buffer_default">Net buffers definido padrão</string>
+    <string name="net_buffer_small">Net buffers pequeno ativado</string>
+    <string name="net_buffer_big">Net buffers grande ativado</string>
+    <string name="ril_tweak_activated">RIL tweaks ativado</string>
+    <string name="ril_tweak_deactivated">RIL tweaks desativado</string>
+    <string name="google_dns_activated">Google DNS habilitado</string>
+    <string name="google_dns_deactivated">Google DNS desabilitado</string>
+    <string name="fast_stream_activated">Streaming rápido habilitado</string>
+    <string name="fast_stream_deactivated">Streaming rápido desabilitado</string>
+    <string name="fast_dormancy_activated">Fast dormancy ativada</string>
+    <string name="fast_dormancy_deactivated">Fast dormancy desativada</string>
+    <string name="ram_manager_default">Gerenciador de RAM definido como padrão</string>
+    <string name="ram_manager_multitask">Perfil MultiTarefa ativado</string>
+    <string name="ram_manager_balanced">Perfil Balanceado Ativado</string>
+    <string name="ram_manager_gaming">Perfil Gaming Ativado</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">zRAM Optimization activated</string>
+    <string name="zram_optimization_deactivated">zRAM Optimization deactivated</string>
+    <string name="seeder_default">Perfil Seeder definido como padrão</string>
+    <string name="seeder_light">Perfil Seeder leve ativado</string>
+    <string name="seeder_enlarger">Perfil Seeder pesado ativado</string>
+    <string name="seeder_moderate">Perfil Seeder moderado ativado</string>
+    <string name="seeder_aggressive">Perfil Seeder agressivo ativado</string>
+    <string name="oom_killer_default">Perfil OOM killer definido como padrão</string>
+    <string name="oom_killer_enabled">OOM killer habilitado</string>
+    <string name="oom_killer_disabled">OOM killer desabilitado</string>
+    <string name="cache_reclaim_default">Cache reclaiming definido como padrão</string>
+    <string name="cache_reclaim_minimum">Cache reclaiming mínimo ativado</string>
+    <string name="cache_reclaim_moderate">Cache reclaiming moderado ativado</string>
+    <string name="cache_reclaim_doubled">Cache reclaiming duplo ativado</string>
+    <string name="cache_alloc_default">Alocação do cache definido como padrão</string>
+    <string name="cache_alloc_medium">Alocação do cache média ativado</string>
+    <string name="cache_alloc_large">Alocação do cache máximo ativado</string>
+    <string name="kernel_tweaks_disabled">Kernel tweaks desabilitado</string>
+    <string name="kernel_tweaks_light">Kernel tweaks leve ativado</string>
+    <string name="kernel_tweaks_heavy">Kernel tweaks pesado ativado</string>
+    <string name="logs_saved">Os registros são guardados para sdcard</string>
+    <string name="logs_noexists">Logs no exists. No scripts are executed</string>
+    <string name="logs_no_save">No logs found, nothing is saved</string>
+    <string name="rate_app">Love L Speed? Please rate it!</string>
+    <string name="rate">Rate!</string>
+    <string name="thanks_for_rate">Thanks for rating!</string>
+    <string name="profile_default">Profile is set to default</string>
+    <string name="profile_light">Light profile activated</string>
+    <string name="profile_recommended">Recommended profile activated</string>
+    <string name="profile_heavy">Heavy profile activated</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">O que é L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed é uma aplicação que combina modificações no sistema e tweaks</string>
+    <string name="lSpeed_difference">O que torna o L Speed diferente de outros mods?</string>
+    <string name="lSpeed_difference_explanation">L Speed tem muitas de opções e a maioria delas são exclusivas</string>
+    <string name="why_root">Porque ele requer root?</string>
+    <string name="why_root_explanation">O aplicativo requer ROOT porque modifica alguns arquivos importantes no sistema, isso não é possível sem ROOT</string>
+    <string name="what_can_do">O que posso fazer com o L Speed?</string>
+    <string name="what_can_do_explanation">Você pode ajustar seu aparelho para melhorar o desempenho e duração da bateria</string>
+    <string name="gingerbread_usage">Posso usá-lo em dispositivos com Android 2.3?</string>
+    <string name="gingerbread_usage_explanation">Não, esta aplicação requer Android 4.0.3+ ou superior para funcionar. No entanto, você pode usar a versão \"flasheavel\" do L Speed, uma vez que funciona em quase todas as versões do Android</string>
+    <string name="usage_with_mods">Eu posso usá-lo com outros mods?</string>
+    <string name="usage_with_mods_explanation">Não, pois existe a possibilidade de que outros mods entrem em conflito com o L Speed</string>
+    <string name="init.d_why">O init.d está vazio, porquê?</string>
+    <string name="init.d_why_explanation">A aplicação não usa mais init.d, ele usa a função Auto Start do Android</string>
+    <string name="check_working">Como posso verificar se ele está funcionando?</string>
+    <string name="check_working_explanation">Verifique os arquivos de log em /data/data/com.paget96.lspeed/files/LOGS</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">Desenvolvedor, fundador, mantedor</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Desenvolvedor dedicado</string>
+    <string name="peter_hint">Desenvolvedor Parcial</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">Executing Scripts</string>
+    <string name="on_boot_time">Applying configurations in %d seconds</string>
+    <string name="on_boot_finished">Your configurations have been applied</string>
+    <string name="on_boot_cancelled">The execution have been cancelled</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">Padrão</string>
+    <string name="array_entries_light">leve</string>
+    <string name="array_entries_moderate">Moderado</string>
+    <string name="array_entries_disabled">Desabilitado</string>
+    <string name="array_entries_aggressive">Agressivo</string>
+    <string name="array_entries_heavy">Pesado</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Balanced</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">Pequeno</string>
+    <string name="net_buffer_entries_big">Grande</string>
+    <string name="ram_manager_entries_multitasking">Multitarefa</string>
+    <string name="ram_manager_entries_gaming">Gaming</string>
+    <string name="seeder_entries_enlarger">Pesado</string>
+    <string name="oom_killer_entries_enabled">Habilitado</string>
+    <string name="cache_reclaiming_entries_minimum">Mínimo</string>
+    <string name="cache_reclaiming_entries_doubled">Duplicado</string>
+    <string name="cache_allocation_entries_medium">Médio</string>
+    <string name="cache_allocation_entries_large">Máximo</string>
+    <string name="not_trimmed">No trimming logs</string>
+    <string name="please_wait">Please wait</string>
+    <string name="ram_manager_options">RAM Manager Options</string>
+    <string name="ram_manager_status">RAM Manager Status</string>
+    <string name="zram_options">zRAM Options</string>
+    <string name="seeder_options">Seeder Options</string>
+    <string name="seeder_status">Seeder Status</string>
+    <string name="quick_mode_recommended">Recommended</string>
+    <string name="sec_0">0sec</string>
+    <string name="sec_5">5sec</string>
+    <string name="sec_10">10sec</string>
+    <string name="sec_20">20sec</string>
+    <string name="sec_30">30sec</string>
+    <string name="sec_60">60sec</string>
+</resources>

@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">الروت مطلوب</string>
+    <string name="root_explanation">تطبيق L Speed يحتاج الروت كي يستطيع تعديل ملفات النظام التي تحتاج الروت للوصول إليها.</string>
+    <string name="how_root">كيف أجعل هاتفي مروتاً.</string>
+    <string name="how_root_explanation">يمكنك العثور على المواقع التي تساعدك على ترويت هاتفك بلأسفل</string>
+    <string name="search_for_hint">البحث عن</string>
+    <string name="google_help">كيفية ترويت (أسم الجهازالخاص بك)</string>
+    <string name="xda_help">طريقة الترويت لهاتفك</string>
+    <string name="androidforums_help">المنتدى الخاص بهاتفك</string>
+    <string name="root_safe">هل ترويت هاتفي أمن؟</string>
+    <string name="root_safe_explanation">عند ترويت هاتفك سوف تلغي الضمان الأصلي ولكن عملية الترويت أمنة</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">أهلاً وسهلاً بك ألى L Speed</string>
+    <string name="setup_guide">هذا الإعداد سيرشدك حول تخصيص الـ L Spped</string>
+    <string name="start">البدأ</string>
+    <string name="next">التالي</string>
+    <string name="finish">إنهاء</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">نصائح L Speed</string>
+    <string name="long_tap">الضغط المستمر على خيار ما سيعطيك معلومات حول هذا الخيار</string>
+    <string name="try_it_here">يمكنك تجريبها من هنا</string>
+    <string name="example_tweak">مثال معدل</string>
+    <string name="another_example">مثال أخر</string>
+    <string name="more_example">المزيد من الأمثلة</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">تخصيص L Speed</string>
+    <string name="long_tap_sec">أنت لا زال بإمكانك الضغط المستمر على خيار ما لأظهار الوصف الخاص به</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Permissions</string>
+    <string name="storage_permission">L Speed requires the permission to access storage to store backups and implement Cleaner function, it is highly recommended to allow it.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">إستمتع بإستخدام L Speed</string>
+    <string name="setup_complete">أكتمل الإعداد بنجاح,يمكنك تغير أختيارتك لاحقاً</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">درج الإنتقال فُتْح</string>
+    <string name="navigation_drawer_close">درج الأنتقال أغلْق</string>
+    <string name="reboot_confirm">إعادة تشغيل الجهاز؟</string>
+    <string name="reset_confirm">إستعادة التغيرات الأفتراضية؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ok">حسناً</string>
+    <string name="cancel">إلغاء</string>
+    <string name="please_wait">الرجاء الأنتظار</string>
+    <string name="unknown">غير معروف</string>
+    <string name="script_execute_indeterminate">تنفيذ البرنامج النصي</string>
+    <string name="script_execute">تنفيذ البرنامج النصي:\n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Last time trimmed</string>
+    <string name="not_trimmed">No trimming logs</string>
+    <string name="fstrim_now">Fstrim Now</string>
+    <string name="fstrim_load_dialog">Trimming…</string>
+    <string name="fstrim_on_boot">تشغيل الـ fstrim عند الإقلاع</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">تشغيل المنظف عند الإقلاع</string>
+    <string name="junk_cleaner">مسح الملفات المخلفة</string>
+    <string name="system_clean_dialog">جاري البحث عن المخلفات…</string>
+    <string name="app_cache_cleaner">مسح مخلفات التطبيق</string>
+    <string name="app_cache_dialog">جاري البحث عن مخلفات التطبيق</string>
+    <string name="wipe_cache">مسح مخلفات القرص</string>
+    <string name="wipe_dalvik">مسح مخلفات الـDalvik</string>
+    <string name="files_founded_dialog">تم العثور على %1$s ميغا بايت مخلفات, هل تريد مسحهم؟</string>
+    <string name="files_founded">تم العثور على المجلدات</string>
+    <string name="files_not_founded">لم يتم العثور على المجلدات</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">توفير طاقة النواتين</string>
+    <string name="cpu_optimizer">محسن المعالج</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">حول الجهاز</string>
+    <string name="device">الجهاز: %1$s \n</string>
+    <string name="device_model">موديل الجهاز: %1$s \n</string>
+    <string name="manufacturer">الشركة المصنعة: %1$s \n</string>
+    <string name="brand">الطراز: %1$s \n</string>
+    <string name="hardware">الهاردوير: %1$s \n</string>
+    <string name="id">المعرف الخاص: %1$s</string>
+    <string name="battery_information">معلومات البطارية</string>
+    <string name="cpu_information">معلومات المعالج</string>
+    <string name="kernel_information">معلومات النواة</string>
+    <string name="health">الصحة: %1$s \n</string>
+    <string name="level">المستوى: %1$s%% \n</string>
+    <string name="technology">التقنية: %1$s \n</string>
+    <string name="no_battery">لم يتم التعرف على البطارية</string>
+    <string name="temp">درجة الحرارة:</string>
+    <string name="volt">الفولتية: %1$s mV</string>
+    <string name="charge_status">حالة الشحن: %1$s \n</string>
+    <string name="state">الحالة: %1$s \n</string>
+    <string name="health_dead">ميَت</string>
+    <string name="health_good">جـيدة</string>
+    <string name="health_over_voltage">فولتية عالية فوق الحد</string>
+    <string name="health_over_heat">الحرارة مرتفعة</string>
+    <string name="health_failure">يوجد خلل</string>
+    <string name="charge_unplugged">الشاحن مفصول</string>
+    <string name="charge_charger">موصول بالشاحن</string>
+    <string name="charge_usb">متصل بلـ USB</string>
+    <string name="status_charging">جاري الشحن</string>
+    <string name="status_discharging">لا يشحن</string>
+    <string name="status_full">مشحون بالكامل</string>
+    <string name="status_not_charging">لا يشحن</string>
+    <string name="battery_usage">إسنهلاك البطارية</string>
+    <string name="current_entropy">التكوين الحالي:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">زيادة سرعةالنقل</string>
+    <string name="io_extended_queue">توسيع الذاكرة في الأنتظار</string>
+    <string name="sd_tweak">مشكلة في بطاقة الذاكرة</string>
+    <string name="partition_remount">تحميل التجزئة إلغي</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">معلومات الذاكرة</string>
+    <string name="current_minfree">الدقائق المتبقية الحالية:</string>
+    <string name="current_memory_status">حالة الذاكرة الحالية:</string>
+    <string name="foreground_app">تطبيق أمامي:\t %1$sMB \n</string>
+    <string name="visible_app">تطبيق ظاهر:\t %1$sMB \n</string>
+    <string name="secondary_server">السيرفر الثاني:\t %1$sMB \n</string>
+    <string name="hidden_app">تطبيق مخفي:\t %1$sMB \n</string>
+    <string name="content_provider">مقدم البيانات:\t %1$sMB \n</string>
+    <string name="empty_app">تطبيق فارغ:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">مخازن الأنترنت</string>
+    <string name="ril_tweaks">ميزات الشبكة</string>
+    <string name="dns">جوجل DNS</string>
+    <string name="faster_streaming">بثٌ أسرع</string>
+    <string name="fast_dormancy">السكون السريع</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">التحسين الأن</string>
+    <string name="battery_calibration">معايرة البطارية</string>
+    <string name="kill_media_server">إغلاق سيرفر الوسائط</string>
+    <string name="ram_manager">مدير الرام</string>
+    <string name="seeder">تبذير</string>
+    <string name="kernel_tweaks">تحسينات النواة</string>
+    <string name="disable_debugging">إيقاف التطوير</string>
+    <string name="disable_kernel_panic">إيقاف إزعاج النواة</string>
+    <string name="kernel_sleepers_optimization">تحسينات سكون النواة</string>
+    <string name="fsync">مزامنة</string>
+    <string name="KSM">مزج نفس صفحة النواة</string>
+    <string name="fast_charge">شحن سريع</string>
+    <string name="wifi_sleeper">سكون الواي فاي</string>
+    <string name="flag_tuner">توليف العلم</string>
+    <string name="better_voice_call_quality">نوعية صوت أثناء الأتصال أفضل</string>
+    <string name="improve_battery">تحسين أداء البطارية</string>
+    <string name="better_scrolling">تحسن إنزلاق النوافذ والإطارات</string>
+    <string name="faster_boot">إقلاع أسرع</string>
+    <string name="improve_image_quality">تحسين دقة الصورة</string>
+    <string name="liquid_UI">واجهة نظام إنسيابية أكثر</string>
+    <string name="misc_tweaks">مزج الميزات</string>
+    <string name="assertive_display">حزمة العرض</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">ذاكرة إفتراضية</string>
+    <string name="oom_killer">OOM إيقاف الـ</string>
+    <string name="cache_reclaiming">إصلاح الملفات المؤقتة</string>
+    <string name="cache_allocation">تخصيص الملفات المؤقتة</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">تحسين قدرة الرام</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">جاري تحميل الصفحة…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">إنشاء نسخة إحتياطية</string>
+    <string name="backup_created">النسخة الأحتياطية أنشئت</string>
+    <string name="backup_delete">مسح النسخة الإحتياطية</string>
+    <string name="backup_deleted">النسخة الإحتياطية مسحت</string>
+    <string name="backup_restore">إستعادة النسخة الإحتياطية</string>
+    <string name="backup_restored">تمت الإستعادة بنجاح</string>
+    <string name="backup_date">تاريخ أخر نسخة إحتياطية: %1$s</string>
+    <string name="backup_none">لم يتم العثور على النسخة الإحتياطية</string>
+    <string name="name_backup">أدخل أسم النسخة الإحتياطية</string>
+    <string name="backup_list">قائمة النسخ الإحتياطية</string>
+    <string name="restore_question">إستعادة النسخة الإحتياطية المختارة؟</string>
+    <string name="delete_question">مسح هذه النسخة الإحتياطية؟</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">التبرع</string>
+    <string name="beta_version">Beta version</string>
+    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="translation">الترجمة</string>
+    <string name="translation_text">ساعدنا بترجمة L Speed</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed support</string>
+    <string name="provides_support_text">Provides support 24/7</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">إستعمال واجهة نظام محسنة</string>
+    <string name="dark_theme">ثيمة سوداء</string>
+    <string name="color_navigation_bar">تلوين لوحة الإشعارات</string>
+    <string name="force_english">فرض اللغة الأجنبية</string>
+    <string name="show_toast_and_snacks">إظهار نخب التبديل</string>
+    <string name="show_fahrenheit">إستعمال الفهرنهايت (°F)</string>
+    <string name="time_boot_delay_settings">تطبيق عند الإقلاع</string>
+    <string name="show_boot_notification">إظهار إشعارات الإقلاع</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">اللوحة</string>
+    <string name="main_tweak">التحسينات الرئيسة</string>
+    <string name="cleaner">المنظف</string>
+    <string name="cpu_tuner">مولف المعالج</string>
+    <string name="fstrim">FStrim</string>
+    <string name="lnet">محسن الإنترنت</string>
+    <string name="io_tweak">تحسينات الذاكرة</string>
+    <string name="ls_news">L Speed أخبار</string>
+    <string name="backup">إنشاء نسخة إحتياطية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="help">مساعدة</string>
+    <string name="about">حول</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">إعادة التشغيل</string>
+    <string name="reset_to_default">إستعادة الإفتراضيات</string>
+    <string name="logs_view">عرض السجل</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">مسح السجل</string>
+    <string name="save_log">حفظ السجل في الذاكرة</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">التأكد من وجود الروت…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">شاشة الترحيب</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">الأوضاع</string>
+    <string name="custMode">تخصيص الأوضاع</string>
+    <string name="cust_mode_hint">يمكنك تخصيص الوضع الخاص بك هناز</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">الأدوات السريعة</string>
+    <string name="memManage">تحسينات إدارة الذاكرة</string>
+    <string name="kernMod">تعديلات النواة</string>
+    <string name="ioMod">تحسينات إدارة الذاكرة</string>
+    <string name="netMod">تحسينات الأنترنت</string>
+    <string name="netOpt">تخصيصات الأنترنت</string>
+    <string name="cpuMod">جاري تغير وضع المعالج</string>
+    <string name="uiOpt">تخصيصات واجهة النظام</string>
+    <string name="sysOpt">تحسينات النظام</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">خيارات التطوير</string>
+    <string name="cleanerOpt">خيارات المنظف</string>
+    <string name="cacheClean">منظف الملفات المؤقتة</string>
+    <string name="backRes">تصدير &amp; إستيراد</string>
+    <string name="backStat">تقدم النسخ الإحتياطي</string>
+    <string name="otherMod">تحسينات أخرى</string>
+    <string name="credits">منشؤو تطبيق L Speed</string>
+    <string name="application">تطبيق</string>
+    <string name="interfaceDiv">ميزة</string>
+    <string name="otherDiv">أخر</string>
+    <string name="general">عام</string>
+    <string name="lspeed_basics">L Speed أساسيات</string>
+    <string name="ram_manager_status">حالة مدير الرام</string>
+    <string name="ram_manager_options">خيارات مديرالرام</string>
+    <string name="zram_options">خيارات الرام</string>
+    <string name="seeder_status">حالة التبذير</string>
+    <string name="seeder_options">خيارات التبذير</string>
+    <string name="fstrim_options">FStrim إعدادات الـ</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed يحتاج روت</string>
+    <string name="pop_no_toolbox">تعذر إستخراج الأدوات</string>
+    <string name="pop_no_arch">معمارية غيرمعروفة: %1$s</string>
+    <string name="fstrim_activated">FStrim عند الإقلاع تم تفعيل</string>
+    <string name="fstrim_deactivated">FStrim عند الإقلاع تم إلغاء تفعيل</string>
+    <string name="cleaner_enabled">المنظف عند الإقلاع مفعل</string>
+    <string name="cleaner_disabled">المنظف عند الإقلاع متوقف</string>
+    <string name="app_cache_clear">بيانات التطبيق المؤقتة مسحت</string>
+    <string name="junk_clear">المهملات مسحت</string>
+    <string name="cache_clear">ملفات القرص المؤقتة مسحت</string>
+    <string name="dalvik_clear">ملفات الـDalvik المؤقتة مسحت</string>
+    <string name="mps_activated">وضع توفير النواتين مفعل</string>
+    <string name="mps_deactivated">وضع توفبر النواتين متوقف</string>
+    <string name="cpu_opt_activated">محسن المعالج مفعل</string>
+    <string name="cpu_opt_deactivated">محسن المعالج متوقف</string>
+    <string name="battery_calibrated">تمت معايرة البطارية,أعد تشغيل التطبيق لإعادة تطبيق الإعدادات</string>
+    <string name="battery_calibration_failed">رجاءً قم بشحن بطاريتك حتى تمتلئ</string>
+    <string name="media_server_killed">خادم الوسائط توقف بنجاح</string>
+    <string name="disable_debug_activated">إيقاف التطوير مفعل</string>
+    <string name="disable_debug_deactivated">إيقاف التطوير معطل</string>
+    <string name="no_kernel_panic_activated">تم تفعيل خاصيةإيقاف إزعاج النواة</string>
+    <string name="no_kernel_panic_deactivated">تم إلغاء تفعيل خاصية إيقاف إزعاج النواة</string>
+    <string name="kernel_sleepers_opt_activated">خاصية نوم النواة مفعلة</string>
+    <string name="kernel_sleepers_opt_deactivated">تم إلغاء تفعيل خاصية نوم النواة</string>
+    <string name="fsync_activated">المزامنة مفعلة</string>
+    <string name="fsync_deactivated">تم إلغاء تفعيل المزامنة</string>
+    <string name="ksm_activated">تم تفعيل خلط نفس صفحة النواة</string>
+    <string name="ksm_deactivated">تم إلغاء تفعيل خلط نفس صفحة النواة</string>
+    <string name="fast_charge_activated">الشحن السريع مفعل</string>
+    <string name="fast_charge_deactivated">تم إلغاء تفعيل الشحن السريع</string>
+    <string name="wifi_sleeper_activated">نوم الواي فاي مفعل</string>
+    <string name="wifi_sleeper_deactivated">تم إلغاء تفعيل نوم الواي فاي</string>
+    <string name="flag_tuner_activated">مولف العلم مفعل</string>
+    <string name="flag_tuner_deactivated">تم إلغاء تفعيل مولف العلم</string>
+    <string name="better_call_aud_activated">تحسين جودة صوت المكالمات مفعلة</string>
+    <string name="better_call_aud_deactivated">تم إلغاء تفعيل تحسين جودة صوت المكالمات</string>
+    <string name="battery_improve_enabled">تحسين البطارية مفعل</string>
+    <string name="battery_improve_disabled">تم إلغاء تفعيل تحسين البطارية</string>
+    <string name="improve_scrolling_activated">تحسين الإنزلاق مفعل</string>
+    <string name="improve_scrolling_deactivated">تم إلغاء تفعيل تحسين الإنزلاق</string>
+    <string name="faster_boot_activated">الإقلاع السريع مفعل</string>
+    <string name="faster_boot_deactivated">تم إلغاء تفعيل الإقلاع السريع</string>
+    <string name="improve_image_activated">تحسين دقة الصورة مفعل</string>
+    <string name="improve_image_deactivated">تم إلغاء تفعيل تحسين دقة الصورة</string>
+    <string name="liquid_ui_activated">واجهة النظام الإنسيابية مفعلة</string>
+    <string name="liquid_ui_deactivated">تم إلغاء تفعيل واجهة النظام الإنسيابية</string>
+    <string name="misc_tweaks_enabled">الميزات الأخرى مفعلة</string>
+    <string name="misc_tweaks_disabled">تم إلغاء تفعيل الميزات الأخرى</string>
+    <string name="assertive_display_activated">حزمة شاشة العرض مفعلة</string>
+    <string name="assertive_display_deactivated">تم إلغاء تفعيل حزمة شاشة العرض</string>
+    <string name="io_boost_activated">تسريع عمليات الذاكرة مفعلة</string>
+    <string name="io_boost_deactivated">تم إلغاء تفعيل عمليات الذاكرة</string>
+    <string name="extended_queue_activated">إنتظار الذاكرة الامحدودة مفعل</string>
+    <string name="extended_queue_deactivated">تم إلغاء تفعيل إنتظار الذاكرة الامحدودة</string>
+    <string name="sd_tweak_activated">ميزات بطاقة الذاكرة مفعلة</string>
+    <string name="sd_tweak_deactivated">تم إلغاء تفعيل ميزات بطاقة الذاكرة</string>
+    <string name="partition_remounting_activated">إعادة تجزئة القرص مفعلة</string>
+    <string name="partition_remounting_deactivated">تم إلغاء تفعيل إعادة تجزئة القرص</string>
+    <string name="net_buffer_default">تم تعيين مخازن الأنترنت الإفتراضية</string>
+    <string name="net_buffer_small">مخزن الأنترنت الصغير مفعل</string>
+    <string name="net_buffer_big">مخزن الأنترنت الكبير مفعل</string>
+    <string name="ril_tweak_activated">تحسينات الشبكة مفعلة</string>
+    <string name="ril_tweak_deactivated">تم إلغاء تفعيل تحسينات الشبكة</string>
+    <string name="google_dns_activated">DNS Google مفعل</string>
+    <string name="google_dns_deactivated">Google DNS تم إلغاء تفعيل</string>
+    <string name="fast_stream_activated">البث السريع مفعل</string>
+    <string name="fast_stream_deactivated">تم إلغاء تفعيل البث السريع</string>
+    <string name="fast_dormancy_activated">السكون السريع مفعل</string>
+    <string name="fast_dormancy_deactivated">تم إلغاء تفعيل السكون السريع</string>
+    <string name="ram_manager_default">تم تعيين إفتراضيات إدارة الرام</string>
+    <string name="ram_manager_multitask">تعدد عمليات الرام مفعلة</string>
+    <string name="ram_manager_balanced">الوضع المتوازن مفعل</string>
+    <string name="ram_manager_gaming">وضع اللعبة مفعل</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">تحسينات الرام مفعلة</string>
+    <string name="zram_optimization_deactivated">تم إلغاء تفعيل تحسينات الرام</string>
+    <string name="seeder_default">تم تعيين إفتراضيات وضع التبذير</string>
+    <string name="seeder_light">تم تفعيل وضع التبذير الخفيف</string>
+    <string name="seeder_enlarger">تم تفعيل وضع التبذير الثقيل</string>
+    <string name="seeder_moderate">تم تفعيل وضع التبذير المعدل</string>
+    <string name="seeder_aggressive">تم تفعيل وضع التبذير الخارق</string>
+    <string name="oom_killer_default">تم تعيين إفتراضيات وضع إيقاف الOOM</string>
+    <string name="oom_killer_enabled">OOM وضع إيقافه مفعل للـ</string>
+    <string name="oom_killer_disabled">OOM وضع إيقافه غير مفعل للـ</string>
+    <string name="cache_reclaim_default">تم تعيين إفتراضيات وضع إستصلاح البيانات المؤقتة</string>
+    <string name="cache_reclaim_minimum">إصلاح البيانات المؤقتة مفعل</string>
+    <string name="cache_reclaim_moderate">إصلاح البيانات المؤقتة مفعل</string>
+    <string name="cache_reclaim_doubled">إصلاح البيانات المؤقتة مفعل</string>
+    <string name="cache_alloc_default">تخصيص البيانات المؤقتة مفعل</string>
+    <string name="cache_alloc_medium">تخصيص البيانات المؤقتة مفعل</string>
+    <string name="cache_alloc_large">تخصيص البيانات المؤقتة مفعل</string>
+    <string name="kernel_tweaks_disabled">تم إلغاء تفعيلميزات النواة</string>
+    <string name="kernel_tweaks_light">تم تفعيل ميزات النواة</string>
+    <string name="kernel_tweaks_heavy">تم تفعيل ميزات النواة</string>
+    <string name="logs_saved">تم حفظ السجل بنجاح…</string>
+    <string name="logs_noexists">لم يتم العثور على سجلات مخزنة</string>
+    <string name="logs_no_save">لم يتم العثور على سجلات محفوظة</string>
+    <string name="double_back_pressed">أضغط مرةأخرى للخروج</string>
+    <string name="rate_app">أحببت L Speed? رجاءً قيمه!</string>
+    <string name="rate">قيمني!</string>
+    <string name="thanks_for_rate">شكراً لتقييمك</string>
+    <string name="profile_default">تم تعيين إفتراضيات الوضع</string>
+    <string name="profile_light">الوضع السريع مفعل</string>
+    <string name="profile_recommended">الوضع المستحسن مفعل</string>
+    <string name="profile_heavy">الوضع الثقيل مفعل</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">ما هو L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed هو تطبيق لتعديل وتحسين الظام ليناسب إحتياجاتك</string>
+    <string name="lSpeed_difference">ما الذي يجعل L Speed مختلف عن برامج التحسين الأخرى</string>
+    <string name="lSpeed_difference_explanation">L Speed يحتوي على العديد من الخيارات كل واحد منها يختلف عن الأخر</string>
+    <string name="why_root">لماذا يحتاج الروت؟</string>
+    <string name="why_root_explanation">تطبيق L Speed يحتاج الروت كي يستطيع تعديل ملفات النظام التي تحتاج الروت للوصول إليها</string>
+    <string name="what_can_do">ماذا بإمكاني القيام به مع تطبيقL Speed?</string>
+    <string name="what_can_do_explanation">يمكنك تعديل هاتفك وتحديثه من جميع النواحي</string>
+    <string name="gingerbread_usage">هل يمكنني إستعماله على أندرويد 2.6 أو 2.3؟</string>
+    <string name="gingerbread_usage_explanation">لا,لا يمكنك هذا التطبيق يحتاج إصدار أندرويد+ 4.0.3 فما فوق</string>
+    <string name="usage_with_mods">هل يمكنني إستعماله في مودات أخرى؟</string>
+    <string name="usage_with_mods_explanation">لا, لا يمكنك ذلك</string>
+    <string name="init.d_why">Init.d فارغ لماذا؟</string>
+    <string name="init.d_why_explanation">لأن التطبيق لا يستعمله بالأساس</string>
+    <string name="check_working">كيف بإمكاني التأكد ما إذا كان التطبيق يعمل؟</string>
+    <string name="check_working_explanation">يمكنك التأكد بمجرد رؤية هاتفك بالمزايا التي فعلتها</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">Developer, founder, maintainer</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Dedicated developer</string>
+    <string name="peter_hint">Part-time dedicated developer</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">تفيذ البرامج النصية</string>
+    <string name="on_boot_time">تم تطبيق الإعدادات في %d ثانية</string>
+    <string name="on_boot_finished">تم تطبيق التخصيصات التي أخترتها</string>
+    <string name="on_boot_cancelled">لقد تم إلغاء التنفيذ</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">إفتراضي</string>
+    <string name="array_entries_light">سريع</string>
+    <string name="array_entries_moderate">القائم</string>
+    <string name="array_entries_disabled">ملغي التفعيل</string>
+    <string name="array_entries_aggressive">معادية</string>
+    <string name="array_entries_heavy">ثقيل جداً</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Balanced</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">صغير</string>
+    <string name="net_buffer_entries_big">كبير</string>
+    <string name="ram_manager_entries_multitasking">تعدد العمليات</string>
+    <string name="ram_manager_entries_gaming">وضع اللعبة</string>
+    <string name="seeder_entries_enlarger">المكبر</string>
+    <string name="oom_killer_entries_enabled">مفعل</string>
+    <string name="cache_reclaiming_entries_minimum">الأصغر</string>
+    <string name="cache_reclaiming_entries_doubled">Doubled</string>
+    <string name="cache_allocation_entries_medium">وسط</string>
+    <string name="cache_allocation_entries_large">كبير</string>
+    <string name="quick_mode_recommended">مستحسن</string>
+    <string name="sec_0">0ثانية</string>
+    <string name="sec_5">5ثواني</string>
+    <string name="sec_10">10ثوني</string>
+    <string name="sec_20">20ثانية</string>
+    <string name="sec_30">30ثانية</string>
+    <string name="sec_60">60ثانية</string>
+</resources>

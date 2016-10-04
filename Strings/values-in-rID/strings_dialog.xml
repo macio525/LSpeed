@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Menghapus file sampah yang dihasilkan oleh sistem (log cache yang tidak digunakan, dll…)</string>
+    <string name="app_cache_cleaner_explanation">Menghapus cache yang tidak diperlukan yang dihasilkan oleh aplikasi (cache gambar, dll…)</string>
+    <string name="wipe_cache_explanation">Menghapus semua cache yang terdapat pada partisi /cache</string>
+    <string name="wipe_dalvik_explanation">Menghapus semua dalvik-cache aplikasi, reboot diperlukan setelah pengoperasian selesai untuk mencegah force close</string>
+    <string name="cleaner_on_boot_explanation">Menyalakan pembersih sampah otomatis setiap reboot</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Trim partisi perangkat untuk mengurangi read/write lag dan meningkatkan performa, gunakan hanya saat dibutuhkan</string>
+    <string name="fstrim_on_boot_explanation">Menyalakan trim berkas sistem otomatis pada setiap reboot</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Pilihan ini akan mencoba untuk menggabungkan beberapa tugas kedalam satu inti</string>
+    <string name="cpu_optimizer_explanation">Improvisasi dan optimisasi performa CPU, mungkin akan menghabiskan daya lebih cepat</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Pengoperasian boost input - output untuk meningkatkan performa perangkat</string>
+    <string name="io_extended_queue_explanation">Extends input - output queue, sedikit menghabiskan daya baterai tetapi akan mempercepat read/write</string>
+    <string name="sd_tweak_explanation">Meningkatkan read_ahead untuk read/write yang lebih cepat</string>
+    <string name="partition_remount_explanation">Remounts semua partisi EXT4 partitions dengan pilihan peningkatan performa</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Meningkatkan performa browsing jaringan\nNet buffer kecil akan meningkatkan ukuran buffer pada setiap tipe jaringan (3G, WiFi, LTE, Edge, UMTS)\nNet buffer besar akan meningkatkan ukuran buffer lebih besar dan mungkin akan memperngaruhi daya baterai saat memakainya</string>
+    <string name="ril_tweaks_explanation">Meningkatkan kecepatan tranfer data</string>
+    <string name="dns_explanation">Ganti DNS dengan Google Public DNS (8.8.8.8 – 8.8.4.4)</string>
+    <string name="faster_streaming_explanation">Tunes Android native Stagefright player untuk stream berkas media online lebih cepat</string>
+    <string name="fast_dormancy_explanation">Menyalakan pemindahan tipe jaringan lebih cepat untuk menghemat baterai, gunakan hanya jika provider anda mendukung fast dormancy</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Turunkan cache seperti inodes, dentries dan pagecaches untuk melegakan RAM perangkat anda</string>
+    <string name="battery_calibration_explanation">Menghapus batterystats.bin untuk mengkalibrasi ulang baterai anda, reboot diperlukan untuk menyelesaikan kalibrasinya</string>
+    <string name="kill_media_server_explanation">Memaksa menghentikan proses Media Server, gunakan ini untuk mengurangi pemanasan perangkat dan performa yang menurun akibat Media Server</string>
+    <string name="seeder_explanation">Meningkatkan performa dengan kerugian daya baterai yang cepat habis. Merubah level Seeder akan meningkatkan performa tetapi daya baterai akan habis lebih cepat</string>
+    <string name="kernel_tweaks_explanation">Merubah pengaturan kernel untuk lebih meningkatkan performa perangkat\n\nRingan - Sedikit modifikasi, hampir seperti stok kernel\n\nBerat - Menerapkan modifikasi yang lebih banyak pada kernel, peningkatan performa dengan sedikit efek pada daya baterai</string>
+    <string name="disable_debugging_explanation">Mematikan operasi debug read/write\nMematikan log seperti aktifitas log ANR  dan hasil logcat yang tidak diperlukan, untuk meningkatkan performa.</string>
+    <string name="disable_kernel_panic_explanation">Mematikan kernel panik untuk menghindari reboot secara tiba-tiba jika menggunakan kernel yang memiliki bug dan/atau tidak stabil</string>
+    <string name="kernel_sleepers_optimization_explanation">Meningkatkan parameter kernel sleeper yang digunakan pada deep sleep untuk performa yang lebih baik</string>
+    <string name="fsync_explanation">Fsync menjaga dengan aman data yang berubah selama sistem crash atau perangkat mati secara tiba-tiba</string>
+    <string name="KSM_explanation">Menyalakan KSM, merupakan fitur memory-saving de-duplication yang mana akan melakukan scan terhadap memori dan akan mencari halaman yang sama, berguna untuk perangkat yang memiliki penyimpanan sedikit</string>
+    <string name="fast_charge_explanation">Menyalakan pengisian cepat yang digunakan pada kebanyakan custom kernel, ini tidak dibutuhkan jika perangkat anda tidak mendukung pengisian cepat</string>
+    <string name="wifi_sleeper_explanation">Mengurangi jeda antara WiFi aktif dan mati/posisi tidak aktif, menghemat daya baterai jika WiFi sedang digunakan</string>
+    <string name="flag_tuner_explanation">Mematikan batasan performa pada sistem dan akan meningkatkan daya tahan baterai\nDapat menyebabkan ketidakstabilan</string>
+    <string name="better_voice_call_quality_explanation">Meningkatkan kualitas suara saat telefon, daya baterai akan habis lebih cepat</string>
+    <string name="improve_battery_explanation">Memperpanjang daya tahan baterai dengan memodifikasi sistem</string>
+    <string name="better_scrolling_explanation">Meningkatkan performa pengguliran dan akan membuat pengguliran lebih halus</string>
+    <string name="faster_boot_explanation">Mengurangi waktu boot dengan mengoptimisasi sistem</string>
+    <string name="improve_image_quality_explanation" formatted="false">Meningkatkan rata-rata bitrate dan meingkatkan kualitas gambar dengan memaksimalkan kualitasnya</string>
+    <string name="liquid_UI_explanation">Meningkatkan performa antarmuka pengguna sebagai dampaknya daya baterai akan berkurang lebih cepat</string>
+    <string name="misc_tweaks_explanation">Mematikan User Behavior Logging Service (Hanya HTC Sense)\nMematikan Google Network Location\nMengatur jeda waktu perangkat anda untuk mulai berbunyi saat menerima panggilan</string>
+    <string name="assertive_display_explanation">Menyalakan Qualcomm Assertive Display yang mana akan meningkatkan kualitas tampilan</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Meningkatkan performa ketika perangkat kehabisan memori\nAwal - Pengaturan awal perangkat\n\nDinyalakan - Mematikan aplikasi saat kehabisan memori, hal ini untuk menghindari tugas yang berlebihan\n\nDimatikan - OOM killer akan melakukan scan pada semua tugas dan memilih berdasarkan heuristic tugas untuk dimatikan, normalnya akan memilih tugas yang memakai memori banyak yang mana akan memberikan ruang yang banyak saat dimatikan</string>
+    <string name="cache_reclaiming_explanation">Kontrol kernel untuk mengklaim kembali memori yang digunakan untuk men-cache pada direktori dan objek inode\n\nAwal - Parameter awal perangkat\n\nMinim - Sedikit men-klaim kembali. Hal ini akan meningkatkan daya baterai tetapi beberapa performa mungkin akan hilang\n\nSedang - Membiarkan sedikit pengaturan seperti awal, meningkatkan daya tahan baterai dengan sedikit efek pada performa\n\nDouble - Memberikan performa pada perangkat tetapi dengan efek yang besar pada daya tahan baterai</string>
+    <string name="cache_allocation_explanation" formatted="false">Kontrol seberapa banyak RAM dapat digunakan untuk alokasi cache\n\nSedang - Menggunakan 100% RAM fisik anda untuk alokasi cache\n\nBesar - Menggunakan100% RAM fisik anda dan 50% dari swap jika ada\n\nMemodifikasi alokasi cache mungkin akan menyebabkan aplikasi berhenti tiba-tiba secara acak dan penurunan performa</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimisasi dan modifikasi zRAM berdasarkan nilai yang direkomendasikan dan ukuran RAM</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Meningkatkan performa saat memori sedikit\nMenghitung pengaturan LMK (LowMemoryKiller) berdasarkan RAM perangkat anda dan pilihan profil\n\nAwal - Pengaturan awal perangkat\n\nMultitasking - Jaga sebanyak mungkin tugas pada RAM\n\nSeimbang - Seimbang antara profil multitasking dan gaming \n\nGaming - Jaga se-sedikit mungkin tugas pada RAM dan membuat game anda terbebas dari lag</string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Ini adalah contoh dialog, anda juga dapat melakukan ini pada Contoh Tweak yang lain</string>
+    <string name="another_example_explanation">Hampir semua pilihan L Speed memiliki penjelasan, menahan pilihan dengan lama akan memunculkan penjelasan</string>
+    <string name="more_example_explanation">Lanjut, contoh ini hanya digunakan untuk menunjukkan bagaimana semuanya bekerja pada aplikasi ini</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Menyalakan pilihan kustomisasi lebih banyak, bukan untuk pemula yang tidak memiliki pengalaman lebih lanjut</string>
+    <string name="dark_theme_explanation">Berganti pada tampilan tema yang lebih gelap</string>
+    <string name="nav_bar_color_explanation">Bar navigasi berwarna, jika tidak ada bar navigasi yang terdeteksi maka tidak akan ada yang diwarnai</string>
+    <string name="force_english_explanation">Gunakan Bahasa Inggris daripada bahasa yang sedang digunakan sistem saat ini</string>
+    <string name="show_toast_explanation">Munculkan toast/snackbar (posisi pada bawah) ketika tweak dinyalakan</string>
+    <string name="show_fahrenheit_explanation">Gunakan Fahrenheit daripada Celsius, ditunjukkan pada Temperatur Baterai di Dashboard</string>
+    <string name="time_boot_delay_explanation">Periode waktu untuk menunggu eksekusi script pada saat boot</string>
+    <string name="show_boot_notification_explanation">Tampilkan notifikasi ketika aplikasi dimulai saat booting</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Pilih profil yang telah ditetapkan L Speed, ini akan menentukan bagaimana L Speed akan bekerja dan memodifikasi sistem</string>
+
+</resources>

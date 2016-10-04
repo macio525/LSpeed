@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed je neprofitna i besplatna aplikacija, stekli smo nula dolara od njega (osim donacija, naravno!), ovo je dobro za nas, ali razvoj košta mnogo novca da se radi, treba internet, struja i hrana!\n\nzbog toga, dodali smo reklame u aplikaciji, one nisu nametljive i osvojive ne smeta, mi obećavamo! Klikom na njih će nam pomoći još više!\n\nHvala na razumijevanju</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Ukloni nepotrebne i zastarjele datoteke generisane u sistem (logs, nekorištene cache datoteke, etc…)</string>
+    <string name="app_cache_cleaner_explanation">Ukloni suvišan keš generisan u aplikaciji (keš slika, etc…)</string>
+    <string name="wipe_cache_explanation">Ukloniti sve datoteke kreirane u (/cache) particiji</string>
+    <string name="wipe_dalvik_explanation">Obriši Dalvik-cache svih aplikacija,reboot je potreban nakon operacije kako bi se spriječilo zatvaranje na silu</string>
+    <string name="cleaner_on_boot_explanation">Omogućiti automatsko čišćenje suvišnih datoteka uz svaki reboot </string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Fstrim particiji reducira čitanje/pisanje i poboljšava performanse, koristiti samo kada je potrebno</string>
+    <string name="fstrim_on_boot_explanation">Omogućava automatsko obrađivanje datoteka sistema uz svaki reboot</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Podesi vaš trenutni guverner sa inteligentnim skaliranjem sistema za optimalne performanse i trajanje baterije</string>
+    <string name="mcps_explanation">Izdvaja procesor u grupe sprovedeno u minimalan broj jezgara i produžava trajanje baterije</string>
+    <string name="cpu_optimizer_explanation">Poboljšanje i optimiziranje performansi procesora,s tim da može brže isprazniti bateriju</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Pojačava ulazno-izlazne operacije uz poboljšanje performansi</string>
+    <string name="io_extended_queue_explanation">Proširuje ulaz - izlaz,uz blago pražnjenje baterije, ali uz brže čitanje/pisanje</string>
+    <string name="sd_tweak_explanation">Povećava read_ahead za veće brzine čitanja/brzina zapisivanja</string>
+    <string name="partition_remount_explanation">Ponovno spojite sve EXT4 particije koristeći opciju mount</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Poboljšava brzinu pregleda interneta\nSmall mreže bafera će povećati mrežu odbojnika razumno za svaki tip veze (3G, WiFi, LTE, Edge, UMTS)\nBig net će povećati odbojnik i to može produžiti život baterije dok koristite transfer preko mreže</string>
+    <string name="ril_tweaks_explanation">Poboljšava brzinu prijenosa mobilnih podataka</string>
+    <string name="dns_explanation">Zamjenjuje Domain Name Server (DNS) sa jednim od Google javnih DNS servera (8.8.8.8 – 8.8.4.4)</string>
+    <string name="faster_streaming_explanation">Optimizira originalni Android player i vrši brži prijenos online medijskih datoteka</string>
+    <string name="fast_dormancy_explanation">Omogućava brži tip mreže za uštedu baterije, koristite samo ako davatelj usluga / mrežni operater podržava fast dormancy</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Očisti sistem cache datoteka (npr. Indeksnog čvora, dentries i pagecaches) da oslobodi RAM na uređaju</string>
+    <string name="battery_calibration_explanation">Uklanja fajl batterystats.bin kalibracije (kalibracija) baterije. Restart je potreban za završetak kalibracije</string>
+    <string name="kill_media_server_explanation">Prisilno zaustaviti Media Server proces,zbog ublažavanja zagrijavanja i performansi jer bih to mogao  uraditi Media Server</string>
+    <string name="seeder_explanation">Poboljšava performanse uređaja uz kraće trajanje baterije.\nSeeder Viši nivoi će poboljšati performanse, ali baterija će biti brže ispražnjena</string>
+    <string name="kernel_tweaks_explanation">Promijenite postavke u kernelu s vrijednostima za bolje performanse\n\nLight -. Manje promjene u vrijednosti Kernela bližem default\n\nHigh -. Promijenite postavke za bolje Kernel performanse uz mali uticaj na potrošnju baterije</string>
+    <string name="disable_debugging_explanation">Onemogućavanje operacije čitanja/pisanja prilikom nekih smetnji.\nOnemogući snimanje, na primjer. aktivnost u neodzivnim aplikacijama ili nepotrebne sječe izlaza za rezanje. To poboljšava kapacitet uređaja.</string>
+    <string name="disable_kernel_panic_explanation">Onemogućiti kernel panic da se izbjegne ponovni reboot,ako jezgra sadrži greške ili je nestabilna</string>
+    <string name="kernel_sleepers_optimization_explanation">Poboljšava kernel mirovanja parametara koji će se koristiti u dubokom snu, čime se poboljšava performanse uređaja</string>
+    <string name="fsync_explanation">Fsync sigurno pohranjuje promijenjene podatke u slučaju pada sistema ili naglog gašenja</string>
+    <string name="KSM_explanation">Omogućava Grupiranje na istoj strani u kernelu (Kernel Samepage Spajanje, KSM), i deduplikacijsku funkciju očuvanja memorije, koja ispituje memorije i traži duplikat stranice. Korisno za uređaje sa malo memorije</string>
+    <string name="fast_charge_explanation">Omogućiti brzo punjenje, koje se koristi u većini prilagođenih kernela.To nije potrebno ako vaš uređaj po defaultu (fabrički) omogućuje brzo punjenje</string>
+    <string name="wifi_sleeper_explanation">Skratiti kašnjenje između aktivnih i neaktivnih WiFi veza, manja potrošnja baterije ukoliko se WiFi koristi</string>
+    <string name="flag_tuner_explanation">Onemogućiti zastavu ograničavanja kapaciteta sistema i time poboljšati izdržljivost baterije.\nMoze izazvati nestabilnost</string>
+    <string name="better_voice_call_quality_explanation">Poboljšava kvalitet poziva, uz malo veću potrošnju baterije</string>
+    <string name="improve_battery_explanation">Povećava trajanje baterije uz poboljšanja u sistemu</string>
+    <string name="better_scrolling_explanation">Poboljšava pokret na displeju i dodatno čini scrolling glatkim</string>
+    <string name="faster_boot_explanation">Skratiti vrijeme pokretanja optimizacijom adaptivne vrijednosti sistema</string>
+    <string name="improve_image_quality_explanation" formatted="false">Povećava prosječnu brzinu protoka i poboljšava kvalitetu slike,tako da je postavljena na maksimum</string>
+    <string name="liquid_UI_explanation">Poboljšava korisnički interfejs i performanse uz kraće trajanje baterije</string>
+    <string name="misc_tweaks_explanation">Isključite ponašanja korisnika usluga (samo uz HTC Sense).\nOmogućite lokaciju Google mreže.\nNastavi kašnjenja zvona kad primite poziv</string>
+    <string name="assertive_display_explanation">Omogućiti Qualcomm Assertive Display, koji naglašava fleksibilan i poboljšan kvalitet ekrana</string>
+    <string name="restrict_wlan_wakelock_explanation">Ova opcija ograničava WLAN wakelock od aktiviranja</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">Ova opcija ograničava wlan_ctrl wakelock od aktiviranja</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">Ova opcija ograničava wlan_rx wakelock od aktiviranja</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">Ova opcija ograničava msm_hsic_host wakelock od aktiviranja</string>
+    <string name="restrict_bluesleep_wakelock_explanation">Ova opcija ograničava bluesleep wakelock od aktiviranja</string>
+    <string name="restrict_smb135x_wakelock_explanation">Ova opcija ograničava smb135x wakelock od aktiviranja kada se isključi napajanje</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">Ova opcija ograničava sensor_ind wakelock od aktiviranja kada je Ambient Ekran onemogućen</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Poboljšati kapacitet sistema kada sistem počne da radi niske memorije\n\nDefault -. Standardne postavke\n\nOmogućeno -. Uništava prijave u slučaju nedostatka memorije, što eliminira i opterećujuće pogled na popis zadataka\n\nOnemogućeno -. OOM razarač će razmotriti čitav popis zadataka i heuristički izabrati i zaustaviti posao. Obično biraju vrlo teške zadatke da zaustave veliki dio memorije</string>
+    <string name="cache_reclaiming_explanation">Kontrole tendencije kernela nakon vraćanja memorije, koji se koristi za caching direktorije i broj I-čvor objekata (struktura podataka s informacijama o datotekama u UNIX sistemima)\n\nDefault -.. Zadani parametar uređaja\n\nMinimalno - Manji oporavak. Ovo će malo poboljšati trajanje baterije, a očekuje se da će biti nekih gubitaka performansi\n\nDefault -. Očuvanje vrijednosti nešto manje od default, poboljšava trajanje baterije s manje uticaja na performanse\n\nDvojno -. Značajno povećava kapacitet sistema, ali uz veliki uticaj na trajanje baterije</string>
+    <string name="cache_allocation_explanation" formatted="false">Kontrola koliko RAM-a može se koristiti za dodjelu keš\n\nSrednje -. Koristite 100% fizički RAM-a za dodjelu cache\n\nVeliko -. Nanesite 100% fizički RAM-a i 50% razmjene (swap), ako postoji.\n\nSpremanje dodjele keša može uzrokovati slučajno smrzavanje sistema i padove kapaciteta</string>
+    <string name="heap_optimization_explanation">Optimiziranje i fino podešavanje veličine heap-a sa preporučenim vrijednostima, zasnovan na RAM-u i prikazu density</string>
+    <string name="runtime_optimization_explanation">Fino podešava i optimizira Android Runtime za bolje performanse i učinkovitost, ova opcija se odnosi i na Dalvik i ART</string>
+    <string name="zram_optimization_explanation">Optimizira i fino podešava zRAM zasnovan na vrijednostima i preporučenim veličinama RAM-a</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Poboljšati kapacitet uređaja, gdje nedostaje memorij\nIzračuna razarač aplikacija ima li premalo memorije (LowMemoryKiller), u skladu s RAM na uređaju i odabranog profila\n\nDefault -.. Standardne postavke\n\nNepravilnost -. Držite kao mnoge aplikacije u RAM -u\n\nUravnoteženo -.. ravnotežu između multitasking i igračkog profila\n\nIgranje igre - Držite minimalno aplikacije u memoriji i spriječiti ometanje igre</string>
+    <string name="low_ram_flag_explanation">Ova opcija optimizira Dalvik hrpe memorije izdvajanja,takođe prebacuje nekoliko niske RAM zastave u sistemu,koji onemogućava fancy efekte kao što su opsežne animacije i Statusbar nijansiranje.\nTo može smanjiti potrošnju baterije nekih aplikacija</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Ovo je primjer dijaloga, možete koristiti i za druge primjere poboljšanja</string>
+    <string name="another_example_explanation">Gotovo sve opcije u L Speed su sa objašnjenjima, dugi pritisak na opciju prikazuje objašnjenje</string>
+    <string name="more_example_explanation">Možete nastaviti, jer u ovim slučajevima se koriste samo da se pokaže kako stvari rade u administraciji</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Omogućiti više opcija za podešavanje i nije za početnike bez iskustva</string>
+    <string name="dark_theme_explanation">Prebacivanje teme na tamni izgled</string>
+    <string name="nav_bar_color_explanation">Oboji navigaciju,ako nema navigacije,onda ništa neće biti obojeno</string>
+    <string name="force_english_explanation">Upotreba engleskog umjesto jezika koji se trenutno koristi</string>
+    <string name="show_toast_explanation">Prikazuje tost ili snackbar (najave na dnu ekrana), gdje je omogućeno poboljšanje</string>
+    <string name="show_fahrenheit_explanation">Koristite jedinice Fahrenheit umjesto Celzijusa i prikaži ga na temperaturi od baterije u kontrolnom panelu</string>
+    <string name="time_boot_delay_explanation">Period čekanja prije izvršavanja skripte u boot-u</string>
+    <string name="show_boot_notification_explanation">Poruka se pojavljuje pri pokretanju aplikacije sa sistemom</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Izaberite unaprijed definisani L Speed profil,ovo određuje kako će L Speed pripremiti rad sistema</string>
+
+</resources>

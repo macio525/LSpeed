@@ -1,0 +1,474 @@
+<resources>
+
+    <!-- Strings for activity_no_root -->
+    <string name="root_required">Rut neophodan</string>
+    <string name="root_explanation">L Speed zahteva root jer modifikuje sistemske datoteke koje ne mogu biti postignuti bez root-a</string>
+    <string name="how_root">Kako mogu da rutujem uredjaj?</string>
+    <string name="how_root_explanation">Mozete pronaci sajtove koji ce vam pomoci da postignete root</string>
+    <string name="search_for_hint">Trazi</string>
+    <string name="google_help">Kako da root-ujem(ime tvog uredjaja)</string>
+    <string name="xda_help">Root uputstvo za tvoj uredjaj</string>
+    <string name="androidforums_help">Specifican forum za Vas uredjaj</string>
+    <string name="root_safe">Da li je rutovanje mog uredjaja bezbedno?</string>
+    <string name="root_safe_explanation">Root-ovanje Vaseg uredjaja moze predstaviti rizik, ali generalno je bezbedno.</string>
+
+    <!-- Strings for TipsActivity -->
+    <!-- Strings for TipFirst -->
+    <string name="welcome_to_l_speed">Dobrodosli na L Speed</string>
+    <string name="setup_guide">Ovo podesavanje ce voditi konfiguraciju L Speed</string>
+    <string name="start">Pocni</string>
+    <string name="next">Sledece</string>
+    <string name="finish">Zavrsi</string>
+
+    <!-- Strings for TipSecond -->
+    <string name="l_speed_tips">L Speed saveti</string>
+    <string name="long_tap">Drzanje ili dug pritisak na opciju ce otvoriti informaciju ili opis tweak-a</string>
+    <string name="try_it_here">Mozete ga isprobati ovde</string>
+    <string name="example_tweak">Primer Tweak-a</string>
+    <string name="another_example">Jos jedan primer</string>
+    <string name="more_example">Vise primera</string>
+
+    <!-- Strings for TipThird -->
+    <string name="configure_l_speed">Konfigurisati L Speed</string>
+    <string name="long_tap_sec">Mozete i dalje drzati dug pritisak da biste videli opis opcija. Ove opcije mogu biti promenjene kasnije.</string>
+
+    <!-- Strings for TipForth -->
+    <string name="permissions">Dozvole</string>
+    <string name="storage_permission">L Speed zahteva dozvolu pristupa vasem prostoru za svoj backup i funkciju cistaca, preporucljivo je dozvoliti pristup.</string>
+
+    <!-- Strings for TipLast -->
+    <string name="enjoy_l_speed">Uzivaj u L Speed-u</string>
+    <string name="setup_complete">Podesavanje je zavrseno, mozete promeniti podesavanja kasnije.</string>
+
+    <!-- Partial strings for MainActivity -->
+    <!-- Contain strings shared across the fragments -->
+    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="navigation_drawer_open">Navigation drawer opened</string>
+    <string name="navigation_drawer_close">Navigation drawer closed</string>
+    <string name="reboot_confirm">Restartuj uredjaj?</string>
+    <string name="reset_confirm">Resetuj konfiguraciju na uobicajeno?</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Ponisti</string>
+    <string name="please_wait">Molimo sacekajte</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="script_execute_indeterminate">Izvrsavanje skripti</string>
+    <string name="script_execute">Izvrsavanje skripti: \n%1$s</string>
+
+    <!-- FStrim fragment -->
+    <string name="last_time_trimmed">Zadnji put skraceno</string>
+    <string name="not_trimmed">Nema zapisa skracivanja</string>
+    <string name="fstrim_now">Skrati sada</string>
+    <string name="fstrim_load_dialog">Skracivanje…</string>
+    <string name="fstrim_on_boot">Pokreni skracivanje na boot</string>
+
+    <!-- Strings for fragment_cleaner -->
+    <string name="cleaner_on_boot">Pokreni cistac na boot</string>
+    <string name="junk_cleaner">Ocisti nepotrebne fajlove</string>
+    <string name="system_clean_dialog">Trazenje nepotrebnih fajlova…</string>
+    <string name="app_cache_cleaner">Ocisti kes memoriju</string>
+    <string name="app_cache_dialog">Trazenje kes memorije…</string>
+    <string name="wipe_cache">Obrisi kes particiju</string>
+    <string name="wipe_dalvik">Obrisi dalvik kes</string>
+    <string name="files_founded_dialog">Pronadjeno %1$s MB fajlova, da li zelite obrisati?</string>
+    <string name="files_founded">Fajlovi nadjeni</string>
+    <string name="files_not_founded">Fajlovi nisu nadjeni</string>
+
+    <!-- Strings for fragment_cpu_tuner -->
+    <string name="cpu_info">CPU Informacije</string>
+    <string name="governor_tuner">Governor Tuner</string>
+    <string name="mcps">Multicore stednja energije</string>
+    <string name="cpu_optimizer">CPU Optimizacija</string>
+
+    <!-- Strings for fragment_dashboard -->
+    <string name="device_info">Informacije uredjaja</string>
+    <string name="device">Uredjaj: %1$s \n</string>
+    <string name="device_model">Model uredjaja: %1$s \n</string>
+    <string name="manufacturer">Proizvodjac: %1$s \n</string>
+    <string name="brand">Marka: %1$s \n</string>
+    <string name="hardware">Hardver: %1$s \n</string>
+    <string name="id">Identifikacija: %1$s</string>
+    <string name="battery_information">Informacije o bateriji</string>
+    <string name="cpu_information">Informacije o procesoru</string>
+    <string name="kernel_information">Kernel informacije</string>
+    <string name="health">Zdravlje: %1$s \n</string>
+    <string name="level">Nivo: %1$s%% \n</string>
+    <string name="technology">Tehnologija: %1$s \n</string>
+    <string name="no_battery">Baterija nije detektovana ili baterija nije instalirana</string>
+    <string name="temp">Temperatura:</string>
+    <string name="volt">Voltaza: %1$s mV</string>
+    <string name="charge_status">Status o punjenju: %1$s \n</string>
+    <string name="state">Stanje: %1$s \n</string>
+    <string name="health_dead">Mrtvo</string>
+    <string name="health_good">Dobro</string>
+    <string name="health_over_voltage">Preko napona</string>
+    <string name="health_over_heat">Pregrejano</string>
+    <string name="health_failure">Malfunctioning</string>
+    <string name="charge_unplugged">Nepovezan</string>
+    <string name="charge_charger">Povezan sa punjacem</string>
+    <string name="charge_usb">Povezan sa USB</string>
+    <string name="status_charging">Punjenje</string>
+    <string name="status_discharging">Praznjenje</string>
+    <string name="status_full">Napunjeno</string>
+    <string name="status_not_charging">Ne puni se</string>
+    <string name="battery_usage">Koriscenje baterije</string>
+    <string name="current_entropy">Trenutna entropija:</string>
+
+    <!-- Strings for fragment_io_tweak -->
+    <string name="io_boost">IO Ubrzavanje</string>
+    <string name="io_extended_queue">IO produzen red</string>
+    <string name="sd_tweak">SD tweak</string>
+    <string name="partition_remount">Remont particije</string>
+
+    <!-- Strings for fragment_ram_manager -->
+    <string name="memory_information">Informacije o memoriji</string>
+    <string name="current_minfree">Trenutni minfree:</string>
+    <string name="current_memory_status">Trenutni status memorije:</string>
+    <string name="foreground_app">Prvi plan aplikacije:\t %1$sMB \n</string>
+    <string name="visible_app">Vidljive aplikacije:\t %1$sMB \n</string>
+    <string name="secondary_server">Sporedni server:\t %1$sMB \n</string>
+    <string name="hidden_app">Skrivene aplikacije:\t %1$sMB \n</string>
+    <string name="content_provider">Sadrzaj nabavljaca:\t %1$sMB \n</string>
+    <string name="empty_app">Prazne aplikacije:\t %1$sMB \n</string>
+    <string name="low_ram_flag">Low RAM Flag</string>
+
+    <!-- Strings for fragment_lnet_optimizer -->
+    <string name="net_buffers">NET Baferi</string>
+    <string name="ril_tweaks">RIL tweaks</string>
+    <string name="dns">Google DNS</string>
+    <string name="faster_streaming">Brzi striming</string>
+    <string name="fast_dormancy">Brzo mirovanje</string>
+
+    <!-- Strings for fragment_main -->
+    <string name="boost_now">Ubrzaj sada</string>
+    <string name="battery_calibration">Kalibracija baterije</string>
+    <string name="kill_media_server">Ubij medija servere</string>
+    <string name="ram_manager">RAM Menadzer</string>
+    <string name="seeder">Sider</string>
+    <string name="kernel_tweaks">Kernel Tweaks</string>
+    <string name="disable_debugging">Onesposobi otklanjanje gresaka</string>
+    <string name="disable_kernel_panic">Onesposobi kernel panic</string>
+    <string name="kernel_sleepers_optimization">Kernel sleepers optimizacija</string>
+    <string name="fsync">Fsync</string>
+    <string name="KSM">Kernel Samepage spajanje</string>
+    <string name="fast_charge">Brzo punjenje</string>
+    <string name="wifi_sleeper">Wi-Fi spavac</string>
+    <string name="flag_tuner">Flag tuner</string>
+    <string name="better_voice_call_quality">Bolji zvuk u pozivu</string>
+    <string name="improve_battery">Poboljsavanje baterije</string>
+    <string name="better_scrolling">Poboljsavanje skrola</string>
+    <string name="faster_boot">Brzo pokretanje</string>
+    <string name="improve_image_quality">Poboljsati kvalitet slike</string>
+    <string name="liquid_UI">Liquid UI</string>
+    <string name="misc_tweaks">Ostali tweakovi</string>
+    <string name="assertive_display">Pouzdan displej</string>
+    <string name="restrict_wlan_wakelock">Restrict wlan Wakelock</string>
+    <string name="restrict_wlan_ctrl_wakelock">Restrict wlan_ctrl Wakelock</string>
+    <string name="restrict_wlan_rx_wakelock">Restrict wlan_rx Wakelock</string>
+    <string name="restrict_msm_hsic_host_wakelock">Restrict msm_hsic_host Wakelock</string>
+    <string name="restrict_bluesleep_wakelock">Restrict bluesleep Wakelock</string>
+    <string name="restrict_smb135x_wakelock">Restrict smb135x Wakelock</string>
+    <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
+
+    <!-- Strings for fragment_virtual_memory -->
+    <string name="virtual_memory">Virtualna Memorija</string>
+    <string name="oom_killer">OOM Ubica</string>
+    <string name="cache_reclaiming">Kes vracanje</string>
+    <string name="cache_allocation">Kes raspodela</string>
+    <string name="heap_optimization">Heap Optimization</string>
+    <string name="runtime_optimization">Runtime Optimization</string>
+    <string name="zram_optimization">zRAM Optimizacija</string>
+
+    <!-- Strings for LsNewsFragment-->
+    <string name="webview_load_dialog">Ucitavanje stranice…</string>
+
+    <!-- Strings for fragment_backup -->
+    <string name="backup_config">Rezervna kopija</string>
+    <string name="backup_created">Rezervna kopija napravljena</string>
+    <string name="backup_delete">Obrisi rezervnu kopiju</string>
+    <string name="backup_deleted">Rezervna kopija obrisana</string>
+    <string name="backup_restore">Obnovi</string>
+    <string name="backup_restored">Rezervna kopija obnovljena</string>
+    <string name="backup_date">Zadnji datum rezervne kopije: %1$s</string>
+    <string name="backup_none">Rezervna kopija ne postoji ili nije nadjena</string>
+    <string name="name_backup">Ubaci rezervna kopija ime</string>
+    <string name="backup_list">Rezervna kopija lista </string>
+    <string name="restore_question">Povrati odabranu rezervnu kopiju?</string>
+    <string name="delete_question">Obrisi ovu rezervnu kopiju?</string>
+
+    <!-- Strings for fragment_about -->
+    <string name="donate">Donacije</string>
+    <string name="beta_version">Beta verzija</string>
+    <string name="beta_version_text">New stvari svakog dana!\nPridruzite se beta testiranju!</string>
+    <string name="translation">Prevod</string>
+    <string name="translation_text">Pomozite nam pri prevodu L brzine</string>
+
+    <!-- Strings for fragment_help -->
+    <string name="l_speed_support">L Speed podrska</string>
+    <string name="provides_support_text">Pruza podrsku 24/7</string>
+
+    <!-- Strings for fragment_settings -->
+    <string name="use_advanced_ui">Upotreba napredna UI</string>
+    <string name="dark_theme">Mracna tema</string>
+    <string name="color_navigation_bar">Boja navigacije bara</string>
+    <string name="force_english">Prinuditi Engleski</string>
+    <string name="show_toast_and_snacks">Show toggle toast</string>
+    <string name="show_fahrenheit">Upotreba fahrenheit (°F)</string>
+    <string name="time_boot_delay_settings">Primeni na boot kasnjenja</string>
+    <string name="show_boot_notification">Pokazi boot notifikacije</string>
+
+    <!-- Strings for the navigation drawer -->
+    <string name="dashboard">Komandna tabla</string>
+    <string name="main_tweak">Glavni tweakovi</string>
+    <string name="cleaner">Cistac</string>
+    <string name="cpu_tuner">Procesor Tuner</string>
+    <string name="fstrim">FStrim</string>
+    <string name="lnet">LNET Optimizer</string>
+    <string name="io_tweak">IO Tweaks</string>
+    <string name="ls_news">L Brzina novosti</string>
+    <string name="backup">Rezervna kopija</string>
+    <string name="settings">Podesavanja</string>
+    <string name="help">Pomoc</string>
+    <string name="about">O nama</string>
+
+    <!-- Strings for action bar icons -->
+    <string name="action_reboot">Reboot</string>
+    <string name="reset_to_default">Resetuj na uobicajeno</string>
+    <string name="logs_view">Vidi log</string>
+
+    <!-- Strings for fragment_logsview -->
+    <string name="clear_log">Ocisti log</string>
+    <string name="save_log">Sacuvaj log na SD karticu</string>
+
+    <!-- Strings for the splashscreen -->
+    <string name="checking_for_root">Proveravanje roota…</string>
+    <string name="creating_required_folders">Creating required folders…</string>
+    <string name="extracting_busybox">Extracting busybox…</string>
+    <string name="collecting_device_info">Collecting device info…</string>
+    <string name="checking_device_support">Checking device support…</string>
+    <string name="splash">Uvodni ekran</string>
+
+    <!-- Strings for SimpleMode or QuickMode -->
+    <string name="profiles">Profili</string>
+    <string name="custMode">Prilagodjavanje Profila</string>
+    <string name="cust_mode_hint">Mozete prilagoditi Vas trenutni profil ovde, Nije obavezno, i rezultat moze biti gori</string>
+
+    <!-- Divider text -->
+    <string name="quickTool">Brze alatke</string>
+    <string name="memManage">Memorija za upravljanje Tweakovi</string>
+    <string name="kernMod">Kernel Modifikacije</string>
+    <string name="ioMod">Skladiste IO Tweakovi</string>
+    <string name="netMod">LNET Tweakovi</string>
+    <string name="netOpt">LNET Optimizacija</string>
+    <string name="cpuMod">CPU zvucnost</string>
+    <string name="uiOpt">UI Optimizacija</string>
+    <string name="sysOpt">Sistemski Tweakovi</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="debugOpt">Opcije za otklanjanje gresaka</string>
+    <string name="cleanerOpt">Opcije cistaca</string>
+    <string name="cacheClean">Kes cistac</string>
+    <string name="backRes">Rezervna kopija &amp; povrati</string>
+    <string name="backStat">Rezervna kopija Status</string>
+    <string name="otherMod">Ostali Tweaks</string>
+    <string name="credits">L Speed Kreatori</string>
+    <string name="application">Aplikacije</string>
+    <string name="interfaceDiv">Pristup</string>
+    <string name="otherDiv">Ostalo</string>
+    <string name="general">Opsto</string>
+    <string name="lspeed_basics">L Speed Osnove</string>
+    <string name="ram_manager_status">RAM Menadzer status</string>
+    <string name="ram_manager_options">RAM Menadzer Opcije</string>
+    <string name="zram_options">zRAM Opcije</string>
+    <string name="seeder_status">Seeder Status</string>
+    <string name="seeder_options">Seeder Opcije</string>
+    <string name="fstrim_options">FStrim Opcije</string>
+
+    <!-- Toast and snackbar strings, exported from all the Java files -->
+    <string name="pop_req_root">L Speed zahteva root</string>
+    <string name="pop_no_toolbox">Ne mogu se izdvojiti busybox</string>
+    <string name="pop_no_arch">Nepoznata arhitektura: %1$s</string>
+    <string name="fstrim_activated">FStrim na boot je omogucen</string>
+    <string name="fstrim_deactivated">FStrim na boot je onemogucen</string>
+    <string name="cleaner_enabled">Cistac na boot je omogucen</string>
+    <string name="cleaner_disabled">Cistac na boot je onemogucen</string>
+    <string name="app_cache_clear">App kes obrisan</string>
+    <string name="junk_clear">Djubre obrisano</string>
+    <string name="cache_clear">Kes particija obrisana</string>
+    <string name="dalvik_clear">Dalvik kes ocisceno</string>
+    <string name="mps_activated">Multicore stednja energije je aktivirana</string>
+    <string name="mps_deactivated">Multicore stednja energije je deaktivirana</string>
+    <string name="cpu_opt_activated">CPU Optimizer aktiviran</string>
+    <string name="cpu_opt_deactivated">CPU Oprimizer deaktiviran</string>
+    <string name="battery_calibrated">Baterija je kalibrisana, restartujte uredjaj</string>
+    <string name="battery_calibration_failed">Baterija mora biti napunjena do kraja</string>
+    <string name="media_server_killed">Medija server uspesno prekinut</string>
+    <string name="disable_debug_activated">Onesposobi uklanjanje gresaka aktivirano</string>
+    <string name="disable_debug_deactivated">Onesposobi uklanjanje gresaka deaktivirano</string>
+    <string name="no_kernel_panic_activated">Onesposobi kernel panika aktivirano</string>
+    <string name="no_kernel_panic_deactivated">Onesposobi kernel panika deaktivirano</string>
+    <string name="kernel_sleepers_opt_activated">Kernel pragovi optimizacija aktivirani</string>
+    <string name="kernel_sleepers_opt_deactivated">Kernel pragovi optimizacija deaktivirani</string>
+    <string name="fsync_activated">Fsync aktivirano</string>
+    <string name="fsync_deactivated">Fsync deaktivirano</string>
+    <string name="ksm_activated">Kernel Samepage spajanje aktivirano</string>
+    <string name="ksm_deactivated">Kernel Samepage spajanje deaktivirano</string>
+    <string name="fast_charge_activated">Brzo punjenje aktivirano</string>
+    <string name="fast_charge_deactivated">Brzo punjenje deaktivirano</string>
+    <string name="wifi_sleeper_activated">Wi-Fi sleeper omoguceno</string>
+    <string name="wifi_sleeper_deactivated">Wi-Fi sleeper onemoguceno</string>
+    <string name="flag_tuner_activated">Zastava tjunera omogucena</string>
+    <string name="flag_tuner_deactivated">Zastava tjunera onemogucena</string>
+    <string name="better_call_aud_activated">Bolje u pozivu zvuka omoguceno</string>
+    <string name="better_call_aud_deactivated">Bolje u pozivu zvuka onemoguceno</string>
+    <string name="battery_improve_enabled">Poboljsanje baterije omoguceno</string>
+    <string name="battery_improve_disabled">Poboljsanje baterije onemoguceno</string>
+    <string name="improve_scrolling_activated">Poboljsati skroling aktivirano</string>
+    <string name="improve_scrolling_deactivated">Poboljsati skroling deaktivirano</string>
+    <string name="faster_boot_activated">Brze pokretanje aktivirano</string>
+    <string name="faster_boot_deactivated">Brze pokretanje deaktivirano</string>
+    <string name="improve_image_activated">Poboljsavanje kvaliteta slike aktivirano</string>
+    <string name="improve_image_deactivated">Poboljsavanje kvaliteta slike deaktivirano</string>
+    <string name="liquid_ui_activated">Tecnost interfejsa aktiviano</string>
+    <string name="liquid_ui_deactivated">Tecnost interfejsa deaktivirano</string>
+    <string name="misc_tweaks_enabled">Ostalo. tweaks aktivirano</string>
+    <string name="misc_tweaks_disabled">Ostalo. tweaks deaktivirano</string>
+    <string name="assertive_display_activated">Asertivno displej aktiviran</string>
+    <string name="assertive_display_deactivated">Asertivno displej deaktiviran</string>
+    <string name="io_boost_activated">IO podsticaj aktiviran</string>
+    <string name="io_boost_deactivated">IO podsticaj deaktiviran</string>
+    <string name="extended_queue_activated">IO prosiren red aktiviran</string>
+    <string name="extended_queue_deactivated">IO prosiren red deaktiviran</string>
+    <string name="sd_tweak_activated">SD tweaks akriviran</string>
+    <string name="sd_tweak_deactivated">SD tweaks deaktiviran</string>
+    <string name="partition_remounting_activated">Podela remouting aktivirana</string>
+    <string name="partition_remounting_deactivated">Podela remounting deaktivirana</string>
+    <string name="net_buffer_default">Mreza bufera namestena na standardno</string>
+    <string name="net_buffer_small">Mala mreza bufera aktivirana</string>
+    <string name="net_buffer_big">Velika mreza bufera aktivirana</string>
+    <string name="ril_tweak_activated">RIL tweaks akriviran</string>
+    <string name="ril_tweak_deactivated">RIL tweaks deaktiviran</string>
+    <string name="google_dns_activated">Gugl DNS omogucen</string>
+    <string name="google_dns_deactivated">Gugl DNS onemogucen</string>
+    <string name="fast_stream_activated">Brzi striming omoguceno</string>
+    <string name="fast_stream_deactivated">Brzi striming onemoguceno</string>
+    <string name="fast_dormancy_activated">Brzo mirovanje aktivirano</string>
+    <string name="fast_dormancy_deactivated">Brzo mirovanje deaktivirano</string>
+    <string name="ram_manager_default">RAM menadzer je postavljen na uobicajeno</string>
+    <string name="ram_manager_multitask">Multitasking profil aktiviran</string>
+    <string name="ram_manager_balanced">Balanced profile activated</string>
+    <string name="ram_manager_gaming">Gejming profil aktiviran</string>
+    <string name="low_ram_flag_activated">Low RAM flag activated</string>
+    <string name="low_ram_flag_deactivated">Low RAM flag deactivated</string>
+    <string name="runtime_optimization_activated">Runtime Optimization activated</string>
+    <string name="runtime_optimization_deactivated">Runtime Optimization deactivated</string>
+    <string name="zram_optimization_activated">zRAM Optimizacija aktivirana</string>
+    <string name="zram_optimization_deactivated">zRAM Optimizacija deaktivirana</string>
+    <string name="seeder_default">Seeder profil je podesen na standardno</string>
+    <string name="seeder_light">Svetli seeder profil aktiviran</string>
+    <string name="seeder_enlarger">Enlarger seeder profile activated</string>
+    <string name="seeder_moderate">Umeren seeder profil aktiviran</string>
+    <string name="seeder_aggressive">Agresivan seeder profil aktiviran</string>
+    <string name="oom_killer_default">OOM ubica profila namesten na standardno</string>
+    <string name="oom_killer_enabled">OOM ubica omogucen</string>
+    <string name="oom_killer_disabled">OOM ubica onemogucen</string>
+    <string name="cache_reclaim_default">Kes vracanje namesteno na uobicajeno</string>
+    <string name="cache_reclaim_minimum">Minimalno kes vracanje aktivirano</string>
+    <string name="cache_reclaim_moderate">Umereno kes vracanje aktivirano </string>
+    <string name="cache_reclaim_doubled">Doubled cache reclaiming activated</string>
+    <string name="cache_alloc_default">Kes raspodela namestena na uobicajeno</string>
+    <string name="cache_alloc_medium">Srednja kes raspodela aktivirana</string>
+    <string name="cache_alloc_large">Velika kes raspodela aktivirana</string>
+    <string name="kernel_tweaks_disabled">Kernel tweak deaktiviran</string>
+    <string name="kernel_tweaks_light">Lagan kernel tweak aktivian</string>
+    <string name="kernel_tweaks_heavy">Tezak kernel tweak aktivian</string>
+    <string name="logs_saved">Prijava uspesno sacuvana na SD karticu</string>
+    <string name="logs_noexists">Nije pronadjena prijava, nema izvrsavanja</string>
+    <string name="logs_no_save">Prijava nije pronadjena, nista nije sacuvano</string>
+    <string name="double_back_pressed">Pritisnite jos jednom za izlazak</string>
+    <string name="rate_app">Dopada vam se L Speed? Molimo ocenite!</string>
+    <string name="rate">Oceni!</string>
+    <string name="thanks_for_rate">Hvala na ocenjivanju!!</string>
+    <string name="profile_default">Profil je namesten na uobicajeno</string>
+    <string name="profile_light">Lagan profil aktiviran</string>
+    <string name="profile_recommended">Preporuceni profil aktiviran</string>
+    <string name="profile_heavy">Tezak profil aktiviran</string>
+    <string name="governor_tuner_default">Governor optimization disabled</string>
+    <string name="governor_tuner_battery">Battery governor profile activated</string>
+    <string name="governor_tuner_balanced">Balanced governor profile activated</string>
+    <string name="governor_tuner_performance">Performance governor profile activated</string>
+    <string name="heap_optimization_activated">Heap optimization activated</string>
+    <string name="heap_optimization_deactivated">Heap optimization deactivated</string>
+    <string name="restrict_wlan_wakelock_activated">Restrict wlan wakelock activated</string>
+    <string name="restrict_wlan_wakelock_deactivated">Restrict wlan wakelock deactivated</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_wlan_rx_wakelock_activated">Restrict wlan_ctrl wakelock activated</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">Restrict wlan_ctrl wakelock deactivated</string>
+    <string name="restrict_msm_hsic_host_wakelock_activated">Restrict msm_hsic_host wakelock activated</string>
+    <string name="restrict_msm_hsic_host_wakelock_deactivated">Restrict msm_hsic_host wakelock deactivated</string>
+    <string name="restrict_bluesleep_wakelock_activated">Restrict bluesleep wakelock activated</string>
+    <string name="restrict_bluesleep_wakelock_deactivated">Restrict bluesleep wakelock deactivated</string>
+    <string name="restrict_smb135x_wakelock_activated">Restrict smb135x wakelock activated</string>
+    <string name="restrict_smb135x_wakelock_deactivated">Restrict smb135x wakelock deactivated</string>
+    <string name="restrict_sensor_ind_wakelock_activated">Restrict sensor_ind wakelock activated</string>
+    <string name="restrict_sensor_ind_wakelock_deactivated">Restrict sensor_ind wakelock deactivated</string>
+
+    <!-- List of Frequently Asked Questions -->
+    <string name="what_is_lspeed">Sta je L Speed?</string>
+    <string name="what_is_lspeed_explanation">L Speed je aplikacija kombinuje izmene sistema i tweaks</string>
+    <string name="lSpeed_difference">Zasto se L Speed razlikuje od drugih modova?</string>
+    <string name="lSpeed_difference_explanation">L Speed sadrzi mnogo opcija, vecina njih su jedinstveni za razliku od nekih.</string>
+    <string name="why_root">Zasto zahteva root?</string>
+    <string name="why_root_explanation">Aplikacija zahteva root zato sto modifikuje neke kljucne datoteke na sistem, to nije moguce bez root-a.</string>
+    <string name="what_can_do">Sta mogu da radim sa L Speed-om?</string>
+    <string name="what_can_do_explanation">Mozete podesiti uredjaj za poboljsanje performansi i trajanje baterije.</string>
+    <string name="gingerbread_usage">Mogu li da ga koristim na uredjaju koji poseduje Android 2.3?</string>
+    <string name="gingerbread_usage_explanation">Ne, ova aplikacija zahteva Android 4.0.3+ da bi funkcionisala. Medjutim, mozete koristiti flashable verziju L Speed-a jer radi na skoro sve verzije android.</string>
+    <string name="usage_with_mods">Mogu li ga koristiti sa drugim modovima?</string>
+    <string name="usage_with_mods_explanation">Ne, postoji mogucnost da ce se i druge modifikacije spetljati sa L Speed-om.</string>
+    <string name="init.d_why">Init.d je prazan, zasto?</string>
+    <string name="init.d_why_explanation">Aplikacija ne koristi init.d vise, koristi se Android-ovo automatik-pokretanje na funkciju boot umesto.</string>
+    <string name="check_working">Kako mogu da proverim da li radi, ili ne?</string>
+    <string name="check_working_explanation">Mozete proveriti sta se desava u pozadini uzimanjem log pregledaca (dostupne iz meni dugmeta), alternativno proverite log fajlove /data/data/com.paget96.lspeed/files/LOG</string>
+
+    <!-- This strings are used only for the list of names in 'About' section -->
+    <string name="paget_hint">Razvijac, pronalazac, maintainer</string>
+    <string name="f4uzan_hint">Retired designer, that\'s all, folks!</string>
+    <string name="alda_hint">Posvecen razvijac</string>
+    <string name="peter_hint">Vanredan posvecen razvijac</string>
+
+    <!-- This strings are used only for the statusbar notifications -->
+    <string name="on_boot">Izvrsavanje skripti</string>
+    <string name="on_boot_time">Primena konfiguracije u %d sekundi</string>
+    <string name="on_boot_finished">Vase konfiguracije su primenjene</string>
+    <string name="on_boot_cancelled">Izvrsenje je otkazano</string>
+
+    <!-- This strings are used only for the arrays -->
+    <string name="array_entries_default">Uobicajeno</string>
+    <string name="array_entries_light">Lagano</string>
+    <string name="array_entries_moderate">Umeren</string>
+    <string name="array_entries_disabled">Onemogucen</string>
+    <string name="array_entries_aggressive">Agresivno</string>
+    <string name="array_entries_heavy">Tesko</string>
+    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_balanced">Balanced</string>
+    <string name="array_entries_performance">Performance</string>
+    <string name="net_buffer_entries_small">Malo</string>
+    <string name="net_buffer_entries_big">Veliko</string>
+    <string name="ram_manager_entries_multitasking">Multitasking</string>
+    <string name="ram_manager_entries_gaming">Gejming</string>
+    <string name="seeder_entries_enlarger">Aparat za uvelicavanje</string>
+    <string name="oom_killer_entries_enabled">Omoguceno</string>
+    <string name="cache_reclaiming_entries_minimum">Minimalno</string>
+    <string name="cache_reclaiming_entries_doubled">Udvojen</string>
+    <string name="cache_allocation_entries_medium">Srednje</string>
+    <string name="cache_allocation_entries_large">Veliko</string>
+    <string name="quick_mode_recommended">Preporuceno</string>
+    <string name="sec_0">0sek</string>
+    <string name="sec_5">5sek</string>
+    <string name="sec_10">10sek</string>
+    <string name="sec_20">20sek</string>
+    <string name="sec_30">30sek</string>
+    <string name="sec_60">60sek</string>
+</resources>

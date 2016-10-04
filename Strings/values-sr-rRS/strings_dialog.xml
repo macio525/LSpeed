@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Uklanja nepotrebne i zastarele fajlove generisane os strane sistema (logs, neiskorisceni kes fajlovi itd.)</string>
+    <string name="app_cache_cleaner_explanation">Uklanja nepotrebni kes koji generise aplikacija (kes slike itd.)</string>
+    <string name="wipe_cache_explanation"> Uklanja sav kes koji je smesten na kes particiji</string>
+    <string name="wipe_dalvik_explanation">Brise Dalvik kes svih aplikacija,restart je potreban nakon operacije da se spreci silno zatvaranje</string>
+    <string name="cleaner_on_boot_explanation">Omogucava ciscenje djubreta nakon svakog restartovanja</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">Sece uredjajne particije da smanji lagove citanja i pisanja, i poboljsava performanse, koristite samo kada je potrebno</string>
+    <string name="fstrim_on_boot_explanation">Omogucava secenje sistemskih fajlova automatski nakon restartovanja</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Tweaks your current governor with an intelligent scaling system for optimum performance and battery life</string>
+    <string name="mcps_explanation">Grupise procesor zadatke u najmanje jezgara koliko je moguce, moguca usteda baterije</string>
+    <string name="cpu_optimizer_explanation">Poboljsava i optimizuje performanse procesora, ali moze se baterija brze potrositi</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="io_boost_explanation">Pojacava I/O  operacije i poboljsava performanse</string>
+    <string name="io_extended_queue_explanation">Prosiruje I/O red, blago praznjenje baterije, ali brza brzina pisanja/citanja</string>
+    <string name="sd_tweak_explanation">Povecava read_ahead za brze citanje/pisanje brzine</string>
+    <string name="partition_remount_explanation">Remontuje sve EXT4 particije performanse/poboljsanje montiranje opcije</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Poboljsava mreza pretrazivanje\nSmall mreza baferi ce se povecati razumno za svaku vrstu konekcije tipa (3G, WiFi, LTE, Edge, UMTS)\nBig mreza bafera ce povecati bafer veci i moze uticati na trajanje baterije tokom koriscenja mreze.</string>
+    <string name="ril_tweaks_explanation">Poboljsava mobilnu brzinu prenosa podataka</string>
+    <string name="dns_explanation">Menja mrezu DNS sa jednim od Gugl javnosti DNS (8.8.8.8 – 8.8.4.4)</string>
+    <string name="faster_streaming_explanation">Podesava Android osnovu Stagefright igraca na strim onlajn medija fajlova brze</string>
+    <string name="fast_dormancy_explanation">Omogucava brzi tip mreze prebacivanjem da sacuva bateriju, koristite samo ako vas nosac/provajder podrzava brzo mirovanje</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Izbacuje kes kao sto su inodes, dentries and pagecaches da bi se oslobodila RAM memorija uredjaja</string>
+    <string name="battery_calibration_explanation">Uklanja batterystats.bin da rekalibrira Vasu bateriju, restart je potreban za kalibraciju</string>
+    <string name="kill_media_server_explanation">Nasilno zaustavi Medija Server proces, koristite ovo da biste smanjili padove grejanja i performansi padanja izazvana Medija Serverom</string>
+    <string name="seeder_explanation">Poboljsava performanse po ceni akumulatora life\nIncreasing Nivo sidera ce povecati performanse, ali ce se baterija isprazniti brze</string>
+    <string name="kernel_tweaks_explanation">Menja kernel srodne tunables sa vise poboljsanja performansi values\n\nLight - Manje prilagodjenih vrednosti, blize zalihama values\n\nHeavy - Naosi velike promene u jezgro tunables, povecava performanse sa malim uticajem trajanja baterije</string>
+    <string name="disable_debugging_explanation">Onemogucava citanje/pisanje otklanjanje gresaka operations\nDisable logovanje kao sto su ANR aktivnost, logovanje i nepotrebni logcats izlaz rezanje, poboljsava performanse.</string>
+    <string name="disable_kernel_panic_explanation">Onemogucite kernel paniku da zaobidjete dosadna restartovanja ako se koristi jezgro koje je ubagovano ili nestabilno</string>
+    <string name="kernel_sleepers_optimization_explanation">Poboljsava kernel pragove koriscene u dubokom snu za bolje performanse</string>
+    <string name="fsync_explanation">Fsync bezbedno drzi izmenjene podatke netaknute tokom slucajnog pada sistema ili iznenadnog gasenja</string>
+    <string name="KSM_explanation">Omogucava KSM, koji stedi memoriju, de-duplira funkcije koje obavaljaju skeniranje kroz memoriju, i pronalazi duple stranice, koristan za uredjaje sa slabom memorijom</string>
+    <string name="fast_charge_explanation">Omogucava hacky brzo punjenje koriscenjom u vecini jezgra, ovo nije potrebno ako vas telefon pordzava brzo punjenje po uobicajenom</string>
+    <string name="wifi_sleeper_explanation">Smanjuje kasnjenje izmedju Wi-Fi aktivnog i sna/neaktivno stanje, stedi bateriju ako se koristi Vaj-faj mreza</string>
+    <string name="flag_tuner_explanation">Onemogucava performansu-limit zastave u sistemu i dodatno poboljsava zivotni vek baterije life\nMoze izazvati nestabilnost</string>
+    <string name="better_voice_call_quality_explanation">Poboljsava kvalitet poziv sesija, moguce brze praznjenje baterije</string>
+    <string name="improve_battery_explanation">Podesava radni vek baterije podesavanjem sistema</string>
+    <string name="better_scrolling_explanation">Poboljsava pomeranje i dodatno cini skroling glatkim</string>
+    <string name="faster_boot_explanation">Smanjuje vreme za pokretanje optimizacijom sistemskih tweakable vrednostima</string>
+    <string name="improve_image_quality_explanation" formatted="false">Povecava prosecnu bitrate i poboljsava kvalitet slike povecavanjem kvaliteta</string>
+    <string name="liquid_UI_explanation">Poboljsava korisnikove interfejs performanse na racun trajanja baterije.</string>
+    <string name="misc_tweaks_explanation">Iskljucuje sindikat korisnika usluga Behavior (HTC jedini smisao)\nDisables Gugl mrezu Location\nSets Kasnjenem vremena Vas telefon pocinje da zvoni kad primite poziv.</string>
+    <string name="assertive_display_explanation">Omogucava Qualcomm Asertivno Displej koji adaptivno povecava i poboljsava displej kvalitet.</string>
+    <string name="restrict_wlan_wakelock_explanation">This option restricts wlan wakelock from activating</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">This option restricts wlan_ctrl wakelock from activating</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">This option restricts wlan_rx wakelock from activating</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">This option restricts msm_hsic_host wakelock from activating</string>
+    <string name="restrict_bluesleep_wakelock_explanation">This option restricts bluesleep wakelock from activating</string>
+    <string name="restrict_smb135x_wakelock_explanation">This option restricts smb135x wakelock from activating when power is disconnected</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">This option restricts sensor_ind wakelock from activating when Ambient Display is disabled</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Poboljsava performanse kada sistem istice memory\nDefault - Uredjaj uobicajeno configuration\n\nEnabled -Ubija aplikacije van memorije, ovo izbegava skupe tasklist-e scan\n\nDisabled - ubica OOM ce se skenirati kroz ceo tasklist i izabrati task osnovan na heuristike da ubije, normalno bira a rogue memoriju-hogging zadatak koji oslobadja veliku kolicinu memorije kada je ubijen</string>
+    <string name="cache_reclaiming_explanation">Kontrolise tedenciju jezgra za povracaj memorije koji se koristi za kesiranje direktorijuma i cvora objects\n\nDefault - Uredjaj uobicajeno parameter\n\nMinimum - Manje vracanje. Ovo ce malo poboljsati zivot baterije ali ce biti gubitak nekih performansi expected\n\nModerate - Zadrzite vrednost malo manje od podrazumevanog, poboljsava trajanje baterije sa manjim uticajem na performance\n\nDoubled - Daje bolje performanse uredjaja, ali znatno utice na trosnju baterije.</string>
+    <string name="cache_allocation_explanation" formatted="false">Kontrolise koliko RAM memorija moze biti koriscena za kes allocation\n\nMedium - Uzima 100% od vase fizicke RAM  memorije za kes allocations\n\nLarge - Uzima 100% fizicke RAM memorije i 50% za zamenu njega exist\n\nModifying kes raspodela moze izazvati slucajno zamrzavanje i performance kapi</string>
+    <string name="heap_optimization_explanation">Optimize and fine tune heap sizes with recommended values, based on RAM and display density.</string>
+    <string name="runtime_optimization_explanation">Fine tunes and optimizes Android Runtime for better performance and efficiency, this option applies to both Dalvik and ART</string>
+    <string name="zram_optimization_explanation">Optimizuje i fino podesava zRAM zasnovano na preporucenim vrednostima i RAM velicine</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Poboljsava performanse kada je slaba memorija\nCalculates the LMK (LowMemoryKiller) podesavanje zasnovano na vasem uredjaju\'s RAM i odabran profile\n\nDefault - Uredjaj podrazumevana konfiguracija\n\nMultitasking - Zadrzi sto vise aplikacija je moguce RAM\n\nBalanced - Ravnoteza izmedju multitasking and gejming profile\n\nGaming - Drzite sto manje aplikacija je moguce i zadrzi svoju igru </string>
+    <string name="low_ram_flag_explanation">This option optimises Dalvik heap memory allocations, it also toggles several low RAM flags in the system, which disables fancy effects like extensive animations and statusbar tinting.\nIt may also reduce battery usage of some apps.</string>
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Ovo je primer dijaloga, mozete takodje uraditi ovo na ostalim primerima Tweaka</string>
+    <string name="another_example_explanation">Skoro sve opcije L Speed imaju objasnjenje, dug pritisak ce otkriti objasnjenje</string>
+    <string name="more_example_explanation">Nastavite, ovi primeri se samo koriste da pokazu kako stvari funkcionisu u aplikaciji</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="advanced_ui_explanation">Omogucava jos prilagodjavanja opcija(nije za pocetnike bez ikakvog iskustva)</string>
+    <string name="dark_theme_explanation">Prebacuje temu na tamniji izgled</string>
+    <string name="nav_bar_color_explanation">Bojenje navigacionog bara, ako navigacioni bar nije detektovan onda nista nece biti obojeno</string>
+    <string name="force_english_explanation">Koriscenje Engleskog umesto bilo kod jezika sistema skorije koriscenog</string>
+    <string name="show_toast_explanation">Priakzuje toast/snackbar (pozicioniran na dnu) kada je tweak omogucen</string>
+    <string name="show_fahrenheit_explanation">Koriscenje Fahrenheit umesto celzijusa, prikazano na baterija temperaturi na kontrolnoj tabli</string>
+    <string name="time_boot_delay_explanation">Period da saceka pre izvrsavanja skripte na boot</string>
+    <string name="show_boot_notification_explanation">Pokazuje notifikacije kada je aplikacija pokrenuta nakon pokretanja.</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Odaberi definisani L Brzina profil, to odredjuje kako ce L Brzina obavljati i menjati sistem.</string>
+
+</resources>
