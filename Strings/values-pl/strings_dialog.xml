@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Global dialogs -->
-    <string name="ads_in_app_text">L Speed is a non-profit and free application, we gained zero dollars from it (apart from the donation, of course!), this is fine for us, but development costs a lot of money to be running, we need internet, electricity, and food!\n\nBecause of this, we have added advertisements in the app, they are not intrusive and won\'t bother you, we promise! Clicking on them will help us more too!\n\nThanks for your understanding</string>
+    <string name="ads_in_app_text">L Speed jest niezależną i darmową aplikacją, nic na tym nie zarabiamy (nie wliczając darowizn!), ale rozwój kosztuje troszke pieniędzy, potrzebujemy internet, prąd oraz jedzenie!\n\nDlatego dodaliśmy do aplikacji reklamy, które nie są natarczywe i nie bedą zawracać Ci głowy, obiecujmey! Kliknięcie w nie bardzo nam pomoże!\n\nDzięki za zrozumienie.</string>
 
     <!-- CleanerFragment.java dialogs -->
     <string name="junk_cleaner_explanation">Usuń niepotrzebne i zbędne pliki wygenerowane przez system (kłody, nieużywane pliki pamięci podręcznej, itp …)</string>
