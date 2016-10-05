@@ -2,7 +2,7 @@
 
     <!-- Strings for activity_no_root -->
     <string name="root_required">Wymagany ROOT</string>
-    <string name="root_explanation">L Speed wymaga zrootowanego urządzenia ponieważ modyfikuje pliki systemowe.</string>
+    <string name="root_explanation">L Speed wymaga ROOTa ponieważ modyfikuje on pliki systemowe.</string>
     <string name="how_root">W jaki sposób mogę zrootować moje urządzenie?</string>
     <string name="how_root_explanation">Jest wiele stron, które zawierają poradniki dot. rootowania</string>
     <string name="search_for_hint">Wyszukaj</string>
@@ -22,7 +22,7 @@
 
     <!-- Strings for TipSecond -->
     <string name="l_speed_tips">Wskazówki L Speed</string>
-    <string name="long_tap">Przytrzymanie lub kilkukrotne stuknięcie otworzy opis danego tweaku (modyfikacji)</string>
+    <string name="long_tap">Przytrzymanie lub kilkukrotne stuknięcie otworzy opis danej modyfikacji</string>
     <string name="try_it_here">Możesz spróbować teraz</string>
     <string name="example_tweak">Przykładowy Tweak</string>
     <string name="another_example">Kolejny przykład</string>
@@ -42,7 +42,7 @@
 
     <!-- Partial strings for MainActivity -->
     <!-- Contain strings shared across the fragments -->
-    <string name="ads_in_app">Ads in L Speed</string>
+    <string name="ads_in_app">Reklamy w L Speed</string>
     <string name="navigation_drawer_open">Pasek nawigacyjny otwarty</string>
     <string name="navigation_drawer_close">Pasek nawigacyjny zamknięty</string>
     <string name="reboot_confirm">Uruch. ponownie urządzenie?</string>
@@ -53,18 +53,18 @@
     <string name="cancel">Anuluj</string>
     <string name="please_wait">Proszę czekać</string>
     <string name="unknown">Nieznane</string>
-    <string name="script_execute_indeterminate">Executing Scripts</string>
-    <string name="script_execute">Executing Script: \n%1$s</string>
+    <string name="script_execute_indeterminate">Wykonywanie Skryptu</string>
+    <string name="script_execute">Wykonywanie Skryptu: \n%1$s</string>
 
     <!-- FStrim fragment -->
     <string name="last_time_trimmed">Ostatnio używano </string>
     <string name="not_trimmed">Brak logów</string>
     <string name="fstrim_now">FStrim </string>
     <string name="fstrim_load_dialog">Cięcie…</string>
-    <string name="fstrim_on_boot">Uruchom FStrim na starcie</string>
+    <string name="fstrim_on_boot">Uruchom FStrim przy starcie</string>
 
     <!-- Strings for fragment_cleaner -->
-    <string name="cleaner_on_boot">Uruch. cleaner na starcie</string>
+    <string name="cleaner_on_boot">Uruch. cleaner przy starcie</string>
     <string name="junk_cleaner">Usuń niepotrzebne pliki</string>
     <string name="system_clean_dialog">Szukanie niepotrzebnych plików…</string>
     <string name="app_cache_cleaner">Wyczyść cache aplikacji</string>
@@ -79,7 +79,7 @@
     <string name="cpu_info">CPU Info</string>
     <string name="governor_tuner">Governor Tuner</string>
     <string name="mcps">Tryb oszczędzania Multicore(wielu-rdzeni)</string>
-    <string name="cpu_optimizer">Optymalizator CPU (proc)</string>
+    <string name="cpu_optimizer">Optymalizator CPU</string>
 
     <!-- Strings for fragment_dashboard -->
     <string name="device_info">Informacje</string>
@@ -90,35 +90,35 @@
     <string name="hardware">Hardware: %1$s \n</string>
     <string name="id">ID: %1$s</string>
     <string name="battery_information">Informacja o baterii</string>
-    <string name="cpu_information">Informacja CPU</string>
+    <string name="cpu_information">Informacja o CPU</string>
     <string name="kernel_information">Informacje o Kernelu</string>
     <string name="health">Żywotność: %1$s \n</string>
     <string name="level">Poziom: %1$s%% \n</string>
     <string name="technology">Technologia: %1$s \n</string>
-    <string name="no_battery">Nie wykryto baterii lub bateria nie jest włożona </string>
+    <string name="no_battery">Nie wykryto baterii lub brak baterii</string>
     <string name="temp">Temperatura:</string>
     <string name="volt">Napięcie: %1$s mV</string>
     <string name="charge_status">Status ładowania: %1$s \n</string>
     <string name="state">Stan: %1$s \n</string>
-    <string name="health_dead">zła</string>
-    <string name="health_good">dobra</string>
+    <string name="health_dead">Padnięta</string>
+    <string name="health_good">Dobra</string>
     <string name="health_over_voltage">Przekroczenie napięcia</string>
     <string name="health_over_heat">Przegrzanie</string>
     <string name="health_failure">Zakłócenia</string>
-    <string name="charge_unplugged">Wyjęta wtyczka</string>
+    <string name="charge_unplugged">Odłączona</string>
     <string name="charge_charger">Podłączona ładowarka</string>
     <string name="charge_usb">Podłączony do USB</string>
     <string name="status_charging">Ładowanie</string>
-    <string name="status_discharging">Rozładowanie</string>
+    <string name="status_discharging">Rozładowywanie</string>
     <string name="status_full">W pełni naładowana</string>
     <string name="status_not_charging">Nie ładuje się</string>
     <string name="battery_usage">Użycie baterii</string>
     <string name="current_entropy">Aktualna entropia:</string>
 
     <!-- Strings for fragment_io_tweak -->
-    <string name="io_boost">Wzmocnienie IO</string>
+    <string name="io_boost">Zwiększenie IO</string>
     <string name="io_extended_queue">Rozszerzone kolejki IO</string>
-    <string name="sd_tweak">SD tweak</string>
+    <string name="sd_tweak">SD Tweak</string>
     <string name="partition_remount">Przemontuj partycję</string>
 
     <!-- Strings for fragment_ram_manager -->
@@ -137,21 +137,21 @@
     <string name="net_buffers">Buforowanie NET</string>
     <string name="ril_tweaks">Tweaki RIL</string>
     <string name="dns">Google DNS</string>
-    <string name="faster_streaming">Szybsze strumieniowe</string>
-    <string name="fast_dormancy">Technologia Fast dormancy</string>
+    <string name="faster_streaming">Szybsze strumieniowanie</string>
+    <string name="fast_dormancy">Technologia Fast Dormancy</string>
 
     <!-- Strings for fragment_main -->
-    <string name="boost_now">Przyspiesz! </string>
+    <string name="boost_now">Przyspiesz!</string>
     <string name="battery_calibration">Kalibracja baterii</string>
-    <string name="kill_media_server">Zatrzymaj serwer mediów</string>
+    <string name="kill_media_server">Zatrzymaj Media serwer</string>
     <string name="ram_manager">Menedżer RAMu</string>
     <string name="seeder">Seeder</string>
-    <string name="kernel_tweaks">Tweaki (poprawki) Kernela</string>
+    <string name="kernel_tweaks">Tweaki Kernela</string>
     <string name="disable_debugging">Wyłącz debugowanie</string>
-    <string name="disable_kernel_panic">Wyłącz panikę Kernela </string>
-    <string name="kernel_sleepers_optimization">Kernel optymalizacja usypiania</string>
+    <string name="disable_kernel_panic">Wyłącz panikę Kernela</string>
+    <string name="kernel_sleepers_optimization">Optymalizacja "snu" Kernela</string>
     <string name="fsync">Fsync</string>
-    <string name="KSM">funkcja KSM (łączenie pamięci)</string>
+    <string name="KSM">Funkcja KSM (łączenie pamięci)</string>
     <string name="fast_charge">Szybkie ładowanie</string>
     <string name="wifi_sleeper">Uśpienie WiFi</string>
     <string name="flag_tuner">Funkcja Flag tuner</string>
@@ -172,7 +172,7 @@
     <string name="restrict_sensor_ind_wakelock">Restrict sensor_ind Wakelock</string>
 
     <!-- Strings for fragment_virtual_memory -->
-    <string name="virtual_memory">Virtual Memory</string>
+    <string name="virtual_memory">Pamięć Wirtualna</string>
     <string name="oom_killer">OOM Killer</string>
     <string name="cache_reclaiming">Odzyskanie cache</string>
     <string name="cache_allocation">Alokacja pamięci podręcznej</string>
@@ -199,38 +199,38 @@
 
     <!-- Strings for fragment_about -->
     <string name="donate">Darowizna</string>
-    <string name="beta_version">Beta version</string>
-    <string name="beta_version_text">New features every day!\nJoin beta test now!</string>
+    <string name="beta_version">Wersja BETA</string>
+    <string name="beta_version_text">Nowe usprawnienia każdego dnia!\nDołącz do BETA testów teraz!</string>
     <string name="translation">Tłumaczenie</string>
     <string name="translation_text">Pomóż nam tłumaczyć L Speed</string>
 
     <!-- Strings for fragment_help -->
-    <string name="l_speed_support">L Speed support</string>
-    <string name="provides_support_text">Provides support 24/7</string>
+    <string name="l_speed_support">Wsparcie L Speed</string>
+    <string name="provides_support_text">Zapewnia pomoc 24/7</string>
 
     <!-- Strings for fragment_settings -->
-    <string name="use_advanced_ui">Użyj zaawansowane UI</string>
+    <string name="use_advanced_ui">Użyj zaawansowanego UI</string>
     <string name="dark_theme">Ciemny motyw</string>
     <string name="color_navigation_bar">Kolor paska nawigacyjnego</string>
     <string name="force_english">Wymuś j. angielski</string>
     <string name="show_toast_and_snacks">Pokaż przełącznik</string>
     <string name="show_fahrenheit">Używaj Fahrenheita (°F)</string>
-    <string name="time_boot_delay_settings">Zastosuj opóźnienie przy boocie </string>
+    <string name="time_boot_delay_settings">Zastosuj opóźnienie przy boocie</string>
     <string name="show_boot_notification">Pokaż powiadomienie przy boocie</string>
 
     <!-- Strings for the navigation drawer -->
     <string name="dashboard">Panel</string>
     <string name="main_tweak">Główne tweaki</string>
-    <string name="cleaner">Odkurzacz</string>
+    <string name="cleaner">Cleaner</string>
     <string name="cpu_tuner">Tuner CPU</string>
     <string name="fstrim">FStrim</string>
-    <string name="lnet">LNET Optymalizator</string>
+    <string name="lnet">Optymalizator LNET</string>
     <string name="io_tweak">IO Tweaki</string>
-    <string name="ls_news">L Speed nowości</string>
+    <string name="ls_news">Nowości L Speed</string>
     <string name="backup">Kopia zapasowa</string>
     <string name="settings">Ustawienia</string>
     <string name="help">Pomoc</string>
-    <string name="about">Informacja</string>
+    <string name="about">O...</string>
 
     <!-- Strings for action bar icons -->
     <string name="action_reboot">Uruch. ponownie</string>
@@ -239,25 +239,25 @@
 
     <!-- Strings for fragment_logsview -->
     <string name="clear_log">Wyczyść dziennik</string>
-    <string name="save_log">Zapisz log na sdcard</string>
+    <string name="save_log">Zapisz logi na karcie</string>
 
     <!-- Strings for the splashscreen -->
-    <string name="checking_for_root">Sprawdzanie roota…</string>
-    <string name="creating_required_folders">Creating required folders…</string>
-    <string name="extracting_busybox">Extracting busybox…</string>
-    <string name="collecting_device_info">Collecting device info…</string>
-    <string name="checking_device_support">Checking device support…</string>
+    <string name="checking_for_root">Sprawdzanie ROOTa…</string>
+    <string name="creating_required_folders">Tworzenie wymaganych folderów…</string>
+    <string name="extracting_busybox">Wypakowywanie BusyBox…</string>
+    <string name="collecting_device_info">Zbieranie informacji…</string>
+    <string name="checking_device_support">Sprawdzanie wsparcia urządzenia…</string>
     <string name="splash">Ekran powitalny</string>
 
     <!-- Strings for SimpleMode or QuickMode -->
     <string name="profiles">Profile</string>
-    <string name="custMode">Dostosuj Profile</string>
+    <string name="custMode">Dostosuj Profil</string>
     <string name="cust_mode_hint">Można dostosować swój aktualny profil tutaj, to nie jest konieczne, a wynik może być gorszy</string>
 
     <!-- Divider text -->
     <string name="quickTool">Szybkie Narzędzia</string>
-    <string name="memManage">Wariacje Zarządzania pamięcią</string>
-    <string name="kernMod">Modyfikacje jądra (kernela)</string>
+    <string name="memManage">Zarządzania pamięcią</string>
+    <string name="kernMod">Modyfikacje Kernela</string>
     <string name="ioMod">IO Tweaki Pamięci</string>
     <string name="netMod">LNET Tweaki</string>
     <string name="netOpt">LNET optymalizacja</string>
@@ -386,7 +386,7 @@
     <string name="logs_noexists">Nie znaleziono dzienników, nic nie jest wykonywane</string>
     <string name="logs_no_save">Nie znaleziono dzienników, nic nie jest zapisane</string>
     <string name="double_back_pressed">Naciśnij ponownie, aby wyjść</string>
-    <string name="rate_app">Pokochałeś L Speed? Proszę oceń to!</string>
+    <string name="rate_app">Pokochałeś L Speed? Oceń to!</string>
     <string name="rate">Oceń!</string>
     <string name="thanks_for_rate">Dzięki za ocenę!</string>
     <string name="profile_default">Profil ustawiony domyślnie</string>
@@ -439,21 +439,21 @@
     <string name="peter_hint">Part-time dedicated developer</string>
 
     <!-- This strings are used only for the statusbar notifications -->
-    <string name="on_boot">Executing Scripts</string>
-    <string name="on_boot_time">Applying configurations in %d seconds</string>
-    <string name="on_boot_finished">Your configurations have been applied</string>
-    <string name="on_boot_cancelled">The execution have been cancelled</string>
+    <string name="on_boot">Wykonywanie Skryptu</string>
+    <string name="on_boot_time">Stosowanie konf. w ciągu %d sek</string>
+    <string name="on_boot_finished">Zastosowano twoją konfigurację</string>
+    <string name="on_boot_cancelled">Wykonywanie zostało anulowane</string>
 
     <!-- This strings are used only for the arrays -->
     <string name="array_entries_default">Domyślny</string>
     <string name="array_entries_light">Lekki</string>
     <string name="array_entries_moderate">Umiarkowany</string>
-    <string name="array_entries_disabled">Wyłączony</string>
+    <string name="array_entries_disabled">Wyłączone</string>
     <string name="array_entries_aggressive">Agresywne</string>
-    <string name="array_entries_heavy">Ciężkie</string>
-    <string name="array_entries_battery">Battery</string>
+    <string name="array_entries_heavy">Mocny</string>
+    <string name="array_entries_battery">Bateria</string>
     <string name="array_entries_balanced">Zrównoważony</string>
-    <string name="array_entries_performance">Performance</string>
+    <string name="array_entries_performance">Wydajność</string>
     <string name="net_buffer_entries_small">Małe</string>
     <string name="net_buffer_entries_big">Duże</string>
     <string name="ram_manager_entries_multitasking">Wielozadaniowość</string>
@@ -464,7 +464,7 @@
     <string name="cache_reclaiming_entries_doubled">Podwojone</string>
     <string name="cache_allocation_entries_medium">Średnie</string>
     <string name="cache_allocation_entries_large">Duże</string>
-    <string name="quick_mode_recommended">Zalecana</string>
+    <string name="quick_mode_recommended">Zalecane</string>
     <string name="sec_0">0sek</string>
     <string name="sec_5">5sek</string>
     <string name="sec_10">10sek</string>
